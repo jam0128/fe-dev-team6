@@ -3,6 +3,8 @@ const app = express();
 const ReactDOMServer = require("react-dom/server");
 const port = 3001;
 
+//var Header = require('./component/Header');
+
 var request = require('request');
 
 app.use(express.json()); 
@@ -20,6 +22,8 @@ app.post('/api', function(req, res) {
         <title>React App</title>
       </head>
       <body>
+        <div> 네이버 </div>
+        <Header value="${req.body['test1Key']}"/>
         <div id="root">${req.body['test1Key']}</div>
         <div>hello from server side</div>
       </body>

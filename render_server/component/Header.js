@@ -1,11 +1,20 @@
-import {Component} from 'react'
+const React = require('react');
+const component = React.Component;
+
 
 function Header(props) {
-    return (
-        <div >
-            N {props.value} 검색결과
-        </div>
+//    return (
+//        <div >
+//            N {props.value} 검색결과
+//        </div>
+//    )
+
+    return React.createElement(
+        'input',
+        {value : props},
     )
 }
 
-export default () => <Header value="" />
+exports.Header = Header
+
+//export default () => <Header value="" />

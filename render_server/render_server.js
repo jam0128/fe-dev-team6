@@ -3,7 +3,6 @@ const app = express();
 const ReactDOMServer = require("react-dom/server");
 const port = 3001;
 
-//var Header = require('./component/Header');
 
 var request = require('request');
 
@@ -15,21 +14,30 @@ app.post('/api', function(req, res) {
         console.log(key + ": " + json[key])
     }
     
-    res.send(`
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <title>React App</title>
-      </head>
-      <body>
-        <div> 네이버 </div>
-        <Header value="${req.body['test1Key']}"/>
+    const Header = require('./component/Header');
+
+    var result = `
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <title>React App</title>
+        </head>
+        <body>
+        <div> 네이버 </div> N
+    `
+
+    result += ReactDOMServer.renderToString(Header.Header(req.body['test1Key']));
+
+    result += `
         <div id="root">${req.body['test1Key']}</div>
         <div>hello from server side</div>
       </body>
     </html>
-    `);
-  })
+    `;
+
+    res.send(result);
+
+     })
 
 // Connect 3001 port
 app.listen(port, ()=>{

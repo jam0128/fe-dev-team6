@@ -15,8 +15,8 @@
   },
   "scripts": {
     "start": "node index.js", 
-    "start:web": "babel-node ./web_server/web_server.js",
-    "start:render": "babel-node ./render_server/render_server.js"
+    "start:web": "nodemon ./web_server/web_server.js --exec babel-node",
+    "start:render": "nodemon ./render_server/render_server.js --exec babel-node"
   },
   "eslintConfig": {
     "extends": [

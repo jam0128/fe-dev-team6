@@ -11,10 +11,15 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "request": "^2.88.2",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/plugin-syntax-jsx": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0"
   },
   "scripts": {
-    "start": "node index.js", 
+    "start": "node index.js",
     "start:web": "nodemon ./web_server/web_server.js --exec babel-node",
     "start:render": "nodemon ./render_server/render_server.js --exec babel-node"
   },
@@ -35,10 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/node": "^7.16.0",
-    "@babel/preset-env": "^7.16.4"
   }
 }

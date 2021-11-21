@@ -1,6 +1,7 @@
 import express from "express";
-
+import React from "react";
 import ReactDOMServer from "react-dom/server";
+import TestComponent from "./components/TestComponent";
 
 const app = express();
 const port = 3001;
@@ -21,7 +22,7 @@ app.post('/api', function(req, res) {
         <title>React App</title>
       </head>
       <body>
-        <div id="root">${req.body['test1Key']}</div>
+        <div id="root">${ReactDOMServer.renderToString(<TestComponent></TestComponent>)}</div>
         <div>hello from server side</div>
       </body>
     </html>

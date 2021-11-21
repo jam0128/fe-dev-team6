@@ -7,10 +7,10 @@ This repo is project for tema6 of '2021 카이스트 FE 수어
 clone this repo and `npm install` on this forlder.
 
 ### Run render server
-Open terminal, run `node ./render_server/render_server.js`
+Open terminal, run `npm run start:render`
 
 ### Run web server
-Open new terminal, run`node ./web_server/web_server.js`
+Open new terminal, run`npm run start:web`
 
 ### Enter localhost
 Enter `http://localhost:3000/'

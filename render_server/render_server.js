@@ -9,9 +9,10 @@ app.use(express.json());
 app.post('/api', function(req, res) {
     console.log(req.body)
     var json = req.body
-    // for(key in json) {
-    //     console.log(key + ": " + json[key])
-    // }
+    for (var key in json) {
+      console.log(key)
+      console.log(key + ": " + json[key])
+    }
     
     res.send(`
     <!DOCTYPE html>

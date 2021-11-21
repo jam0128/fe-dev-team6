@@ -14,10 +14,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node index.js", 
+    "start:web": "babel-node ./web_server/web_server.js",
+    "start:render": "babel-node ./render_server/render_server.js"
   },
   "eslintConfig": {
     "extends": [
@@ -36,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
   }
 }

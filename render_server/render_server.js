@@ -1,17 +1,17 @@
-const express = require('express');
-const app = express();
-const ReactDOMServer = require("react-dom/server");
-const port = 3001;
+import express from "express";
 
-var request = require('request');
+import ReactDOMServer from "react-dom/server";
+
+const app = express();
+const port = 3001;
 
 app.use(express.json()); 
 app.post('/api', function(req, res) {
     console.log(req.body)
     var json = req.body
-    for(key in json) {
-        console.log(key + ": " + json[key])
-    }
+    // for(key in json) {
+    //     console.log(key + ": " + json[key])
+    // }
     
     res.send(`
     <!DOCTYPE html>

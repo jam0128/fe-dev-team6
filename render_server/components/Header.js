@@ -2,6 +2,7 @@ import React from 'react';
 
 
 function Header(props) {
+    console.log(props)
    return (
        <div>
            N <input value={props.value}/>  검색결과
@@ -11,4 +12,4 @@ function Header(props) {
 }
 
 
-export default () => <Header value="" />
+export default Header;

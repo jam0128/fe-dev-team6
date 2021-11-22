@@ -23,7 +23,7 @@ app.post('/api', function(req, res) {
         <title>React App</title>
       </head>
       <body>
-        ${ReactDOMServer.renderToString((<Header value="keyword"/>))}
+        ${ReactDOMServer.renderToString((<Header value={req.body['test1Key']}/>))}
         <div id="root">${ReactDOMServer.renderToString(<TestComponent></TestComponent>)}</div>
         <div>hello from server side</div>
       </body>

@@ -10,7 +10,7 @@ clone this repo and `npm install` on this forlder.
 Open terminal, run `npm run start:render`
 
 ### Run web server
-Open new terminal, run`npm run start:web`
+Open new terminal, run `npm run start:web`
 
 ### Enter localhost
-Enter `http://localhost:3000/'
+Enter `http://localhost:3000/`

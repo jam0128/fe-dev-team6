@@ -1,5 +1,5 @@
 # fe-dev-team6
-This repo is project for tema6 of '2021 카이스트 FE 수업 - Web SSR with Server Driven UI'.
+This is project repo for tema6 of '2021 카이스트 FE 수업 - Web SSR with Server Driven UI'.
 
 
 ## How to run

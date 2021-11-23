@@ -14,3 +14,7 @@ Open new terminal, run `npm run start:web`
 
 ### Enter localhost
 Enter `http://localhost:3000/`
+
+### Using Semantic UI
+Import the minified CSS file `import 'semantic-ui-css/semantic.min.css'`
+Import what you want after it like `import { Container, Header, Button } from 'semantic-ui-react'`

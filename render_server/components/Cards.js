@@ -23,8 +23,12 @@ function CardsComponent(props) {
                 content.push(<Card.Meta>{card.date}</Card.Meta>);
                 break;
             case "videos" :
-                content.push(<Card.Meta>{card.role}</Card.Meta>);
-                content.push(<Card.Meta>{card.date}</Card.Meta>);
+                content.push(<Card.Meta>
+                    <Grid columns={2} divided>
+                        <Grid.Column>{card.website}</Grid.Column>
+                        <Grid.Column>{card.date}</Grid.Column>
+                    </Grid>
+                    </Card.Meta>);
                 break;
             default :
                 break;
@@ -41,12 +45,11 @@ function CardsComponent(props) {
         for (let i = 0; i < cards.length; i++) {
             result.push(constCard(cards[i]));
         }
-        return <Card.Group itemsPerRow="6">{result}</Card.Group>;
+        return <Card.Group itemsPerRow="3">{result}</Card.Group>;
     }
 
     return (
         <Container>
-            {props.info.title}
             {constCards(props.info.contents)}
         </Container>
     

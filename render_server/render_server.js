@@ -2,10 +2,9 @@ import express from "express";
 import React from "react";
 import ReactDOMServer from "react-dom/server";
 import TestComponent from "./components/TestComponent";
+import Header from "./components/Header";
 import KeyWordComponent from "./components/KeyWord";
 
-
-//import styles from "./styles/keyWord.css";
 
 const app = express();
 const port = 3001;
@@ -34,6 +33,7 @@ app.post('/api', function(req, res) {
         <script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js"></script>  
       </head>
       <body>
+        ${ReactDOMServer.renderToString((<Header value={req.body['test1Key']}/>))}
         <div id="root">${ReactDOMServer.renderToString(<TestComponent></TestComponent>)}</div>
         <div>hello from server side</div>
         <div style="width:768px; margin:0 auto;">
@@ -42,7 +42,9 @@ app.post('/api', function(req, res) {
       </body>
     </html>
     `);
-  })
+
+
+})
 
 // Connect 3001 port
 app.listen(port, ()=>{

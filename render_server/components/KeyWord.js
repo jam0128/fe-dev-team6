@@ -28,7 +28,7 @@ function KeyWordComponent(props) {
             }
             
         }
-        return <Grid padded columns={tabs.length} textAlign='center' divided>{result}</Grid>;
+        return <Grid columns={tabs.length} textAlign='center' padded divided>{result}</Grid>;
     }
 
     const constCompos = (compos) => {

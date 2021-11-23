@@ -12,8 +12,38 @@ app.get('/', function(req, res) {
         url:'http://localhost:3001/api',
         json: {
          "test1Key": "test1",
-         "test2KEy": "test2"
-            },
+         "test2KEy": "test2",
+         "compo1" : {
+            "type" : "KeywordComponent",
+            "data" : {
+              "title" : "이정재", 
+              "category" : [
+                "영화배우, 탤런트"
+              ],
+              "tab" : [
+                "전체",
+                "프로필",
+                "최근영상",
+                "필모그래피",
+                "작품활동"
+              ],
+              "components" : [
+                {
+                  "type" : "ProfileComponent",
+                  "data" : "..."
+                },
+                {
+                  "type" : "RecentVideosComponent",
+                  "data" : "..."
+                },
+                {
+                  "type" : "WorksComponent",
+                  "data" : "..."
+                },
+              ]
+            }
+          }
+        },
         headers: {
             'Content-Type': 'application/json'
         }

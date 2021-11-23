@@ -1,4 +1,5 @@
 import React from "react";
+import CardsComponent from "./Cards";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container, Item, Grid } from 'semantic-ui-react';
@@ -34,7 +35,16 @@ function KeyWordComponent(props) {
     const constCompos = (compos) => {
         const result = [];
         for (let i = 0; i < compos.length; i++) {
-            result.push(<Item>{compos[i]['type']}</Item>);
+            switch (compos[i]['type']) {
+                case "RelationArtistComponent" :
+                    result.push(<Item><CardsComponent info={compos[i]['data']} form="basic"/></Item>);
+                    break;
+                case "AlsoSearchComponent" :
+                    result.push(<Item><CardsComponent info={compos[i]['data']} form="basic"/></Item>);
+                    break;
+                default :
+                    result.push(<Item>{compos[i]['type']}</Item>);
+            }
         }
         return result;
     }

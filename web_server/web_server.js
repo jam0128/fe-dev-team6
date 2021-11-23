@@ -17,7 +17,9 @@ app.get('/', function(req, res) {
             "type" : "KeywordComponent",
             "data" : {
               "title" : "이정재", 
-              "category" : "영화배우, 탤런트",
+              "category" : [
+                "영화배우, 탤런트"
+              ],
               "tab" : [
                 "전체",
                 "프로필",

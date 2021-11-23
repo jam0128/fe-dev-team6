@@ -1,7 +1,7 @@
 import React from "react";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Item, Button, Grid } from 'semantic-ui-react';
+import { Container, Item, Grid } from 'semantic-ui-react';
 
 
 
@@ -28,7 +28,7 @@ function KeyWordComponent(props) {
             }
             
         }
-        return <Grid divided>{result}</Grid>;
+        return <Grid columns={tabs.length} textAlign='center' divided>{result}</Grid>;
     }
 
     const constCompos = (compos) => {

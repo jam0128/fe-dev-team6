@@ -4,7 +4,8 @@ import ReactDOMServer from "react-dom/server";
 import TestComponent from "./components/TestComponent";
 import KeyWordComponent from "./components/KeyWord";
 
-import styles from "./styles.css";
+
+//import styles from "./styles/keyWord.css";
 
 const app = express();
 const port = 3001;
@@ -24,12 +25,12 @@ app.post('/api', function(req, res) {
     <!DOCTYPE html>
     <html lang="en">
       <head>
-        <title>React App</title>
+        <title>Naver</title>
       </head>
       <body>
         <div id="root">${ReactDOMServer.renderToString(<TestComponent></TestComponent>)}</div>
         <div>hello from server side</div>
-        <div>
+        <div style="width:75%; margin:0 auto;">
           ${ReactDOMServer.renderToString(<KeyWordComponent info={req.body['compo1']['data']}/>)}
         </div>
       </body>

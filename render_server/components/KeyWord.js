@@ -1,32 +1,58 @@
 import React from "react";
-import styles from '../styles.css';
+//import styles from '../styles/keyWord.css';
+import 'semantic-ui-css/semantic.min.css';
+import { Container, Item, Button, Grid } from 'semantic-ui-react';
+
+
 
 function KeyWordComponent(props) {
 
-    const constTabs = (tabs) => {
+    const constCate = (tabs) => {
+
         const result = [];
         for (let i = 0; i < tabs.length; i++) {
-            result.push(<li>{tabs[i]}</li>);
+            result.push(<Grid.Column>{tabs[i]}</Grid.Column>);
+            
         }
-        return <ul>{result}</ul>;
+        return <Grid divided>{result}</Grid>;
+    }
+
+    const constTabs = (tabs) => {
+
+        const result = [];
+        for (let i = 0; i < tabs.length; i++) {
+            if (i === 0) {
+                result.push(<Grid.Column color="brown">{tabs[i]}</Grid.Column>);
+            } else {
+                result.push(<Grid.Column>{tabs[i]}</Grid.Column>);
+            }
+            
+        }
+        return <Grid divided>{result}</Grid>;
     }
 
     const constCompos = (compos) => {
         const result = [];
         for (let i = 0; i < compos.length; i++) {
-            result.push(<div>{compos[i]['type']}</div>);
+            result.push(<Item>{compos[i]['type']}</Item>);
         }
         return result;
     }
 
 
     return (
-        <div className={styles.keyWord}>
-            <h2>{props.info.title}</h2>
-            {props.info.category}
-            {constTabs(props.info.tab)}
-            {constCompos(props.info.components)}
-        </div>
+        <Container>
+            <Item.Group>
+                <Item>
+                    <Item.Content>
+                        <Item.Header as='a'>{props.info.title}</Item.Header>
+                        <Item.Meta>{constCate(props.info.category)}</Item.Meta>
+                        <Item.Description>{constTabs(props.info.tab)}</Item.Description>
+                    </Item.Content>
+                </Item>
+                {constCompos(props.info.components)}
+            </Item.Group>
+        </Container>
     
     )
 }

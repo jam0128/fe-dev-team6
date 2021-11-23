@@ -8,15 +8,33 @@ import { Container, Card, Image, Item, Grid } from 'semantic-ui-react';
 function CardsComponent(props) {
 
     const constCard = (card) => {
-        return (
-            <Card>
-                <Image src={card.thumbnail} wrapped ui={false}/>
-                <Card.Content>
-                    <Card.Header>{card.title}</Card.Header>
-                </Card.Content>
-            </Card>
-        )
+
+        const result = [];
+
+        result.push(<Image src={card.thumbnail} wrapped ui={false}/>);
+
+        const content = [];
+
+        content.push(<Card.Header>{card.title}</Card.Header>)
+
+        switch (props.form) {
+            case "works" :
+                content.push(<Card.Meta>{card.role}</Card.Meta>);
+                content.push(<Card.Meta>{card.date}</Card.Meta>);
+                break;
+            case "videos" :
+                content.push(<Card.Meta>{card.role}</Card.Meta>);
+                content.push(<Card.Meta>{card.date}</Card.Meta>);
+                break;
+            default :
+                break;
+        }
+
+        result.push(<Card.Content>{content}</Card.Content>)
+
+        return <Card>{result}</Card>;
     }
+
 
     const constCards = (cards) => {
         const result = [];

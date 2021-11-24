@@ -250,8 +250,183 @@ app.get('/', function(req, res) {
                   }
                 },
               ]
-            }
-          }
+            },
+          },
+            "compo2" : [
+              {
+                "type" : "InfluencerComponent",
+                "data" : {
+                  "title" : "인플루언서",
+                  "contents" : [
+                    {
+                      "thumbnail" : "tmp1.png",
+                      "writer" : "유언님",
+                      "button" : "팬하기",
+                      "photo" : [
+                        "cat1.png",
+                        "cat2.png",
+                        "cat3.png",
+                        "cat4.png"
+                      ],
+                      "title" : "태국 왕실묘 출신 샴 고양이 성격이 말썽쟁이 품종이라고?",
+                      "body" : "이번에 소개하는 고양이 품종은 태국 왕실묘 출신의 샴 고양이로 성격과 함께 신비로운 외모에 대해서 알아보도록 하겠습니다. 실제로 샴 고양이는 신비롭고 이쁜 포인트 컬러의 외모가 특징이라 매우 귀여우면서도...",
+                      "date" : "2021.10.10.",
+                      "related" : 3
+                    },
+                    {
+                      "thumbnail" : "tmp2.png",
+                      "writer" : "독티처",
+                      "button" : "팬하기",
+                      "photo" : [
+                        "cat1.png",
+                        "cat2.png",
+                        "cat3.png",
+                        "cat4.png"
+                      ],
+                      "title" : "묘종 샴고양이 성격 수명 털빠짐 총정리!",
+                      "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 알아볼건데요 기품이 넘치고 가장 고양이 답다고 해서 고양이 왕이라고도 불려지는데요 자연발생한 이 고양이는 페르시안과 쌍벽을 이루는 대표적인인 묘종중...",
+                      "date" : "2021.10.21.",
+                      "related" : 4
+                    },
+                    {
+                      "thumbnail" : "tmp3.png",
+                      "writer" : "고쌤",
+                      "button" : "팬하기",
+                      "photo" : [
+                        "cat1.png",
+                        "cat2.png",
+                        "cat3.png",
+                        "cat4.png"
+                      ],
+                      "title" : "샴 고양이 반려묘 종류 성격 수명 털빠짐은?",
+                      "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 설명드릴게요 이 종은 태국이 원산이며 오리엔탈 바디타입으로 사진에 나와 있는 것처럼 다리와 목이 길며 마른 몸매를 가지고 있으면서 역삼각형 얼굴을 가지...",
+                      "date" : "2021.10.01.",
+                      "related" : 1
+                    },
+                  ],
+                }
+              },
+              {
+                "type" : "VIEWComponent",
+                "data" : {
+                  "title" : "VIEW",
+                  "contents" : [
+                    {
+                      "thumbnail" : "tmp1.png",
+                      "icon" : "icon1.png",
+                      "writer" : "끄.적.끄.적.",
+                      "influencer" : true,
+                      "date" : "2020.08.21.",
+                      "title" : "life is dynamite 방탄 다이너마이트 뮤비 가사 짤",
+                      "body" : "< life is dynamite 방탄 다이너마이트 뮤비 가사 짤 > 드디어 공개된 방탄... like dynamite woah 펑크와 소울로 이 도시를 밝혀 빛으로 물들일 거야 다이너마이트처럼 JIN...",
+                      "tags" : [
+                        "방탄다이너마이트",
+                        "lifeisdynamite",
+                        "dynamite",
+                      ]
+                    },
+                    {
+                      "thumbnail" : "tmp2.png",
+                      "icon" : "icon2.png",
+                      "writer" : "남나르",
+                      "influencer" : false,
+                      "date" : "2020.08.14.",
+                      "title" : "[방탄소년단(BTS)] Dynamite at the Roller Staking Rink! (다이너마이트 롤러 스케이트 링크장 촬영)",
+                      "body" : "bts #아미 #army #RM #SUGA #Jhope #V #JK #김남준 #김석진 #민윤기 #정호석 #박지민 #김태형 #전정국 #알엠 #진 #슈가 #제이홉 #지민 #뷔 #정국 #아포방포 #보라해 #다이너마이트 #dynamite",
+                      "tags" : [
+                        "방탄소년단",
+                        "bts",
+                        "아미",
+                        "army",
+                        "RM",
+                        "SUGA",
+                        "Jhope",
+                        "V",
+                        "JK",
+                        "김남준",
+                      ]
+                    },
+                    {
+                      "thumbnail" : "tmp3.png",
+                      "icon" : "icon3.png",
+                      "writer" : "디제잉배우기플라시보",
+                      "influencer" : true,
+                      "date" : "2021.11.11.",
+                      "title" : "[로드×칼리드×시저×포스트말론] Lorde - Homemade Dynamite Remix ft.Khalid,SZA,Post Malone 가사...",
+                      "body" : "로드 Lorde의 Homemade Dynamite Remix 입니다! 2017년에 나온 곡이지만, 위켄드... Homemade Dynamite는 파티에서 상대를 찾는 내용의 곡이에요! 진짜 집에서 만든...",
+                      "tags" : [
+                        "HomemadeDynamite",
+                        "HomemadeDynamite 가사",
+                        "HomemadeDynamite 해석",
+                        "HomemadeDynamiteRemix",
+                        "HomemadeDynamiteRemix 가사",
+                        "HomemadeDynamiteRemix 해석",
+                        "홈메이드다이너마이트",
+                        "다이너마이트",
+                      ]
+                    },
+                  ],
+                }
+              },
+              {
+                "type" : "NewsComponent",
+                "data" : {
+                  "title" : "뉴스",
+                  "contents" : [
+                    {
+                      "thumbnail" : "tmp1.png",
+                      "icon" : "icon1.png",
+                      "publish" : "한겨레",
+                      "date" : "2021.11.15.12:44",
+                      "website" : "네이버뉴스",
+                      "title" : "이정재 첫 연출 데뷔작 ‘헌트’ 촬영 종료…내년 개봉 예정",
+                      "body" : "전세계에 신드롬을 불러일으킨 넷플릭스 오리지널 <오징어 게임>을 통해 글로벌 스타로 거듭난 이정재의 감독 데뷔작 <헌트>가 6개월 동안의 촬영을 끝냈다고 배급사인 메가박스중앙플러스엠이 15일 밝혔다. 는 안기부 요원 ‘박평호’(이정재)와 ‘김정도’(정우성)가 남파 간첩 총책임자를...",
+                      "related" : 36,
+                      "others" : [
+                        {
+                          "title" : "이정재 연출·주연 영화 '헌트' 크랭크업",
+                          "publish" : "연합뉴스",
+                          "date" : "2021.11.15.10:44",
+                          "website" : "네이버뉴스",
+                        },
+                        {
+                          "title" : "이정재 연출·주연 영화 '헌트' 크랭크업",
+                          "publish" : "연합뉴스",
+                          "date" : "2021.11.15.10:44",
+                          "website" : "네이버뉴스",
+                        },
+                        {
+                          "title" : "이정재 연출·주연 영화 '헌트' 크랭크업",
+                          "publish" : "연합뉴스",
+                          "date" : "2021.11.15.10:44",
+                          "website" : "네이버뉴스",
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnail" : "tmp2.png",
+                      "icon" : "icon2.png",
+                      "publish" : "서울경제",
+                      "date" : "2021.11.14.11:44",
+                      "website" : "네이버뉴스",
+                      "title" : `제니 "이정재 때문에 이름 '제니'"···이정재와 특별한 인연`,
+                      "body" : "배우 이정재와 블랙핑크 제니가 만났다. 이정재는 14일 자신의 인스타그램에 별다른 코멘트 없이 여러 장의 사진을 게재했다. 최근 미국 LA LACMA에서 열린 ‘2021 LACMA 아트+필름 갈라’에 참석한 이정재는 공개된 사진 속에서 정호연, 제니, 엘르 패닝 등과 만나 다정한 포즈를 취하고 있다...",
+                      "related" : 21,
+                    },
+                    {
+                      "thumbnail" : "tmp3.png",
+                      "icon" : "icon3.png",
+                      "publish" : "텐아시아",
+                      "date" : "2021.11.14.01:44",
+                      "website" : "네이버뉴스",
+                      "title" : `이정재, 블핑 제니와 의외의 한컷?…"하하하" 함박웃음 [TEN★]`,
+                      "body" : "배우 이정재와 블랙핑크 제니가 유쾌한 한컷으로 시선을 사로잡았다. 이정재는 14일 자신의 인스타그램에 여러 장의 사진을 게재했다. 사진 속 이정재는 '오징어게임'에 함께 출연한 정호연, 블랙핑크 제니, 배우 엘 패닝 등과 인증샷을 남겼다. 이는 최근 미국 LA LACMA에서 열린 '2021 LACMA 아트...",
+                      "related" : 5,
+                    },
+                  ],
+                }
+              }
+            ]
         },
         headers: {
             'Content-Type': 'application/json'

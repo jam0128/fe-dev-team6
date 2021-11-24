@@ -4,6 +4,7 @@ import ReactDOMServer from "react-dom/server";
 import TestComponent from "./components/TestComponent";
 import Header from "./components/Header";
 import KeyWordComponent from "./components/KeyWord";
+import OtherComponent from "./components/OtherComponents";
 
 
 const app = express();
@@ -18,9 +19,7 @@ app.post('/api', function(req, res) {
       console.log(key + ": " + json[key])
     }
 
-    
-    
-    res.send(`
+    let result = `
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -37,11 +36,23 @@ app.post('/api', function(req, res) {
         <div id="root">${ReactDOMServer.renderToString(<TestComponent></TestComponent>)}</div>
         <div>hello from server side</div>
         <div style="width:768px; margin:0 auto;">
-          ${ReactDOMServer.renderToString(<KeyWordComponent info={req.body['compo1']['data']}/>)}
-        </div>
-      </body>
-    </html>
-    `);
+          ${ReactDOMServer.renderToString(<KeyWordComponent info={req.body['compo1']['data']}/>)}`;
+
+          
+
+    for (let i = 0; i < req.body['compo2'].length; i++) {
+      result += `${ReactDOMServer.renderToString(<OtherComponent info={req.body['compo2'][i]}/>)}`;
+    }
+    
+
+    result += `
+          </div>
+        </body>
+      </html>`
+
+    
+    
+    res.send(result);
 
 
 })

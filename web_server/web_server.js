@@ -8,7 +8,21 @@ const port = 3000;
 
 app.use(express.json()); 
 app.get('/', function(req, res) {
-  const jsonFile = fs.readFileSync(__dirname + '/json_files/person.json', 'utf8');
+  const keyword = req.query.search
+  var fileName = ""
+  console.log("!!!!!!!!!")
+  console.log(keyword)
+  if (keyword === "이정재") {
+    fileName = __dirname + '/json_files/person.json'
+  } else if (keyword === "음악") {
+    fileName = __dirname + '/json_files/music.json'
+  } else if (keyword === "동물") {
+    fileName = __dirname + '/json_files/animal.json'
+  } else {
+    fileName = __dirname + '/json_files/person.json'
+  }
+  console.log(fileName)
+  const jsonFile = fs.readFileSync(fileName, 'utf8');
   const jsonData = JSON.parse(jsonFile);
     request.post(
         {

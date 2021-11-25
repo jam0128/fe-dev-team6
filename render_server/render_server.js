@@ -5,6 +5,7 @@ import TestComponent from "./components/TestComponent";
 import Header from "./components/Header";
 import KeyWordComponent from "./components/KeyWord";
 import OtherComponent from "./components/OtherComponents";
+import App from "./components/App";
 
 
 const app = express();
@@ -21,34 +22,8 @@ app.post('/api', function(req, res) {
 
     let result = `
     <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <title>Naver</title>
-        <link
-          async
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
-        />
-        <script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js"></script>  
-      </head>
-      <body>
-        ${ReactDOMServer.renderToString((<Header value={req.body['test1Key']}/>))}
-        <div style="width:768px; margin:0 auto;">
-          ${ReactDOMServer.renderToString(<KeyWordComponent info={req.body['compo1']['data']}/>)}`;
-
-          
-
-    for (let i = 0; i < req.body['compo2'].length; i++) {
-      result += `${ReactDOMServer.renderToString(<OtherComponent info={req.body['compo2'][i]}/>)}`;
-    }
-    
-
-    result += `
-          </div>
-        </body>
-      </html>`
-
-    
+    ${ReactDOMServer.renderToString((<App info={req.body}/>))}
+    `;
     
     res.send(result);
 

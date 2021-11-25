@@ -1,7 +1,7 @@
 import React from "react";
 import CardsComponent from "./Cards";
 import WorksComponent from "./Works";
-//import styles from '../styles/keyWord.css';
+import '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container, Item, Grid, Header, Segment } from 'semantic-ui-react';
 
@@ -63,7 +63,7 @@ function KeyWordComponent(props) {
 
 
     return (
-        <Container>
+        <Container className="keyWord">
             <Item.Group>
                 <Item>
                     <Item.Content>

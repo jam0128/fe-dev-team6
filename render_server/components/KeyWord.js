@@ -38,7 +38,7 @@ function KeyWordComponent(props) {
         for (let i = 0; i < compos.length; i++) {
             const tmp = [];
             switch (compos[i]['type']) {
-                case "RelationArtistComponent" :
+                case "RelationPlaylistComponent" :
                     tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<CardsComponent info={compos[i]['data']} form="basic"/>);
                     break;

@@ -14,9 +14,9 @@ app.get('/', function(req, res) {
   console.log(keyword)
   if (keyword === "이정재") {
     fileName = __dirname + '/json_files/person.json'
-  } else if (keyword === "음악") {
+  } else if (keyword === "dynamite") {
     fileName = __dirname + '/json_files/music.json'
-  } else if (keyword === "동물") {
+  } else if (keyword === "샴(샤미즈)") {
     fileName = __dirname + '/json_files/animal.json'
   } else {
     fileName = __dirname + '/json_files/person.json'

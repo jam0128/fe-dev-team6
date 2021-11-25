@@ -1,0 +1,176 @@
+{
+    "test1Key": "dynamite",
+    "test2KEy": "test2",
+    "compo1" : {
+       "type" : "KeywordComponent",
+       "data" : {
+         "title" : "dynamite", 
+         "category" : [
+           "노래",
+           "방탄소년단",
+           "2020.08.21"
+         ],
+         "tab" : [
+           "전체",
+           "곡정보",
+           "관련영상",
+           "수록앨범",
+           "관련 플레이리스트",
+           "비슷한 아티스트"
+         ],
+         "components" : [
+           {
+             "type" : "MusicInformationComponent",
+             "data" : "..."
+           },
+           {
+             "type" : "AlbumComponent",
+             "data" : "..."
+           },
+           {
+             "type" : "RelationPlaylistComponent",
+             "data" : {
+               "title" : "관련 플레이리스트",
+               "contents" : [
+                 {
+                   "thumbnail" : "tmp1.png",
+                   "title" : "VIBE 최신곡 믹스"
+                 },
+                 {
+                   "thumbnail" : "tmp2.png",
+                   "title" : "동에 번쩍 서에 번쩍 ENFP"
+                 },
+                 {
+                   "thumbnail" : "tmp3.png",
+                   "title" : "월간 빌보드 K-Pop #10월"
+                 },
+                 {
+                   "thumbnail" : "tmp4.png",
+                   "title" : "졸음 운전 금지"
+                 },
+                 {
+                   "thumbnail" : "tmp5.png",
+                   "title" : "파티룸에서 흥겹게😎"
+                 },
+                 {
+                   "thumbnail" : "tmp6.png",
+                   "title" : "2020년 K-Pop 히트곡"
+                 },
+                 {
+                   "thumbnail" : "tmp7.png",
+                   "title" : "2020년 국내 댄스 히트곡"
+                 },
+                 {
+                   "thumbnail" : "tmp8.png",
+                   "title" : "빌보드 케이팝 100 상반기"
+                 },
+                 {
+                   "thumbnail" : "tmp9.png",
+                   "title" : "차트 올킬 댄스"
+                 }
+               ]
+             }
+           }
+         ]
+       }
+     },
+       "compo2" : [
+         {
+           "type" : "VIEWComponent",
+           "data" : {
+             "title" : "VIEW",
+             "contents" : [
+               {
+                 "thumbnail" : "tmp1.png",
+                 "icon" : "icon1.png",
+                 "writer" : "끄.적.끄.적.",
+                 "influencer" : true,
+                 "date" : "2020.08.21.",
+                 "title" : "life is dynamite 방탄 다이너마이트 뮤비 가사 짤",
+                 "body" : "< life is dynamite 방탄 다이너마이트 뮤비 가사 짤 > 드디어 공개된 방탄... like dynamite woah 펑크와 소울로 이 도시를 밝혀 빛으로 물들일 거야 다이너마이트처럼 JIN...",
+                 "tags" : [
+                   "방탄다이너마이트",
+                   "lifeisdynamite",
+                   "dynamite"
+                 ]
+               },
+               {
+                 "thumbnail" : "tmp2.png",
+                 "icon" : "icon2.png",
+                 "writer" : "남나르",
+                 "influencer" : false,
+                 "date" : "2020.08.14.",
+                 "title" : "[방탄소년단(BTS)] Dynamite at the Roller Staking Rink! (다이너마이트 롤러 스케이트 링크장 촬영)",
+                 "body" : "bts #아미 #army #RM #SUGA #Jhope #V #JK #김남준 #김석진 #민윤기 #정호석 #박지민 #김태형 #전정국 #알엠 #진 #슈가 #제이홉 #지민 #뷔 #정국 #아포방포 #보라해 #다이너마이트 #dynamite",
+                 "tags" : [
+                   "방탄소년단",
+                   "bts",
+                   "아미",
+                   "army",
+                   "RM",
+                   "SUGA",
+                   "Jhope",
+                   "V",
+                   "JK",
+                   "김남준"
+                 ]
+               },
+               {
+                 "thumbnail" : "tmp3.png",
+                 "icon" : "icon3.png",
+                 "writer" : "디제잉배우기플라시보",
+                 "influencer" : true,
+                 "date" : "2021.11.11.",
+                 "title" : "[로드×칼리드×시저×포스트말론] Lorde - Homemade Dynamite Remix ft.Khalid,SZA,Post Malone 가사...",
+                 "body" : "로드 Lorde의 Homemade Dynamite Remix 입니다! 2017년에 나온 곡이지만, 위켄드... Homemade Dynamite는 파티에서 상대를 찾는 내용의 곡이에요! 진짜 집에서 만든...",
+                 "tags" : [
+                   "HomemadeDynamite",
+                   "HomemadeDynamite 가사",
+                   "HomemadeDynamite 해석",
+                   "HomemadeDynamiteRemix",
+                   "HomemadeDynamiteRemix 가사",
+                   "HomemadeDynamiteRemix 해석",
+                   "홈메이드다이너마이트",
+                   "다이너마이트"
+                 ]
+               }
+             ]
+           }
+         },
+         {
+            "type" : "ImageComponent",
+            "data" : {
+                "title" : "이미지",
+                "tags" : [
+                    "방탄소년단",
+                    "방탄",
+                    "악보",
+                    "bts",
+                    "가사",
+                    "앨범",
+                    "코드",
+                    "뷔",
+                    "정국",
+                    "지민",
+                    "폭탄",
+                    "작곡가",
+                    "뜻",
+                    "진",
+                    "글씨",
+                    "뮤비"
+                ],
+                "contents" : [
+                    "tmp1.png",
+                    "tmp2.png",
+                    "tmp3.png",
+                    "tmp4.png",
+                    "tmp5.png",
+                    "tmp6.png",
+                    "tmp7.png",
+                    "tmp8.png",
+                    "tmp9.png"
+                ]
+            }
+        }
+    ]
+}

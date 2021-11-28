@@ -3,7 +3,7 @@ import CardsComponent from "./Cards";
 import WorksComponent from "./Works";
 import '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Item, Grid, Header, Segment } from 'semantic-ui-react';
+import { Container, Item, Grid, Header } from 'semantic-ui-react';
 
 
 
@@ -13,10 +13,16 @@ function KeyWordComponent(props) {
 
         const result = [];
         for (let i = 0; i < tabs.length; i++) {
-            result.push(<Grid.Column>{tabs[i]}</Grid.Column>);
+            result.push(<Grid.Column style={{
+                width:"max-content", 
+                color: "rgb(145, 120, 103)",
+                marginTop: "10px",
+                paddingTop: "0px",
+                paddingBottom: "0px"
+            }}>{tabs[i]}</Grid.Column>);
             
         }
-        return <Grid divided>{result}</Grid>;
+        return <Grid style={{marginTop:"-11px", marginBottom:"-3px"}} divided>{result}</Grid>;
     }
 
     const constTabs = (tabs) => {
@@ -55,15 +61,34 @@ function KeyWordComponent(props) {
             switch (compos[i]['type']) {
                 case "RelationPlaylistComponent" :
                     tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
-                    tmp.push(<CardsComponent info={compos[i]['data']} form="basic"/>);
+                    tmp.push(<CardsComponent 
+                        info={compos[i]['data']} 
+                        form="basic" 
+                        titleLength={10} 
+                        width="105px" 
+                        imgHeight="105px"
+                    />);
                     break;
                 case "AlsoSearchComponent" :
                     tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
-                    tmp.push(<CardsComponent info={compos[i]['data']} form="basic"/>);
+                    tmp.push(<CardsComponent 
+                        info={compos[i]['data']} 
+                        form="basic" 
+                        titleLength={9} 
+                        width="87px" 
+                        imgHeight="87px"
+                    />);
                     break;
                 case "RecentVideosComponent" :
                     tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
-                    tmp.push(<CardsComponent info={compos[i]['data']} form="videos"/>);
+                    tmp.push(<CardsComponent 
+                        info={compos[i]['data']} 
+                        form="videos" 
+                        titleLength={25} 
+                        width="182px" 
+                        imgHeight="103px"
+                        padding="12px 15px 14px 15px"
+                    />);
                     break;
                 case "WorksComponent" :
                     tmp.push(<WorksComponent info={compos[i]['data']}/>);
@@ -91,7 +116,7 @@ function KeyWordComponent(props) {
             <Item.Group>
                 <Item>
                     <Item.Content>
-                        <Item.Header>{props.info.title}</Item.Header>
+                        <Item.Header style={{fontWeight:"900"}}>{props.info.title}</Item.Header>
                         <Item.Meta style={{color:"rgb(217, 208, 202)"}}>{constCate(props.info.category)}</Item.Meta>
                         <Item.Description>{constTabs(props.info.tab)}</Item.Description>
                     </Item.Content>

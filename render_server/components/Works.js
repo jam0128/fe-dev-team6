@@ -10,16 +10,17 @@ function WorksComponent(props) {
     const panes = (info) => {
         const result = [];
         for (let i = 0; i < info.length; i++) {
-            const tmp = { menuItem : info[i]["title"], render : () => <Tab.Pane><CardsComponent info={info[i]} form="works"/></Tab.Pane>};
+            const tmp = { menuItem : info[i]["title"], render : () => <Tab.Pane attached={false}><CardsComponent info={info[i]} form="works" titleLength={10} width="105px" imgHeight="148px"/></Tab.Pane>};
             result.push(tmp);
         }
-        
         return result;
     }
 
     return (
-        <Container>
-            <Tab menu={{ secondary: true, pointing: true }} panes={panes(props.info.tabs)}/>
+        <Container style={{
+            fontWeight:"700"
+        }}>
+            <Tab menu={{ text: true }} panes={panes(props.info.tabs)}/>
         </Container> 
     )
 }

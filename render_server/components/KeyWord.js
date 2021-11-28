@@ -26,21 +26,26 @@ function KeyWordComponent(props) {
             if (i === 0) {
                 result.push(<Grid.Column style={{
                     width:"max-content", 
+                    padding: "5px 10px",
+                    height: "30px",
+                    marginTop: "5px",
+                    borderRadius: "5px",
                     backgroundColor: "rgb(145, 120, 103)", 
                     color:"#fff",
-                    padding: "10px",
                     fontWeight: "900"
                 }}>{tabs[i]}</Grid.Column>);
             } else {
                 result.push(<Grid.Column style={{
                     width:"max-content",
-                    padding: "10px",
+                    padding: "5px 10px",
+                    height: "30px",
+                    marginTop: "5px",
                     color: "rgb(145, 120, 103)"
                 }}>{tabs[i]}</Grid.Column>);
             }
             
         }
-        return <Grid columns={tabs.length} textAlign='center' padded divided>{result}</Grid>;
+        return <Grid columns={tabs.length} textAlign='center' padded divided style={{justifyContent: "flex-start"}}>{result}</Grid>;
     }
 
     const constCompos = (compos) => {

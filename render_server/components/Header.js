@@ -6,7 +6,7 @@ import "../styles/Header.css";
 function Header(props) {
     console.log(props)
    return (
-       <div style={{fontWeight: "900"}}>
+       <div style={{fontWeight: "900", backgroundColor:"#fff"}}>
             <Input 
                 fluid
                 icon='search'

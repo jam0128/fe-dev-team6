@@ -44,23 +44,23 @@ function CardsComponent(props) {
                 content.push(<Card.Meta style={{marginTop:"1px"}}>{card.date}</Card.Meta>);
                 break;
             case "videos" :
+                const writerBasicStyle = {
+                    fontSize: "12px", 
+                            color: "#8f8f8f", 
+                            width: "max-content", 
+                            paddingTop: "0px",
+                            paddingBottom: "0px"
+                };
+                
                 content.push(<Card.Meta>
                     <Grid columns={2} divided style={{marginTop:"0px"}}>
                         <Grid.Column style={{
-                            fontSize: "12px", 
-                            color: "#8f8f8f", 
-                            width: "max-content", 
-                            paddingTop: "0px",
-                            paddingRight: "5px",
-                            paddingBottom: "0px"
+                            ...writerBasicStyle,
+                            paddingRight: "5px"
                         }}>{card.website}</Grid.Column>
                         <Grid.Column style={{
-                            fontSize: "12px", 
-                            color: "#8f8f8f", 
-                            width: "max-content", 
-                            paddingTop: "0px",
-                            paddingLeft: "5px",
-                            paddingBottom: "0px"
+                            ...writerBasicStyle,
+                            paddingLeft: "5px"
                         }}>{card.date}</Grid.Column>
                     </Grid>
                     </Card.Meta>);

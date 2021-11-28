@@ -28,13 +28,18 @@ function KeyWordComponent(props) {
     const constTabs = (tabs) => {
 
         const result = [];
+
+        const tabStyle = {
+            width:"max-content",
+            padding: "5px 10px",
+            height: "30px",
+            marginTop: "5px"
+        };
+
         for (let i = 0; i < tabs.length; i++) {
             if (i === 0) {
                 result.push(<Grid.Column style={{
-                    width:"max-content", 
-                    padding: "5px 10px",
-                    height: "30px",
-                    marginTop: "5px",
+                    ...tabStyle,
                     borderRadius: "5px",
                     backgroundColor: "rgb(145, 120, 103)", 
                     color:"#fff",
@@ -42,10 +47,7 @@ function KeyWordComponent(props) {
                 }}>{tabs[i]}</Grid.Column>);
             } else {
                 result.push(<Grid.Column style={{
-                    width:"max-content",
-                    padding: "5px 10px",
-                    height: "30px",
-                    marginTop: "5px",
+                    ...tabStyle,
                     color: "rgb(145, 120, 103)"
                 }}>{tabs[i]}</Grid.Column>);
             }

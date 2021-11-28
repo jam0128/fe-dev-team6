@@ -71,7 +71,12 @@ function KeyWordComponent(props) {
                 default :
                     tmp.push(compos[i]['type']);
             }
-            result.push(<Item><Container>{tmp}</Container></Item>)
+            result.push(<Item><Container style={{
+                backgroundColor: "#fff",
+                padding: "20px 10px",
+                borderRadius: "10px",
+                boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)"
+            }}>{tmp}</Container></Item>)
         }
         return result;
     }

@@ -1,6 +1,7 @@
 import React from "react";
 import CardsComponent from "./Cards";
 import WorksComponent from "./Works";
+import ProfileComponent from "./Profile";
 import '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container, Item, Grid, Header } from 'semantic-ui-react';
@@ -95,12 +96,16 @@ function KeyWordComponent(props) {
                 case "WorksComponent" :
                     tmp.push(<WorksComponent info={compos[i]['data']}/>);
                     break;
+                case "ProfileComponent" :
+                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<ProfileComponent info={compos[i]['data']}/>);
+                    break;
                 default :
                     tmp.push(compos[i]['type']);
             }
             result.push(<Item><Container style={{
                 backgroundColor: "#fff",
-                padding: "20px 10px",
+                padding: "15px 10px",
                 borderRadius: "10px",
                 boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)"
             }}>{tmp}</Container></Item>)

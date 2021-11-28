@@ -63,7 +63,11 @@ function KeyWordComponent(props) {
 
 
     return (
-        <Container className="keyWord">
+        <Container className="keyWord" style={{
+            backgroundColor:"rgb(241, 237, 235)",
+            borderTop:"4px solid rgb(217, 208, 202)",
+            padding: "20px 10px 20px 10px"
+        }}>
             <Item.Group>
                 <Item>
                     <Item.Content>

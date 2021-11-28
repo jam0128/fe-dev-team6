@@ -26,7 +26,7 @@ function App(props) {
             </head>
             <body style={{backgroundColor:"#e9ecef"}}>
                 <Header value={props.info['test1Key']}/>
-                <div style={{width:'768px', margin:'0 auto'}}>
+                <div style={{width:'768px', margin:'0 auto', marginTop:"15px"}}>
                     <KeyWordComponent info={props.info['compo1']['data']}/>
                     {constOthers(props.info['compo2'])}
                 </div>

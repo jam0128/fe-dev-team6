@@ -24,7 +24,7 @@ function App(props) {
                 />
                 <script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js"></script>  
             </head>
-            <body>
+            <body style={{backgroundColor:"#e9ecef"}}>
                 <Header value={props.info['test1Key']}/>
                 <div style={{width:'768px', margin:'0 auto'}}>
                     <KeyWordComponent info={props.info['compo1']['data']}/>

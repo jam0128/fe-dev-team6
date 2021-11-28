@@ -24,9 +24,19 @@ function KeyWordComponent(props) {
         const result = [];
         for (let i = 0; i < tabs.length; i++) {
             if (i === 0) {
-                result.push(<Grid.Column color="brown">{tabs[i]}</Grid.Column>);
+                result.push(<Grid.Column style={{
+                    width:"max-content", 
+                    backgroundColor: "rgb(145, 120, 103)", 
+                    color:"#fff",
+                    padding: "10px",
+                    fontWeight: "900"
+                }}>{tabs[i]}</Grid.Column>);
             } else {
-                result.push(<Grid.Column>{tabs[i]}</Grid.Column>);
+                result.push(<Grid.Column style={{
+                    width:"max-content",
+                    padding: "10px",
+                    color: "rgb(145, 120, 103)"
+                }}>{tabs[i]}</Grid.Column>);
             }
             
         }
@@ -71,8 +81,8 @@ function KeyWordComponent(props) {
             <Item.Group>
                 <Item>
                     <Item.Content>
-                        <Item.Header as='a'>{props.info.title}</Item.Header>
-                        <Item.Meta>{constCate(props.info.category)}</Item.Meta>
+                        <Item.Header>{props.info.title}</Item.Header>
+                        <Item.Meta style={{color:"rgb(217, 208, 202)"}}>{constCate(props.info.category)}</Item.Meta>
                         <Item.Description>{constTabs(props.info.tab)}</Item.Description>
                     </Item.Content>
                 </Item>

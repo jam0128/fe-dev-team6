@@ -35,7 +35,7 @@ function OtherComponent(props) {
     return (
         <Container style={{
             backgroundColor: "#fff",
-            marginTop: "9px",
+            marginTop: "20px",
         }}>
             {constOther(props.info.data)}
         </Container>

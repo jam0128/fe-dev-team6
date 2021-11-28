@@ -13,15 +13,14 @@ function PostsComponent(props) {
 
         const content = [];
 
-        content.push(<Image floated="right" size="medium" src={post.thumbnail} wrapped ui={false}/>);
-
+        
         const writerStyle = {
             width:"max-content", 
             padding: "0px 5px"
         };
 
         const writerTitleMargin = {
-            marginBottom: "10px"
+            margin: "0px 0 10px 0px"
         };
 
         switch (props.form) {
@@ -64,8 +63,12 @@ function PostsComponent(props) {
                 break;
         }
 
-        content.push(<Card.Header>{post.title}</Card.Header>);
-        content.push(<Card.Description>{post.body}</Card.Description>);
+        content.push(<Card.Header style={{color:"#0068c3"}}>{post.title}</Card.Header>);
+        content.push(<Card.Description>
+                <Image floated="right" src={post.thumbnail} wrapped ui={false} style={{width: "87px", height: "87px"}}/>
+                <div>{post.body}</div>
+            </Card.Description>
+        );
         
 
         result.push(<Card.Content>{content}</Card.Content>);
@@ -74,7 +77,7 @@ function PostsComponent(props) {
 
         switch (props.form) {
             case "News" :
-                extra.push(<Card.Content extra>
+                extra.push(<Card.Content extra style={{color:"#0068c3", textAlign: "right"}}>
                     관련뉴스 {post.related}건 전체보기
                 </Card.Content>);
                 break;
@@ -93,7 +96,10 @@ function PostsComponent(props) {
 
         return <Card style={{
             borderShadow: "none",
-            WebkitBoxShadow: "none"
+            WebkitBoxShadow: "none",
+            margin: "0px",
+            borderBottom: "1px solid #e9ecef",
+            borderRadius: "0px"
         }}>{result}</Card>;
     }
 

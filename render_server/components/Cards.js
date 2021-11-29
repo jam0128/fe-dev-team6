@@ -28,7 +28,7 @@ function CardsComponent(props) {
 
         const result = [];
 
-        result.push(<Image src={card.thumbnail} wrapped ui={false} style={{height:props.imgHeight}}/>);
+        result.push(<Image src={card.thumbnail} style={{height:props.imgHeight, objectFit:"cover"}}/>);
 
         const content = [];
 

@@ -30,7 +30,7 @@ function ProfileComponent(props) {
         }
 
         result.push(<Card.Description>
-            <Image floated="right" src={profile.photo} style={{height: "108px", borderRadius: "6px", objectFit:"cover"}}/>
+            <Image floated="right" src={profile.photo} style={{width:"87px", height: "108px", borderRadius: "6px", objectFit:"cover", border: "1px solid #f2f2f2"}}/>
             <table style={{borderLeft: "3px solid rgb(235, 231, 228)", marginLeft: "5px", marginBottom: "5px"}}>{tmp}</table>
         </Card.Description>);
 

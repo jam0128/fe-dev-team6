@@ -16,31 +16,64 @@
          "작품활동"
        ],
        "components" : [
-         {
-           "type" : "ProfileComponent",
-           "data" : "..."
-         },
+          {
+            "type" : "ProfileComponent",
+            "data" : {
+              "title" : "프로필",
+              "photo" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5369%2F2018%2F01%2F01%2F0000052142_001_20180101170255561.jpg&type=sc960_832",
+              "contents" : [
+                {
+                  "name" : "신체",
+                  "content" : "180cm"
+                },
+                {
+                  "name" : "소속사",
+                  "content" : "아티스트컴퍼니"
+                },
+                {
+                  "name" : "수상",
+                  "content" : "2014년 제50회 백상예술대상 영화부문 남자 조연상"
+                },
+                {
+                  "name" : "경력",
+                  "content" : "2013.10 제11회 아시아나국제단편영화제 특별 심사위원"
+                },
+                {
+                  "name" : "사이트",
+                  "content" : "공식홈페이지, 블로그, 인스타그램, 페이스북, V LIVE"
+                },
+                {
+                  "name" : "작품",
+                  "content" : "영화, 방송, 곡, 기타"
+                }
+              ],
+              "footer" : {
+                "participate" : true,
+                "date" : "2021.10.05. "
+              }
+            }
+          },
          {
            "type" : "RecentVideosComponent",
            "data" : {
              "title" : "최근영상",
              "contents" : [
                {
-                 "thumbnail" : "tmp1.png",
+                 "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=https%3A%2F%2Fphinf.pstatic.net%2Ftvcast%2F20210928_147%2F0JRIi_1632838641218okCtM_JPEG%2F1632838509174.jpg",
                  "length" : "04:01",
                  "title" : "배우들도 놀란 '오징어 게임' 세트 이야기 (이정재.박해수.정호연.허성태.위하준)",
                  "website" : "네이버TV",
                  "date" : "2021.09.28"
                },
                {
-                 "thumbnail" : "tmp2.png",
+                 "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=http%3A%2F%2Fv.phinf.naver.net%2F20210924_88%2F1632457307801VxrAk_JPEG%2F1632456254496.jpg",
                  "length" : "01:28",
                  "title" : "[넷플릭스] 오징어 게임 | 하이라이트 | 사람들이 게임에 참가할 수밖에 없는 이유",
                  "website" : "VLIVE",
                  "date" : "2021.09.24"
                },
                {
-                 "thumbnail" : "tmp3.png",
+                 "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=http%3A%2F%2Fv.phinf.naver.net%2F20210924_32%2F1632457307371r2YwW_JPEG%2F1632456288992.jpg",
                  "length" : "01:30",
                  "title" : "[넷플릭스] 오징어 게임 | 하이라이트 | 사람이 죽자, 상금이 올라갔다",
                  "website" : "VLIVE",
@@ -63,13 +96,13 @@
                      "date" : "2021."
                    },
                    {
-                     "thumbnail" : "tmp1.png",
+                     "thumbnail" : "https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20201014_127%2F1602651162137fUW1W_JPEG%2Fmovie_image.jpg",
                      "title" : "다만 악에서 구하소서",
                      "role" : "주연 - 레이 역",
                      "date" : "2020.08.05"
                    },
                    {
-                     "thumbnail" : "tmp2.png",
+                     "thumbnail" : "https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20190122_192%2F1548121844125KdJDJ_JPEG%2Fmovie_image.jpg",
                      "title" : "어쩌다, 결혼",
                      "role" : "특별출연 - 변호사 역",
                      "date" : "2019.02.27."
@@ -295,76 +328,14 @@
          }
        },
        {
-         "type" : "VIEWComponent",
-         "data" : {
-           "title" : "VIEW",
-           "contents" : [
-             {
-               "thumbnail" : "tmp1.png",
-               "icon" : "icon1.png",
-               "writer" : "끄.적.끄.적.",
-               "influencer" : true,
-               "date" : "2020.08.21.",
-               "title" : "life is dynamite 방탄 다이너마이트 뮤비 가사 짤",
-               "body" : "< life is dynamite 방탄 다이너마이트 뮤비 가사 짤 > 드디어 공개된 방탄... like dynamite woah 펑크와 소울로 이 도시를 밝혀 빛으로 물들일 거야 다이너마이트처럼 JIN...",
-               "tags" : [
-                 "방탄다이너마이트",
-                 "lifeisdynamite",
-                 "dynamite"
-               ]
-             },
-             {
-               "thumbnail" : "tmp2.png",
-               "icon" : "icon2.png",
-               "writer" : "남나르",
-               "influencer" : false,
-               "date" : "2020.08.14.",
-               "title" : "[방탄소년단(BTS)] Dynamite at the Roller Staking Rink! (다이너마이트 롤러 스케이트 링크장 촬영)",
-               "body" : "bts #아미 #army #RM #SUGA #Jhope #V #JK #김남준 #김석진 #민윤기 #정호석 #박지민 #김태형 #전정국 #알엠 #진 #슈가 #제이홉 #지민 #뷔 #정국 #아포방포 #보라해 #다이너마이트 #dynamite",
-               "tags" : [
-                 "방탄소년단",
-                 "bts",
-                 "아미",
-                 "army",
-                 "RM",
-                 "SUGA",
-                 "Jhope",
-                 "V",
-                 "JK",
-                 "김남준"
-               ]
-             },
-             {
-               "thumbnail" : "tmp3.png",
-               "icon" : "icon3.png",
-               "writer" : "디제잉배우기플라시보",
-               "influencer" : true,
-               "date" : "2021.11.11.",
-               "title" : "[로드×칼리드×시저×포스트말론] Lorde - Homemade Dynamite Remix ft.Khalid,SZA,Post Malone 가사...",
-               "body" : "로드 Lorde의 Homemade Dynamite Remix 입니다! 2017년에 나온 곡이지만, 위켄드... Homemade Dynamite는 파티에서 상대를 찾는 내용의 곡이에요! 진짜 집에서 만든...",
-               "tags" : [
-                 "HomemadeDynamite",
-                 "HomemadeDynamite 가사",
-                 "HomemadeDynamite 해석",
-                 "HomemadeDynamiteRemix",
-                 "HomemadeDynamiteRemix 가사",
-                 "HomemadeDynamiteRemix 해석",
-                 "홈메이드다이너마이트",
-                 "다이너마이트"
-               ]
-             }
-           ]
-         }
-       },
-       {
          "type" : "NewsComponent",
          "data" : {
            "title" : "뉴스",
            "contents" : [
              {
-               "thumbnail" : "tmp1.png",
-               "icon" : "icon1.png",
-               "publish" : "한겨레",
+               "thumbnail" : "http://www.job-post.co.kr/news/photo/202111/41466_40544_4956.jpg",
+               "icon" : "https://mimgnews.pstatic.net/image/upload/office_logo/028/2017/12/21/logo_028_41_20171221160121.jpg?type=u144_144",
+               "writer" : "한겨레",
                "date" : "2021.11.15.12:44",
                "website" : "네이버뉴스",
                "title" : "이정재 첫 연출 데뷔작 ‘헌트’ 촬영 종료…내년 개봉 예정",
@@ -373,28 +344,28 @@
                "others" : [
                  {
                    "title" : "이정재 연출·주연 영화 '헌트' 크랭크업",
-                   "publish" : "연합뉴스",
+                   "writer" : "연합뉴스",
                    "date" : "2021.11.15.10:44",
                    "website" : "네이버뉴스"
                  },
                  {
                    "title" : "이정재 연출·주연 영화 '헌트' 크랭크업",
-                   "publish" : "연합뉴스",
+                   "writer" : "연합뉴스",
                    "date" : "2021.11.15.10:44",
                    "website" : "네이버뉴스"
                  },
                  {
                    "title" : "이정재 연출·주연 영화 '헌트' 크랭크업",
-                   "publish" : "연합뉴스",
+                   "writer" : "연합뉴스",
                    "date" : "2021.11.15.10:44",
                    "website" : "네이버뉴스"
                  }
                ]
              },
              {
-               "thumbnail" : "tmp2.png",
-               "icon" : "icon2.png",
-               "publish" : "서울경제",
+               "thumbnail" : "https://imgnews.pstatic.net/image/011/2021/11/14/0003984984_001_20211114152901930.jpg?type=w430",
+               "icon" : "https://imgnews.pstatic.net/image/upload/spubs/alG0000011/logo/2020/12/02/A_142054727.jpg?type=u144_144",
+               "writer" : "서울경제",
                "date" : "2021.11.14.11:44",
                "website" : "네이버뉴스",
                "title" : "제니 이정재 때문에 이름 '제니'···이정재와 특별한 인연",
@@ -402,9 +373,9 @@
                "related" : 21
              },
              {
-               "thumbnail" : "tmp3.png",
-               "icon" : "icon3.png",
-               "publish" : "텐아시아",
+               "thumbnail" : "https://imgnews.pstatic.net/image/312/2021/11/15/0000511420_001_20211115001801554.jpg?type=w430",
+               "icon" : "https://imgnews.pstatic.net/image/upload/spubs/CWG0000312/logo/2021/10/06/A_171447821.png?type=u144_144",
+               "writer" : "텐아시아",
                "date" : "2021.11.14.01:44",
                "website" : "네이버뉴스",
                "title" : "이정재, 블핑 제니와 의외의 한컷?…'하하하' 함박웃음 [TEN★]",

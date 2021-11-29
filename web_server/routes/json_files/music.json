@@ -1,5 +1,5 @@
 {
-    "test1Key": "dynamite",
+    "test1Key": "Dynamite",
     "test2KEy": "test2",
     "compo1" : {
        "type" : "KeywordComponent",
@@ -33,40 +33,40 @@
                "title" : "관련 플레이리스트",
                "contents" : [
                  {
-                   "thumbnail" : "tmp1.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210830_185%2F1630289875941yVYLO_PNG%2FVIBE%25C3%25D6%25BD%25C5%25B0%25EE%25B9%25CD%25BD%25BA_05%25C7%25C3%25B7%25B9%25C0%25CC%25B8%25AE%25BD%25BA%25C6%25AE%25C4%25BF%25B9%25F6.png",
                    "title" : "VIBE 최신곡 믹스"
                  },
                  {
-                   "thumbnail" : "tmp2.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20211116_11%2F1637035610817ae0yO_JPEG%2Fdeep.jpg",
                    "title" : "동에 번쩍 서에 번쩍 ENFP"
                  },
                  {
-                   "thumbnail" : "tmp3.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210826_8%2F1629968155820uPhbQ_PNG%2FVIBE_%25B0%25F8%25C5%25EB_%25BF%25F9%25B0%25A3%25BA%25F4%25BA%25B8%25B5%25E5KPop100.png",
                    "title" : "월간 빌보드 K-Pop #10월"
                  },
                  {
-                   "thumbnail" : "tmp4.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210910_151%2F1631258029920j2wQY_PNG%2Fci10awk_05%25C7%25C3%25B7%25B9%25C0%25CC%25B8%25AE%25BD%25BA%25C6%25AE%25C4%25BF%25B9%25F6.png",
                    "title" : "졸음 운전 금지"
                  },
                  {
-                   "thumbnail" : "tmp5.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210820_5%2F1629451557450BDP6F_PNG%2FVIBE_PP_Exciting.png",
                    "title" : "파티룸에서 흥겹게😎"
                  },
                  {
-                   "thumbnail" : "tmp6.png",
-                   "title" : "2020년 K-Pop 히트곡"
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20211125_211%2F16378004398870s4tS_JPEG%2Fdeep.jpg",
+                   "title" : "국내 댄스 레전드"
                  },
                  {
-                   "thumbnail" : "tmp7.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20211125_32%2F1637805276925AXAMn_JPEG%2Fdeep.jpg",
                    "title" : "2020년 국내 댄스 히트곡"
                  },
                  {
-                   "thumbnail" : "tmp8.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210826_135%2F1629968110668ibkIg_PNG%2FVIBE_%25B0%25F8%25C5%25EB_%25BF%25F9%25B0%25A3%25BA%25F4%25BA%25B8%25B5%25E5KPop100.png",
                    "title" : "빌보드 케이팝 100 상반기"
                  },
                  {
-                   "thumbnail" : "tmp9.png",
-                   "title" : "차트 올킬 댄스"
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210825_204%2F1629883656603nB1vH_PNG%2FVIBE_%25C7%25C7%25C6%25AE%25B4%25CF%25BD%25BA_%25C7%25EF%25BD%25BA%25C0%25E5%25BF%25A1%25BC%25AD.png",
+                   "title" : "헬스장에서"
                  }
                ]
              }
@@ -81,9 +81,9 @@
              "title" : "VIEW",
              "contents" : [
                {
-                 "thumbnail" : "tmp1.png",
-                 "icon" : "icon1.png",
-                 "writer" : "끄.적.끄.적.",
+                 "thumbnail" : "https://mblogthumb-phinf.pstatic.net/MjAyMDA4MjFfMjAy/MDAxNTk3OTg2ODc1NzMx.fITcsGWdykVpnuQuwx7JgrDAFUVQz1uoMSz6ZXjsyeIg.CJJa-0HW_ERTZodwsesluKT8nOCG9dlELOJRyPT7Y9Ig.JPEG.namnaraum/7.jpg?type=w800",
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMTA0MjBfMzMg/MDAxNjE4OTI0OTQ1NTQ2.gN_5_mpyhE_1qpjDV7-tE1HgzkLpoG2RBky7bkk12b0g.-D-xIZn2oVM86a9ytsgWQOWGI86kMPbhzozCfkIiS7Ig.JPEG.namnaraum/IMG_0307_1.JPG",
+                 "writer" : "남나르",
                  "influencer" : true,
                  "date" : "2020.08.21.",
                  "title" : "life is dynamite 방탄 다이너마이트 뮤비 가사 짤",
@@ -95,9 +95,9 @@
                  ]
                },
                {
-                 "thumbnail" : "tmp2.png",
-                 "icon" : "icon2.png",
-                 "writer" : "남나르",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA4MTNfNjMg%2FMDAxNjI4ODQ5MjgwMjMx.Fk2_wNkHs18Q0BF8Tpc5xHdge-M64bwMHiBwru9uM3og.ZhXbjac7pWWYfLwVrfogKcHA1Zk3CFzq29bK9dARXYYg.JPEG.ilovetaiji%2FScreenshot%25A3%25DF20210813%25A3%25AD190426.jpg&type=sc960_832",
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMTExMDhfMTcx/MDAxNjM2MzE5MDU3MTY3.DKlc51LZNYCELXVFq7SKVkb1GYdCGacOxDSza_ZcuCUg.M7QU94Zx9xk4n5KF3XL2oTtzj_WWhkJCsNv5cSXQJFAg.JPEG.wjddl504/profileImage.jpg",
+                 "writer" : "끄.적.끄.적.",
                  "influencer" : false,
                  "date" : "2020.08.14.",
                  "title" : "[방탄소년단(BTS)] Dynamite at the Roller Staking Rink! (다이너마이트 롤러 스케이트 링크장 촬영)",
@@ -116,8 +116,8 @@
                  ]
                },
                {
-                 "thumbnail" : "tmp3.png",
-                 "icon" : "icon3.png",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTExMTFfNTcg%2FMDAxNjM2NjM4OTU1MTUy.vDi7rO-JS_glijTqrEUhqq1kqkdFopkg2kpFH_3aPZYg.lj_erfSG7ymcLi4TlJA43btcZFxM76UpbFDiqc4f0AYg.JPEG.yubine%2Fmaxresdefault%25A3%25ADlorde.jpg&type=sc960_832",
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAxODAxMjhfMTM4/MDAxNTE3MTQ4MzAyNzI3.C0cGGzz-DtCbYYlr5m9GviwdJv1GWi2jONI0NIMvG2wg.Hp8ap5_b4e_C9MirCuEaqpB-PsUBDpOckNFGZ825nbog.JPEG.yubine/profileImage.jpg",
                  "writer" : "디제잉배우기플라시보",
                  "influencer" : true,
                  "date" : "2021.11.11.",
@@ -160,15 +160,15 @@
                     "뮤비"
                 ],
                 "contents" : [
-                    "tmp1.png",
-                    "tmp2.png",
-                    "tmp3.png",
-                    "tmp4.png",
-                    "tmp5.png",
-                    "tmp6.png",
-                    "tmp7.png",
-                    "tmp8.png",
-                    "tmp9.png"
+                    "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2Fa1%2Fc4%2Fce%2Fa1c4cef43038a797c158675a64f33469.jpg&type=sc960_832",
+                    "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2Fee%2Fac%2F46%2Feeac46097d78666c7e4ad7eb5ebc38c2.jpg&type=sc960_832",
+                    "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2Fe9%2F9c%2F77%2Fe99c77ff0756e007f6fc35fd95587a0a.jpg&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20211117_120%2F1637128687575pQgRF_JPEG%2F44593383688448077_1559484330.jpg&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MTlfMjAx%2FMDAxNjMyMDMwMDg4OTEw.ThgUm2zbZTQlijRQwMn6QH6lcrVIWiEIVaw_3LkV4usg.P4hSQL0NL9Wckw0J4JoK-trH5FPwHzzHL7IYXCKBgqEg.JPEG.peterho0913%2FScreenshot%25A3%25DF2021%25A3%25AD09%25A3%25AD19%25A3%25DF142752.jpg&type=sc960_832",
+                    "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F13%2F53%2F30%2F1353309185d7698951b58f571c2ef1ae.jpg&type=sc960_832",
+                    "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2F4b%2F1d%2F3d%2F4b1d3d94edb9a5e952c5746545603407.jpg&type=sc960_832",
+                    "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2F5c%2Fe3%2F26%2F5ce326fd09e3789358e94fccdb36b5ae.jpg&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MThfNDkg%2FMDAxNjMxOTEwOTY1MDk1.8G2on_nL1lMvQhhUvNCPbWoTUkAPBw4pFHpklP1W3Fkg.qN5p5YlfSwcTe95vwagbX5UCQW8IR7slDm_ZUDxCdrwg.JPEG.melisy_yoongi%2FIMG_20210917_153228.jpg&type=sc960_832"
                 ]
             }
         }

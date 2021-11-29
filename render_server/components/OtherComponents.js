@@ -1,5 +1,6 @@
 import React from "react";
 import PostsComponent from "./Posts";
+import ImageComponent from "./ImageComponent";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container,  Header} from 'semantic-ui-react';
@@ -10,7 +11,11 @@ function OtherComponent(props) {
 
     const constOther = (data) => {
         const result = [];
-        result.push(<Header as='h4'>{data.title}</Header>);
+        result.push(<Header as='h4' style={{
+            height: "40px",
+            padding: "10px 18px",
+            borderBottom: "1px solid #e9ecef"
+        }}>{data.title}</Header>);
         switch(props.info.type) {
             case "NewsComponent" :                
                 result.push(<PostsComponent info={data.contents} form="News"/>);
@@ -21,6 +26,9 @@ function OtherComponent(props) {
             case "InfluencerComponent" :                
                 result.push(<PostsComponent info={data.contents} form="Influencer"/>);
                 break;
+            case "ImageComponent" :
+                result.push(<ImageComponent info={data.contents}/>);
+                break;
             default : 
                 break;
         }
@@ -29,7 +37,10 @@ function OtherComponent(props) {
 
 
     return (
-        <Container>
+        <Container style={{
+            backgroundColor: "#fff",
+            marginTop: "20px",
+        }}>
             {constOther(props.info.data)}
         </Container>
 

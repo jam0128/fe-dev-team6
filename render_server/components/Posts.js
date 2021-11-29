@@ -23,49 +23,31 @@ function PostsComponent(props) {
             margin: "0px 0 10px 0px"
         };
 
-        switch (props.form) {
-            case "News" :
-                content.push(<Card.Meta>
-                    <Grid divided style={writerTitleMargin}>
-                        <Grid.Column style={writerStyle}>{post.publish}</Grid.Column>
-                        <Grid.Column style={writerStyle}>{post.date}</Grid.Column>
-                        <Grid.Column style={writerStyle}>{post.website}</Grid.Column>
-                    </Grid>
-                </Card.Meta>);
-                break;
-            case "VIEW" :
-                if (post.influencer) {
-                    content.push(<Card.Meta>
-                        <Grid divided style={writerTitleMargin}>
-                            <Grid.Column style={writerStyle}>{post.writer}</Grid.Column>
-                            <Grid.Column style={writerStyle}>인플루언서</Grid.Column>
-                            <Grid.Column style={writerStyle}>{post.date}</Grid.Column>
-                        </Grid>
-                    </Card.Meta>);
-                } else {
-                    content.push(<Card.Meta>
-                        <Grid divided style={writerTitleMargin}>
-                            <Grid.Column style={writerStyle}>{post.writer}</Grid.Column>
-                            <Grid.Column style={writerStyle}>{post.date}</Grid.Column>
-                        </Grid>
-                    </Card.Meta>);
-                } 
-                break;
-            case "Influencer" :
-                content.push(<Card.Meta>
-                    <Grid divided style={writerTitleMargin}>
-                        <Grid.Column style={writerStyle}>{post.writer}</Grid.Column>
-                        <Grid.Column style={writerStyle}>{post.date}</Grid.Column>
-                    </Grid>
-                </Card.Meta>);
-                break;
-            default :
-                break;
+        const tmp = [];
+
+        if (props.form === "News" || props.form === "VIEW") {
+            tmp.push(<Grid.Column style={{...writerStyle, width:"20px", height:"20px", padding:"0"}}>
+                <Image src={post.icon} style={{width:"100%",height:"100%",marginTop:"-3px", borderRadius: "50%", border: "1px solid #f2f2f2"}}/>
+            </Grid.Column>);
         }
+
+        tmp.push(<Grid.Column style={writerStyle}>{post.writer}</Grid.Column>);
+
+        if (post.influencer) {
+            tmp.push(<Grid.Column style={writerStyle}>인플루언서</Grid.Column>);
+        }
+
+        tmp.push(<Grid.Column style={writerStyle}>{post.date}</Grid.Column>);
+
+        if (props.form === "News") {
+            tmp.push(<Grid.Column style={writerStyle}>{post.website}</Grid.Column>);
+        }
+
+        content.push(<Card.Meta><Grid divided style={writerTitleMargin}>{tmp}</Grid></Card.Meta>);
 
         content.push(<Card.Header style={{color:"#0068c3"}}>{post.title}</Card.Header>);
         content.push(<Card.Description>
-                <Image floated="right" src={post.thumbnail} wrapped ui={false} style={{width: "87px", height: "87px"}}/>
+                <Image floated="right" src={post.thumbnail} style={{width: "87px", height: "87px", objectFit: "contain", border: "1px solid #f2f2f2"}}/>
                 <div>{post.body}</div>
             </Card.Description>
         );

@@ -1,7 +1,7 @@
 import React from "react";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Card, Image, Item, Grid } from 'semantic-ui-react';
+import { Container, Card, Image, Grid } from 'semantic-ui-react';
 
 
 
@@ -13,41 +13,49 @@ function PostsComponent(props) {
 
         const content = [];
 
-        content.push(<Image floated="right" size="medium" src={post.thumbnail} wrapped ui={false}/>);
+        
+        const writerStyle = {
+            width:"max-content", 
+            padding: "0px 5px"
+        };
+
+        const writerTitleMargin = {
+            margin: "0px 0 10px 0px"
+        };
 
         switch (props.form) {
             case "News" :
                 content.push(<Card.Meta>
-                    <Grid divided>
-                        <Grid.Column>{post.publish}</Grid.Column>
-                        <Grid.Column>{post.date}</Grid.Column>
-                        <Grid.Column>{post.website}</Grid.Column>
+                    <Grid divided style={writerTitleMargin}>
+                        <Grid.Column style={writerStyle}>{post.publish}</Grid.Column>
+                        <Grid.Column style={writerStyle}>{post.date}</Grid.Column>
+                        <Grid.Column style={writerStyle}>{post.website}</Grid.Column>
                     </Grid>
                 </Card.Meta>);
                 break;
             case "VIEW" :
                 if (post.influencer) {
                     content.push(<Card.Meta>
-                        <Grid divided>
-                            <Grid.Column>{post.writer}</Grid.Column>
-                            <Grid.Column>인플루언서</Grid.Column>
-                            <Grid.Column>{post.date}</Grid.Column>
+                        <Grid divided style={writerTitleMargin}>
+                            <Grid.Column style={writerStyle}>{post.writer}</Grid.Column>
+                            <Grid.Column style={writerStyle}>인플루언서</Grid.Column>
+                            <Grid.Column style={writerStyle}>{post.date}</Grid.Column>
                         </Grid>
                     </Card.Meta>);
                 } else {
                     content.push(<Card.Meta>
-                        <Grid divided>
-                            <Grid.Column>{post.writer}</Grid.Column>
-                            <Grid.Column>{post.date}</Grid.Column>
+                        <Grid divided style={writerTitleMargin}>
+                            <Grid.Column style={writerStyle}>{post.writer}</Grid.Column>
+                            <Grid.Column style={writerStyle}>{post.date}</Grid.Column>
                         </Grid>
                     </Card.Meta>);
                 } 
                 break;
             case "Influencer" :
                 content.push(<Card.Meta>
-                    <Grid divided>
-                        <Grid.Column>{post.writer}</Grid.Column>
-                        <Grid.Column>{post.date}</Grid.Column>
+                    <Grid divided style={writerTitleMargin}>
+                        <Grid.Column style={writerStyle}>{post.writer}</Grid.Column>
+                        <Grid.Column style={writerStyle}>{post.date}</Grid.Column>
                     </Grid>
                 </Card.Meta>);
                 break;
@@ -55,8 +63,12 @@ function PostsComponent(props) {
                 break;
         }
 
-        content.push(<Card.Header>{post.title}</Card.Header>);
-        content.push(<Card.Description>{post.body}</Card.Description>);
+        content.push(<Card.Header style={{color:"#0068c3"}}>{post.title}</Card.Header>);
+        content.push(<Card.Description>
+                <Image floated="right" src={post.thumbnail} wrapped ui={false} style={{width: "87px", height: "87px"}}/>
+                <div>{post.body}</div>
+            </Card.Description>
+        );
         
 
         result.push(<Card.Content>{content}</Card.Content>);
@@ -65,7 +77,7 @@ function PostsComponent(props) {
 
         switch (props.form) {
             case "News" :
-                extra.push(<Card.Content extra>
+                extra.push(<Card.Content extra style={{color:"#0068c3", textAlign: "right"}}>
                     관련뉴스 {post.related}건 전체보기
                 </Card.Content>);
                 break;
@@ -82,7 +94,13 @@ function PostsComponent(props) {
 
         result.push(extra);
 
-        return <Card>{result}</Card>;
+        return <Card style={{
+            borderShadow: "none",
+            WebkitBoxShadow: "none",
+            margin: "0px",
+            borderBottom: "1px solid #e9ecef",
+            borderRadius: "0px"
+        }}>{result}</Card>;
     }
 
 

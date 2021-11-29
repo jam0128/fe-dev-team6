@@ -10,7 +10,11 @@ function OtherComponent(props) {
 
     const constOther = (data) => {
         const result = [];
-        result.push(<Header as='h4'>{data.title}</Header>);
+        result.push(<Header as='h4' style={{
+            height: "40px",
+            padding: "10px 18px",
+            borderBottom: "1px solid #e9ecef"
+        }}>{data.title}</Header>);
         switch(props.info.type) {
             case "NewsComponent" :                
                 result.push(<PostsComponent info={data.contents} form="News"/>);
@@ -29,7 +33,10 @@ function OtherComponent(props) {
 
 
     return (
-        <Container>
+        <Container style={{
+            backgroundColor: "#fff",
+            marginTop: "20px",
+        }}>
             {constOther(props.info.data)}
         </Container>
 

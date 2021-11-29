@@ -13,24 +13,15 @@ const port = 3001;
 
 app.use(express.json()); 
 app.post('/api', function(req, res) {
-    console.log(req.body)
-    var json = req.body
-    for (var key in json) {
-      console.log(key)
-      console.log(key + ": " + json[key])
-    }
-
-    let result = `
-    <!DOCTYPE html>
-    ${ReactDOMServer.renderToString((<App info={req.body}/>))}
-    `;
-    
-    res.send(result);
-
-
+  let result = `
+  <!DOCTYPE html>
+  ${ReactDOMServer.renderToString((<App info={req.body}/>))}
+  `;
+  
+  res.send(result);
 })
 
 // Connect 3001 port
 app.listen(port, ()=>{
-    console.log(`express is running on ${port}`);
+  console.log(`express is running on ${port}`);
 })

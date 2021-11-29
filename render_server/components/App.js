@@ -27,7 +27,7 @@ function App(props) {
             <body style={{backgroundColor:"#e9ecef"}}>
                 <Header value={props.info['test1Key']}/>
                 <div style={{
-                    width:'max-content', 
+                    width:'768px', 
                     margin:'0 auto', 
                     marginTop:"15px"
                 }}>

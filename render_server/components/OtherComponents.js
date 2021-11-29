@@ -1,5 +1,6 @@
 import React from "react";
 import PostsComponent from "./Posts";
+import ImageComponent from "./ImageComponent";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container,  Header} from 'semantic-ui-react';
@@ -24,6 +25,9 @@ function OtherComponent(props) {
                 break;
             case "InfluencerComponent" :                
                 result.push(<PostsComponent info={data.contents} form="Influencer"/>);
+                break;
+            case "ImageComponent" :
+                result.push(<ImageComponent info={data.contents}/>);
                 break;
             default : 
                 break;

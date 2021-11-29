@@ -16,10 +16,43 @@
          "작품활동"
        ],
        "components" : [
-         {
-           "type" : "ProfileComponent",
-           "data" : "..."
-         },
+          {
+            "type" : "ProfileComponent",
+            "data" : {
+              "title" : "프로필",
+              "photo" : "tmp.png",
+              "contents" : [
+                {
+                  "name" : "신체",
+                  "content" : "180cm"
+                },
+                {
+                  "name" : "소속사",
+                  "content" : "아티스트컴퍼니"
+                },
+                {
+                  "name" : "수상",
+                  "content" : "2014년 제50회 백상예술대상 영화부문 남자 조연상"
+                },
+                {
+                  "name" : "경력",
+                  "content" : "2013.10 제11회 아시아나국제단편영화제 특별 심사위원"
+                },
+                {
+                  "name" : "사이트",
+                  "content" : "공식홈페이지, 블로그, 인스타그램, 페이스북, V LIVE"
+                },
+                {
+                  "name" : "작품",
+                  "content" : "영화, 방송, 곡, 기타"
+                }
+              ],
+              "footer" : {
+                "participate" : true,
+                "date" : "2021.10.05. "
+              }
+            }
+          },
          {
            "type" : "RecentVideosComponent",
            "data" : {

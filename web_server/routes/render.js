@@ -1,5 +1,5 @@
 import express from "express";
-import request from 'request';
+import axios from 'axios'
 import fs from 'fs'
 
 var router = express.Router();
@@ -11,18 +11,19 @@ router.get('/', function(req, res, next) {
         fileName = __dirname + keyValueJson[key]
         if (req.query.search === key) { break } 
     }
-
-    request.post(
-        {
-            url:'http://localhost:3001/api',
-            json: JSON.parse(fs.readFileSync(fileName, 'utf8')),
+    axios.post(
+        'http://localhost:3001/api', 
+        JSON.parse(fs.readFileSync(fileName, 'utf8')), {
             headers: {
-            'Content-Type': 'application/json'
+                'Content-Type': 'application/json'
             }
-        },
-        function(error, response, body){
-            res.send(body);
-        });
+        }
+    ).then((r) => {
+        res.send(r.data);
+    })
+    .catch(function (error) {
+        console.log(error);
+    });
 });
 
 module.exports = router;

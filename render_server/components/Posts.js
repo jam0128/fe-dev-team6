@@ -25,9 +25,11 @@ function PostsComponent(props) {
 
         const tmp = [];
 
-        tmp.push(<Grid.Column style={{...writerStyle, borderRadius: "50%"}}>
-            <Image as="div" src={post.icon} style={{width:"100%",height:"100%",overflow:"hidden"}}/>
-        </Grid.Column>);
+        if (props.form === "News" || props.form === "VIEW") {
+            tmp.push(<Grid.Column style={{...writerStyle, width:"20px", height:"20px", padding:"0"}}>
+                <Image src={post.icon} style={{width:"100%",height:"100%",marginTop:"-3px", borderRadius: "50%", border: "1px solid #f2f2f2"}}/>
+            </Grid.Column>);
+        }
 
         tmp.push(<Grid.Column style={writerStyle}>{post.writer}</Grid.Column>);
 
@@ -45,7 +47,7 @@ function PostsComponent(props) {
 
         content.push(<Card.Header style={{color:"#0068c3"}}>{post.title}</Card.Header>);
         content.push(<Card.Description>
-                <Image floated="right" src={post.thumbnail} wrapped ui={false} style={{width: "87px", height: "87px"}}/>
+                <Image floated="right" src={post.thumbnail} style={{width: "87px", height: "87px", objectFit: "contain", border: "1px solid #f2f2f2"}}/>
                 <div>{post.body}</div>
             </Card.Description>
         );

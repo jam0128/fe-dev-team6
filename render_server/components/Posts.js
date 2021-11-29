@@ -46,12 +46,16 @@ function PostsComponent(props) {
         content.push(<Card.Meta><Grid divided style={writerTitleMargin}>{tmp}</Grid></Card.Meta>);
 
         content.push(<Card.Header style={{color:"#0068c3"}}>{post.title}</Card.Header>);
-        content.push(<Card.Description>
-                <Image floated="right" src={post.thumbnail} style={{width: "87px", height: "87px", objectFit: "contain", border: "1px solid #f2f2f2"}}/>
-                <div>{post.body}</div>
-            </Card.Description>
-        );
         
+        const body = [];
+
+        if (post.thumbnail) {
+            body.push(<Image floated="right" src={post.thumbnail} style={{width: "87px", height: "87px", objectFit: "contain", border: "1px solid #f2f2f2"}}/>);
+        }
+
+        body.push(<div>{post.body}</div>);
+
+        content.push(<Card.Description>{body}</Card.Description>);
 
         result.push(<Card.Content>{content}</Card.Content>);
 

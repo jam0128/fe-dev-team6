@@ -15,7 +15,7 @@ function ImageComponent(props) {
         const result = [];
         const imgStyle = {
             padding: "1px",
-            height:"30vw"
+            height:"256px"
         }
         for (let i = 0; i < 3; i++) {
             const tmp = [];

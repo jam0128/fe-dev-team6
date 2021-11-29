@@ -1,7 +1,7 @@
 import React from "react";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Card, Image, Grid } from 'semantic-ui-react';
+import { Container, Card, Image} from 'semantic-ui-react';
 
 
 
@@ -30,7 +30,7 @@ function ProfileComponent(props) {
         }
 
         result.push(<Card.Description>
-            <Image floated="right" src={profile.photo} wrapped ui={false} style={{height: "108px", borderRadius: "6px"}}/>
+            <Image floated="right" src={profile.photo} style={{width:"87px", height: "108px", borderRadius: "6px", objectFit:"cover", border: "1px solid #f2f2f2"}}/>
             <table style={{borderLeft: "3px solid rgb(235, 231, 228)", marginLeft: "5px", marginBottom: "5px"}}>{tmp}</table>
         </Card.Description>);
 

@@ -26,40 +26,40 @@
                "title" : "함께 찾은 품종",
                "contents" : [
                  {
-                   "thumbnail" : "cat1.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200201_130%2F1580523916009i8Y2q_JPEG%2F717191540274041474.jpg",
                    "title" : "페르시안"
                  },
                  {
-                   "thumbnail" : "cat1.png",
-                   "title" : "터키시앙고라 "
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200413_101%2F1586786709972dYtIN_JPEG%2F22922326470251694_473498187.jpeg",
+                   "title" : "터키시앙고라"
                  },
                  {
-                   "thumbnail" : "cat1.png",
-                   "title" : "코리안쇼트헤어 "
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20191228_76%2F1577544157015yjeKr_JPEG%2F13679773622033561_-107931818.jpg",
+                   "title" : "코리안쇼트헤어"
                  },
                  {
-                   "thumbnail" : "cat1.png",
-                   "title" : "아비시니안 "
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200105_213%2F1578200877795gIWA4_JPEG%2F14336485879427461_-34911044.jpeg",
+                   "title" : "아비시니안"
                  },
                  {
-                   "thumbnail" : "cat1.png",
-                   "title" : "아메리칸쇼트헤어 "
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210421_81%2F1618951220567HTDEa_JPEG%2F55086837248867211_119897751.jpeg",
+                   "title" : "아메리칸쇼트헤어"
                  },
                  {
-                   "thumbnail" : "cat1.png",
-                   "title" : "스핑크스 "
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200209_214%2F1581229340435aTrFL_JPEG%2F336871579074606436.jpg",
+                   "title" : "스핑크스"
                  },
                  {
-                   "thumbnail" : "cat1.png",
-                   "title" : "스코티시폴드 "
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200305_271%2F1583405575763OSIzN_JPEG%2F19541185506675710_1563918725.jpeg",
+                   "title" : "스코티시폴드"
                  },
                  {
-                   "thumbnail" : "cat1.png",
-                   "title" : "브리티시쇼트헤 "
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200816_58%2F1597553642059Wkj6x_JPEG%2F33689249784307039_720050140.jpeg",
+                   "title" : "브리티시쇼트헤어"
                  },
                  {
-                   "thumbnail" : "cat1.png",
-                   "title" : "뱅갈 "
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200630_172%2F1593499131596H4ctr_JPEG%2F29616257444056503_-1081181255.jpg",
+                   "title" : "뱅갈"
                  }
                ]  
              }
@@ -127,8 +127,8 @@
              "title" : "VIEW",
              "contents" : [
                {
-                 "thumbnail" : "tmp1.png",
-                 "icon" : "icon1.png",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTlfMjM1%2FMDAxNjEzNzEyODYwNTI1.har6QRJxdila9l-E1zF6MWAR549nuyKQ9NrRoL0HCqAg.bJwUzPEChsLvqDVpUyOa_0tdrQrslzczIO4m4zT7iIkg.PNG.lbygns123%2F1613712664547.png&type=sc960_832",
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMDAxMDdfMTU0/MDAxNTc4MzkyNzY0NjQ1.Jp3UQB_sJ05IB6klQ_gon85pj-gB1oVBBXQ2jt88Ff0g.XoO0aaKeK-yVPqDKgURemMJYYWV4AbM9bsAcnbzlousg.JPEG.lbygns12/%B5%B6%C6%BC%B7%CE%B0%ED.jpg",
                  "writer" : "독티쳐",
                  "influencer" : true,
                  "date" : "2020.08.04.",
@@ -136,8 +136,8 @@
                  "body" : "진짜 샴 고양이 성격과 진짜 샤미즈 고양이가 장수묘인지등 자세하게 알려드릴게요 우선 샤미즈 고양이의 바디타입은 오리엔탈입니다 상당히 슬림하고 다리와 목이 길며 작은..."
                },
                {
-                 "thumbnail" : "tmp2.png",
-                 "icon" : "icon2.png",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMjZfODAg%2FMDAxNjA4OTgwMDY4MjEy.v1e7s4BlWxH6Vzey_PsZabraHa_NQnZjhyMxfA2fMiAg.Bk2ot4gtKZ3Pgc2NYVHAnDi2sQbMHuJ0A1_--_nvoA4g.JPEG.dalnaradongsookine%2Foutput_1204188594.jpg&type=sc960_832",
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMTA0MDdfMTY3/MDAxNjE3NzU0MzE4NjM5.uG3V550WCsK1X5A969tC9RQNbHBmoP1fkhYYvr_MvyYg.fXawF8emEnRAXztP3pJVXPakeko_HeEjaMWN5bCNW-Ag.PNG.dalnaradongsookine/profileImage.png",
                  "writer" : "달나라동숙이네",
                  "influencer" : false,
                  "date" : "2021.03.15.",
@@ -145,8 +145,8 @@
                  "body" : "말 많고 집사를 잘 따르는 애교쟁이 루나는 샤미즈, 샴 고양이랍니다. 샴고양이의 매력에 푹 빠져 사는 집사는 매일매일 행복하답니다. 그런 샴고양이는 14세기 시암의 왕실이나..."
                },
                {
-                 "thumbnail" : "tmp3.png",
-                 "icon" : "icon3.png",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMDVfMjYy%2FMDAxNjA3MTM1NTU1NzM0.q7Ygr9Iq8SfZRQ-M4wBSS9zUsMGH0Xi5KWtZkXn8w44g.-wsud9M6XpfAbOYNca8kcotRgMVS22f1prrtUqpQfuQg.PNG.withwithpet%2F4.png&type=sc960_832",
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMTA3MjJfODIg/MDAxNjI2OTI3OTg0NDQ5._3pYEjUAUKEw-GwHDyxC0eVx09u6jsiiplAfNKqUZ_0g.pSvnGNxtQ9ruOl_SNFs_2RtR0NY1P5QF1F9C3R4QUqog.PNG.withwithpet/21%E1%84%82%E1%85%A7%E1%86%AB+%E1%84%87%E1%85%A9%E1%86%B7+%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9-001+%282%29.png",
                  "writer" : "OGUO with PET",
                  "influencer" : false,
                  "date" : "2020.12.05.",

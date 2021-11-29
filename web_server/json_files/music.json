@@ -1,5 +1,5 @@
 {
-    "test1Key": "dynamite",
+    "test1Key": "Dynamite",
     "test2KEy": "test2",
     "compo1" : {
        "type" : "KeywordComponent",
@@ -33,40 +33,40 @@
                "title" : "관련 플레이리스트",
                "contents" : [
                  {
-                   "thumbnail" : "tmp1.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210830_185%2F1630289875941yVYLO_PNG%2FVIBE%25C3%25D6%25BD%25C5%25B0%25EE%25B9%25CD%25BD%25BA_05%25C7%25C3%25B7%25B9%25C0%25CC%25B8%25AE%25BD%25BA%25C6%25AE%25C4%25BF%25B9%25F6.png",
                    "title" : "VIBE 최신곡 믹스"
                  },
                  {
-                   "thumbnail" : "tmp2.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20211116_11%2F1637035610817ae0yO_JPEG%2Fdeep.jpg",
                    "title" : "동에 번쩍 서에 번쩍 ENFP"
                  },
                  {
-                   "thumbnail" : "tmp3.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210826_8%2F1629968155820uPhbQ_PNG%2FVIBE_%25B0%25F8%25C5%25EB_%25BF%25F9%25B0%25A3%25BA%25F4%25BA%25B8%25B5%25E5KPop100.png",
                    "title" : "월간 빌보드 K-Pop #10월"
                  },
                  {
-                   "thumbnail" : "tmp4.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210910_151%2F1631258029920j2wQY_PNG%2Fci10awk_05%25C7%25C3%25B7%25B9%25C0%25CC%25B8%25AE%25BD%25BA%25C6%25AE%25C4%25BF%25B9%25F6.png",
                    "title" : "졸음 운전 금지"
                  },
                  {
-                   "thumbnail" : "tmp5.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210820_5%2F1629451557450BDP6F_PNG%2FVIBE_PP_Exciting.png",
                    "title" : "파티룸에서 흥겹게😎"
                  },
                  {
-                   "thumbnail" : "tmp6.png",
-                   "title" : "2020년 K-Pop 히트곡"
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20211125_211%2F16378004398870s4tS_JPEG%2Fdeep.jpg",
+                   "title" : "국내 댄스 레전드"
                  },
                  {
-                   "thumbnail" : "tmp7.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20211125_32%2F1637805276925AXAMn_JPEG%2Fdeep.jpg",
                    "title" : "2020년 국내 댄스 히트곡"
                  },
                  {
-                   "thumbnail" : "tmp8.png",
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210826_135%2F1629968110668ibkIg_PNG%2FVIBE_%25B0%25F8%25C5%25EB_%25BF%25F9%25B0%25A3%25BA%25F4%25BA%25B8%25B5%25E5KPop100.png",
                    "title" : "빌보드 케이팝 100 상반기"
                  },
                  {
-                   "thumbnail" : "tmp9.png",
-                   "title" : "차트 올킬 댄스"
+                   "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210825_204%2F1629883656603nB1vH_PNG%2FVIBE_%25C7%25C7%25C6%25AE%25B4%25CF%25BD%25BA_%25C7%25EF%25BD%25BA%25C0%25E5%25BF%25A1%25BC%25AD.png",
+                   "title" : "헬스장에서"
                  }
                ]
              }

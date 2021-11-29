@@ -20,7 +20,7 @@
             "type" : "ProfileComponent",
             "data" : {
               "title" : "프로필",
-              "photo" : "tmp.png",
+              "photo" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5369%2F2018%2F01%2F01%2F0000052142_001_20180101170255561.jpg&type=sc960_832",
               "contents" : [
                 {
                   "name" : "신체",
@@ -59,21 +59,21 @@
              "title" : "최근영상",
              "contents" : [
                {
-                 "thumbnail" : "tmp1.png",
+                 "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=https%3A%2F%2Fphinf.pstatic.net%2Ftvcast%2F20210928_147%2F0JRIi_1632838641218okCtM_JPEG%2F1632838509174.jpg",
                  "length" : "04:01",
                  "title" : "배우들도 놀란 '오징어 게임' 세트 이야기 (이정재.박해수.정호연.허성태.위하준)",
                  "website" : "네이버TV",
                  "date" : "2021.09.28"
                },
                {
-                 "thumbnail" : "tmp2.png",
+                 "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=http%3A%2F%2Fv.phinf.naver.net%2F20210924_88%2F1632457307801VxrAk_JPEG%2F1632456254496.jpg",
                  "length" : "01:28",
                  "title" : "[넷플릭스] 오징어 게임 | 하이라이트 | 사람들이 게임에 참가할 수밖에 없는 이유",
                  "website" : "VLIVE",
                  "date" : "2021.09.24"
                },
                {
-                 "thumbnail" : "tmp3.png",
+                 "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=http%3A%2F%2Fv.phinf.naver.net%2F20210924_32%2F1632457307371r2YwW_JPEG%2F1632456288992.jpg",
                  "length" : "01:30",
                  "title" : "[넷플릭스] 오징어 게임 | 하이라이트 | 사람이 죽자, 상금이 올라갔다",
                  "website" : "VLIVE",
@@ -96,13 +96,13 @@
                      "date" : "2021."
                    },
                    {
-                     "thumbnail" : "tmp1.png",
+                     "thumbnail" : "https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20201014_127%2F1602651162137fUW1W_JPEG%2Fmovie_image.jpg",
                      "title" : "다만 악에서 구하소서",
                      "role" : "주연 - 레이 역",
                      "date" : "2020.08.05"
                    },
                    {
-                     "thumbnail" : "tmp2.png",
+                     "thumbnail" : "https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20190122_192%2F1548121844125KdJDJ_JPEG%2Fmovie_image.jpg",
                      "title" : "어쩌다, 결혼",
                      "role" : "특별출연 - 변호사 역",
                      "date" : "2019.02.27."

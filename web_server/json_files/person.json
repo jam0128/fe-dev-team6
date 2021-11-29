@@ -328,75 +328,13 @@
          }
        },
        {
-         "type" : "VIEWComponent",
-         "data" : {
-           "title" : "VIEW",
-           "contents" : [
-             {
-               "thumbnail" : "tmp1.png",
-               "icon" : "icon1.png",
-               "writer" : "끄.적.끄.적.",
-               "influencer" : true,
-               "date" : "2020.08.21.",
-               "title" : "life is dynamite 방탄 다이너마이트 뮤비 가사 짤",
-               "body" : "< life is dynamite 방탄 다이너마이트 뮤비 가사 짤 > 드디어 공개된 방탄... like dynamite woah 펑크와 소울로 이 도시를 밝혀 빛으로 물들일 거야 다이너마이트처럼 JIN...",
-               "tags" : [
-                 "방탄다이너마이트",
-                 "lifeisdynamite",
-                 "dynamite"
-               ]
-             },
-             {
-               "thumbnail" : "tmp2.png",
-               "icon" : "icon2.png",
-               "writer" : "남나르",
-               "influencer" : false,
-               "date" : "2020.08.14.",
-               "title" : "[방탄소년단(BTS)] Dynamite at the Roller Staking Rink! (다이너마이트 롤러 스케이트 링크장 촬영)",
-               "body" : "bts #아미 #army #RM #SUGA #Jhope #V #JK #김남준 #김석진 #민윤기 #정호석 #박지민 #김태형 #전정국 #알엠 #진 #슈가 #제이홉 #지민 #뷔 #정국 #아포방포 #보라해 #다이너마이트 #dynamite",
-               "tags" : [
-                 "방탄소년단",
-                 "bts",
-                 "아미",
-                 "army",
-                 "RM",
-                 "SUGA",
-                 "Jhope",
-                 "V",
-                 "JK",
-                 "김남준"
-               ]
-             },
-             {
-               "thumbnail" : "tmp3.png",
-               "icon" : "icon3.png",
-               "writer" : "디제잉배우기플라시보",
-               "influencer" : true,
-               "date" : "2021.11.11.",
-               "title" : "[로드×칼리드×시저×포스트말론] Lorde - Homemade Dynamite Remix ft.Khalid,SZA,Post Malone 가사...",
-               "body" : "로드 Lorde의 Homemade Dynamite Remix 입니다! 2017년에 나온 곡이지만, 위켄드... Homemade Dynamite는 파티에서 상대를 찾는 내용의 곡이에요! 진짜 집에서 만든...",
-               "tags" : [
-                 "HomemadeDynamite",
-                 "HomemadeDynamite 가사",
-                 "HomemadeDynamite 해석",
-                 "HomemadeDynamiteRemix",
-                 "HomemadeDynamiteRemix 가사",
-                 "HomemadeDynamiteRemix 해석",
-                 "홈메이드다이너마이트",
-                 "다이너마이트"
-               ]
-             }
-           ]
-         }
-       },
-       {
          "type" : "NewsComponent",
          "data" : {
            "title" : "뉴스",
            "contents" : [
              {
-               "thumbnail" : "tmp1.png",
-               "icon" : "icon1.png",
+               "thumbnail" : "http://www.job-post.co.kr/news/photo/202111/41466_40544_4956.jpg",
+               "icon" : "https://mimgnews.pstatic.net/image/upload/office_logo/028/2017/12/21/logo_028_41_20171221160121.jpg?type=u144_144",
                "writer" : "한겨레",
                "date" : "2021.11.15.12:44",
                "website" : "네이버뉴스",
@@ -425,8 +363,8 @@
                ]
              },
              {
-               "thumbnail" : "tmp2.png",
-               "icon" : "icon2.png",
+               "thumbnail" : "https://imgnews.pstatic.net/image/011/2021/11/14/0003984984_001_20211114152901930.jpg?type=w430",
+               "icon" : "https://imgnews.pstatic.net/image/upload/spubs/alG0000011/logo/2020/12/02/A_142054727.jpg?type=u144_144",
                "writer" : "서울경제",
                "date" : "2021.11.14.11:44",
                "website" : "네이버뉴스",
@@ -435,8 +373,8 @@
                "related" : 21
              },
              {
-               "thumbnail" : "tmp3.png",
-               "icon" : "icon3.png",
+               "thumbnail" : "https://imgnews.pstatic.net/image/312/2021/11/15/0000511420_001_20211115001801554.jpg?type=w430",
+               "icon" : "https://imgnews.pstatic.net/image/upload/spubs/CWG0000312/logo/2021/10/06/A_171447821.png?type=u144_144",
                "writer" : "텐아시아",
                "date" : "2021.11.14.01:44",
                "website" : "네이버뉴스",

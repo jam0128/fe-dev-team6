@@ -82,7 +82,7 @@ function CardsComponent(props) {
         for (let i = 0; i < cards.length; i++) {
             result.push(constCard(cards[i]));
         }
-        return <Card.Group itemsPerRow="3">{result}</Card.Group>;
+        return <Card.Group style={{width:"max-content"}}>{result}</Card.Group>;
     }
 
     return (

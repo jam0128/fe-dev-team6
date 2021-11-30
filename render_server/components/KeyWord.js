@@ -107,7 +107,8 @@ function KeyWordComponent(props) {
                 backgroundColor: "#fff",
                 padding: "15px 10px",
                 borderRadius: "10px",
-                boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)"
+                boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)",
+                overflow: "hidden"
             }}>{tmp}</Container></Item>)
         }
         return result;

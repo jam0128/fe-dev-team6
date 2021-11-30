@@ -21,6 +21,7 @@ app.get('/', function(req, res) {
   } else {
     fileName = __dirname + '/json_files/person.json'
   }
+    // fileName = __dirname + '/json_files/music.json'
   console.log(fileName)
   const jsonFile = fs.readFileSync(fileName, 'utf8');
   const jsonData = JSON.parse(jsonFile);

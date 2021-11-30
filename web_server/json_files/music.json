@@ -21,11 +21,33 @@
          "components" : [
            {
              "type" : "MusicInformationComponent",
-             "data" : "..."
-           },
+             "data" : {
+              "title" : "곡정보",
+              "photo" : "tmp.png",
+              "contents" : [
+                {
+                  "name" : "가사",
+                  "content" :"Cos ah ah I'm in the stars tonight\n So watch me bring the fire\n  and set the night alight"
+                }
+              ]
+            }
+          },
            {
              "type" : "AlbumComponent",
-             "data" : "..."
+             "data" : {
+               "title" : "같은 앨범 수록곡",
+               "contents" : [
+                 {
+                   "name" : "Dynamite"
+                 },
+                 {
+                   "name" : "Dynamite (Instrumental)"
+                 }, 
+                 {
+                   "name" : "Dynamite (Acoustic Remix)"
+                 }
+               ]
+             }
            },
            {
              "type" : "RelationPlaylistComponent",
@@ -55,18 +77,6 @@
                  {
                    "thumbnail" : "tmp6.png",
                    "title" : "2020년 K-Pop 히트곡"
-                 },
-                 {
-                   "thumbnail" : "tmp7.png",
-                   "title" : "2020년 국내 댄스 히트곡"
-                 },
-                 {
-                   "thumbnail" : "tmp8.png",
-                   "title" : "빌보드 케이팝 100 상반기"
-                 },
-                 {
-                   "thumbnail" : "tmp9.png",
-                   "title" : "차트 올킬 댄스"
                  }
                ]
              }

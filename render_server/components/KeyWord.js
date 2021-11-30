@@ -2,6 +2,8 @@ import React from "react";
 import CardsComponent from "./Cards";
 import WorksComponent from "./Works";
 import ProfileComponent from "./Profile";
+import MusicInformationComponent from "./MusicInformation";
+import AlbumsComponent from "./Albums";
 import '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container, Item, Grid, Header } from 'semantic-ui-react';
@@ -99,6 +101,14 @@ function KeyWordComponent(props) {
                 case "ProfileComponent" :
                     tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<ProfileComponent info={compos[i]['data']}/>);
+                    break;
+                case "MusicInformationComponent" :
+                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<MusicInformationComponent info={compos[i]['data']}/>);
+                    break;
+                case "AlbumComponent" :
+                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<AlbumsComponent info={compos[i]['data']}/>);
                     break;
                 default :
                     tmp.push(compos[i]['type']);

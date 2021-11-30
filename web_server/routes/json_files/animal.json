@@ -18,7 +18,21 @@
          "components" : [
            {
              "type" : "BasicInfoComponent",
-             "data" : "..."
+             "data" : {
+               "photo" : [
+                  "https://search.pstatic.net/common?type=f&size=476x473.6&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210722_241%2F1626949212669ih9J4_JPEG%2F63084821814135149_1699451494.jpeg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200401_12%2F1585730100281Sa5Vj_JPEG%2F21865709587741555_647870209.jpg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200107_57%2F1578366152115rJyIm_JPEG%2F14501761160842576_62712006.jpeg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210110_224%2F1610262906543iYaiJ_JPEG%2F46398515690451726_622079393.jpeg",
+                  "https://search.pstatic.net/common?type=f&size=238x234&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210110_122%2F1610234036128HMFyn_JPEG%2F46369644538410444_1768298021.jpg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20201227_280%2F1609068536458M5qWj_JPEG%2F45204144294873432_1454722539.jpg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200103_144%2F15779806918860P8xK_JPEG%2F14116289839450821_1927358293.jpeg",
+                  "https://search.pstatic.net/common?type=f&size=238x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20180330_171%2Fqsooji_1522380919434vPdvN_PNG%2F56418185786181321_63714044.png",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200514_296%2F1589383522415fQAKv_JPEG%2F25519140244964356_836593714.jpg"
+               ],
+               "title" : "기본정보",
+               "contents" : "성격이 독특하면서도 영리하고 애정이 깊다. 감수성도 예민해 공격적이거나 신경질적인 반응을 보이기도 하고, 자기 과시욕을 드러내면서 언제나 주인의 관심을 끌려고 하기 때문에 안아주거나 쓰다듬어 주는 것을 좋아한다."
+             }
            },
            {
              "type" : "AlsoSearchComponent",

@@ -225,108 +225,11 @@
                }
              ]
            }
-         },
-         {
-           "type" : "AlsoSearchComponent",
-           "data" : {
-             "title" : "함께 찾은 품종",
-             "contents" : [
-               {
-                 "thumbnail" : "cat1.png",
-                 "title" : "페르시안"
-               },
-               {
-                 "thumbnail" : "cat1.png",
-                 "title" : "터키시앙고라 "
-               },
-               {
-                 "thumbnail" : "cat1.png",
-                 "title" : "코리안쇼트헤어 "
-               },
-               {
-                 "thumbnail" : "cat1.png",
-                 "title" : "아비시니안 "
-               },
-               {
-                 "thumbnail" : "cat1.png",
-                 "title" : "아메리칸쇼트헤어 "
-               },
-               {
-                 "thumbnail" : "cat1.png",
-                 "title" : "스핑크스 "
-               },
-               {
-                 "thumbnail" : "cat1.png",
-                 "title" : "스코티시폴드 "
-               },
-               {
-                 "thumbnail" : "cat1.png",
-                 "title" : "브리티시쇼트헤 "
-               },
-               {
-                 "thumbnail" : "cat1.png",
-                 "title" : "뱅갈 "
-               }
-             ]  
-           }
          }
        ]
      }
    },
      "compo2" : [
-       {
-         "type" : "InfluencerComponent",
-         "data" : {
-           "title" : "인플루언서",
-           "contents" : [
-             {
-               "thumbnail" : "tmp1.png",
-               "writer" : "유언님",
-               "button" : "팬하기",
-               "photo" : [
-                 "cat1.png",
-                 "cat2.png",
-                 "cat3.png",
-                 "cat4.png"
-               ],
-               "title" : "태국 왕실묘 출신 샴 고양이 성격이 말썽쟁이 품종이라고?",
-               "body" : "이번에 소개하는 고양이 품종은 태국 왕실묘 출신의 샴 고양이로 성격과 함께 신비로운 외모에 대해서 알아보도록 하겠습니다. 실제로 샴 고양이는 신비롭고 이쁜 포인트 컬러의 외모가 특징이라 매우 귀여우면서도...",
-               "date" : "2021.10.10.",
-               "related" : 3
-             },
-             {
-               "thumbnail" : "tmp2.png",
-               "writer" : "독티처",
-               "button" : "팬하기",
-               "photo" : [
-                 "cat1.png",
-                 "cat2.png",
-                 "cat3.png",
-                 "cat4.png"
-               ],
-               "title" : "묘종 샴고양이 성격 수명 털빠짐 총정리!",
-               "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 알아볼건데요 기품이 넘치고 가장 고양이 답다고 해서 고양이 왕이라고도 불려지는데요 자연발생한 이 고양이는 페르시안과 쌍벽을 이루는 대표적인인 묘종중...",
-               "date" : "2021.10.21.",
-               "related" : 4
-             },
-             {
-               "thumbnail" : "tmp3.png",
-               "writer" : "고쌤",
-               "button" : "팬하기",
-               "photo" : [
-                 "cat1.png",
-                 "cat2.png",
-                 "cat3.png",
-                 "cat4.png"
-               ],
-               "title" : "샴 고양이 반려묘 종류 성격 수명 털빠짐은?",
-               "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 설명드릴게요 이 종은 태국이 원산이며 오리엔탈 바디타입으로 사진에 나와 있는 것처럼 다리와 목이 길며 마른 몸매를 가지고 있으면서 역삼각형 얼굴을 가지...",
-               "date" : "2021.10.01.",
-               "related" : 1
-             }
-           ]
-         }
-       },
        {
          "type" : "NewsComponent",
          "data" : {

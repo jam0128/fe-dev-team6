@@ -20,14 +20,35 @@
          ],
          "components" : [
            {
+             "type" : "MusicVedioComponent",
+             "data" : {
+                "title" : "영상",
+                "photo" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MThfNDkg%2FMDAxNjMxOTEwOTY1MDk1.8G2on_nL1lMvQhhUvNCPbWoTUkAPBw4pFHpklP1W3Fkg.qN5p5YlfSwcTe95vwagbX5UCQW8IR7slDm_ZUDxCdrwg.JPEG.melisy_yoongi%2FIMG_20210917_153228.jpg&type=a340",
+                "contents" : [
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MThfNDkg%2FMDAxNjMxOTEwOTY1MDk1.8G2on_nL1lMvQhhUvNCPbWoTUkAPBw4pFHpklP1W3Fkg.qN5p5YlfSwcTe95vwagbX5UCQW8IR7slDm_ZUDxCdrwg.JPEG.melisy_yoongi%2FIMG_20210917_153228.jpg&type=a340",
+                    "length" : "04:01"
+                  }
+                ]
+             }
+           },
+           {
              "type" : "MusicInformationComponent",
              "data" : {
               "title" : "곡정보",
-              "photo" : "tmp.png",
+              "photo" : "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2F9e%2Fd6%2Ff7%2F9ed6f7c99cfb8ac887acda6d0974496b.jpg&type=a340",
               "contents" : [
                 {
                   "name" : "가사",
-                  "content" :"Cos ah ah I'm in the stars tonight\n So watch me bring the fire\n  and set the night alight"
+                  "content" :"Cos ah ah I'm in the stars tonight"
+                },
+                {
+                  "name" : "가사",
+                  "content" :"So watch me bring the fire"
+                },
+                {
+                  "name" : "가사",
+                  "content" :"and set the night alight"
                 }
               ]
             }

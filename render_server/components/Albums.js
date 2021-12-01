@@ -14,24 +14,29 @@ function AlbumsComponent(props) {
         const tmp = [];
 
         const nameStyle = {
-            paddingLeft: "5px",
-            color: "#8f8f8f"
+            paddingLeft: "10px",
+            // paddingRight: "15px",
+            color: "#424242",
+            font: "bold",
+            paddingBottom: "15px"
         };
 
         const contentStyle = {
             color: "#424242",
+            paddingBottom: "15px",
+            paddingLeft: "-10px",
         };
 
-        for (let i = 0; i < profile.contents.length; i++) {
+        for (let i = 0; i < album.contents.length; i++) {
             tmp.push(<tr>
-                <td style={nameStyle}>{i}</td>
+                <td style={nameStyle}>{i+1}</td>
                 <td style={contentStyle}>{album.contents[i].name}</td>
             </tr>);
         }
 
         result.push(<Card.Description>
             <Image floated="right" src={album.photo} wrapped ui={false} style={{height: "108px", borderRadius: "6px"}}/>
-            <table style={{borderLeft: "3px solid rgb(235, 231, 228)", marginLeft: "5px", marginBottom: "5px"}}>{tmp}</table>
+            <table style={{width: "100%", borderBottom: "2px solid rgb(219, 219, 219)", marginLeft: "5px", marginRight: "5px", marginBottom: "5px"}}>{tmp}</table>
         </Card.Description>);
 
         return (<Card fluid style={{

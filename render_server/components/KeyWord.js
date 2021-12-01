@@ -4,6 +4,7 @@ import WorksComponent from "./Works";
 import ProfileComponent from "./Profile";
 import MusicInformationComponent from "./MusicInformation";
 import AlbumsComponent from "./Albums";
+import MusicVedioComponent from "./MusicVedio";
 import '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container, Item, Grid, Header } from 'semantic-ui-react';
@@ -97,6 +98,9 @@ function KeyWordComponent(props) {
                     break;
                 case "WorksComponent" :
                     tmp.push(<WorksComponent info={compos[i]['data']}/>);
+                    break;
+                case "MusicVedioComponent" :
+                    tmp.push(<MusicVedioComponent info={compos[i]['data']}/>);
                     break;
                 case "ProfileComponent" :
                     tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);

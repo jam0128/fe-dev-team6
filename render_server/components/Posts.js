@@ -80,7 +80,7 @@ function PostsComponent(props) {
 
         result.push(extra);
 
-        return <Card key={props.form + pNum} style={{
+        return <Card href={post.link} key={props.form + pNum} style={{
             borderShadow: "none",
             WebkitBoxShadow: "none",
             margin: "0px",
@@ -93,7 +93,7 @@ function PostsComponent(props) {
     const constPosts = (cards) => {
         const result = [];
         for (let i = 0; i < cards.length; i++) {
-            result.push(constPost(cards[i]), i);
+            result.push(constPost(cards[i], i));
         }
         return <Card.Group itemsPerRow="1">{result}</Card.Group>;
     }

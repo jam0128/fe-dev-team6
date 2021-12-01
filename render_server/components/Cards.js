@@ -86,7 +86,7 @@ function CardsComponent(props) {
 
         result.push(<Card.Content key={props.form + 'content' + cNum} style={{padding:editPadding(props.padding)}}>{content}</Card.Content>)
 
-        return <Card key={props.form+'card'+cNum} style={{
+        return <Card href={card.link} key={props.form+'card'+cNum} style={{
             width: props.width,
         }}>{result}</Card>;
     }

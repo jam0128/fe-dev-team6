@@ -1,10 +1,6 @@
 import express from "express";
 import React from "react";
 import ReactDOMServer from "react-dom/server";
-import TestComponent from "../components/TestComponent";
-import Header from "../components/Header";
-import KeyWordComponent from "../components/KeyWord";
-import OtherComponent from "../components/OtherComponents";
 import App from "../components/App";
 
 var router = express.Router();

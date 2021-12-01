@@ -20,9 +20,9 @@ function ImageComponent(props) {
         for (let i = 0; i < 3; i++) {
             const tmp = [];
             for (let j = 0; j < 3; j++) {
-                tmp.push(<Grid.Column style={imgStyle}>{constImg(imgs[i * 3 + j])}</Grid.Column>);
+                tmp.push(<Grid.Column key={'ImgRow' + i + 'Col' + j} style={imgStyle}>{constImg(imgs[i * 3 + j])}</Grid.Column>);
             }
-            result.push(<Grid.Row style={{paddingTop:"0px", paddingBottom:"0px"}}>{tmp}</Grid.Row>);
+            result.push(<Grid.Row key={'ImgRow' + i} style={{paddingTop:"0px", paddingBottom:"0px"}}>{tmp}</Grid.Row>);
         }
         return <Grid columns='three' style={{paddingLeft:"1rem", paddingRight:"1rem"}}>{result}</Grid>;
     }

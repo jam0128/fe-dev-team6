@@ -15,7 +15,7 @@ function KeyWordComponent(props) {
 
         const result = [];
         for (let i = 0; i < tabs.length; i++) {
-            result.push(<Grid.Column style={{
+            result.push(<Grid.Column key={'keywordcate' + i} style={{
                 width:"max-content", 
                 color: "rgb(145, 120, 103)",
                 marginTop: "10px",
@@ -40,7 +40,7 @@ function KeyWordComponent(props) {
 
         for (let i = 0; i < tabs.length; i++) {
             if (i === 0) {
-                result.push(<Grid.Column style={{
+                result.push(<Grid.Column key={'keywordtab' + i} style={{
                     ...tabStyle,
                     borderRadius: "5px",
                     backgroundColor: "rgb(145, 120, 103)", 
@@ -48,7 +48,7 @@ function KeyWordComponent(props) {
                     fontWeight: "900"
                 }}>{tabs[i]}</Grid.Column>);
             } else {
-                result.push(<Grid.Column style={{
+                result.push(<Grid.Column key={'keywordtab' + i} style={{
                     ...tabStyle,
                     color: "rgb(145, 120, 103)"
                 }}>{tabs[i]}</Grid.Column>);
@@ -64,7 +64,7 @@ function KeyWordComponent(props) {
             const tmp = [];
             switch (compos[i]['type']) {
                 case "RelationPlaylistComponent" :
-                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<CardsComponent 
                         info={compos[i]['data']} 
                         form="basic" 
@@ -74,7 +74,7 @@ function KeyWordComponent(props) {
                     />);
                     break;
                 case "AlsoSearchComponent" :
-                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<CardsComponent 
                         info={compos[i]['data']} 
                         form="basic" 
@@ -84,7 +84,7 @@ function KeyWordComponent(props) {
                     />);
                     break;
                 case "RecentVideosComponent" :
-                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<CardsComponent 
                         info={compos[i]['data']} 
                         form="videos" 
@@ -98,7 +98,7 @@ function KeyWordComponent(props) {
                     tmp.push(<WorksComponent info={compos[i]['data']}/>);
                     break;
                 case "ProfileComponent" :
-                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<ProfileComponent info={compos[i]['data']}/>);
                     break;
                 case "BasicInfoComponent" :
@@ -107,7 +107,7 @@ function KeyWordComponent(props) {
                 default :
                     tmp.push(compos[i]['type']);
             }
-            result.push(<Item><Container style={{
+            result.push(<Item key={"itemother" + i}><Container style={{
                 backgroundColor: "#fff",
                 padding: "13px 10px 15px 10px",
                 borderRadius: "10px",
@@ -126,7 +126,7 @@ function KeyWordComponent(props) {
             padding: "20px 10px 20px 10px"
         }}>
             <Item.Group>
-                <Item>
+                <Item key="itemkeyword">
                     <Item.Content>
                         <Item.Header style={{fontWeight:"900"}}>{props.info.title}</Item.Header>
                         <Item.Meta style={{color:"rgb(217, 208, 202)"}}>{constCate(props.info.category)}</Item.Meta>

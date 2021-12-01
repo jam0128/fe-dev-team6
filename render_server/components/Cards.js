@@ -1,11 +1,24 @@
-import React from "react";
+import React, {useState} from "react";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Card, Image, Grid } from 'semantic-ui-react';
+import { Container, Card, Image, Grid, Button } from 'semantic-ui-react';
 
 
 
 function CardsComponent(props) {
+
+    const [page, setPage] = useState(1)
+    const maxPage = props.info.contents.length;
+    const incPage = () => {
+        if (page < maxPage) {
+            setPage((prev) => prev + 1);
+        }
+    }
+    const decPage = () => {
+        if (page > 1) {
+            setPage((prev) => prev - 1);
+        }
+    }
 
     const editTitle = (title) => {
         let result = title;
@@ -81,14 +94,23 @@ function CardsComponent(props) {
 
     const constCards = (cards) => {
         const result = [];
-        for (let i = 0; i < cards.length; i++) {
+        for (let i = page-1; i < cards.length; i++) {
             result.push(constCard(cards[i]));
         }
         return <Card.Group style={{width:"max-content"}}>{result}</Card.Group>;
     }
 
+    const btnStyle = {
+        position : "absolute",
+        backgroundColor: "rgba(0,0,0,0)",
+        marginTop : "50px",
+        zIndex : "3"
+    }
+
     return (
         <Container>
+            <Button icon='left chevron' onClick={decPage} style={btnStyle}/>
+            <Button icon='right chevron' onClick={incPage} style={{...btnStyle, marginLeft: "100px"}}/>
             {constCards(props.info.contents)}
         </Container>
     

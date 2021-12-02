@@ -15,7 +15,7 @@ function KeyWordComponent(props) {
 
         const result = [];
         for (let i = 0; i < tabs.length; i++) {
-            result.push(<Grid.Column style={{
+            result.push(<Grid.Column key={'keywordcate' + i} style={{
                 width:"max-content", 
                 color: "rgb(145, 120, 103)",
                 marginTop: "10px",
@@ -40,7 +40,7 @@ function KeyWordComponent(props) {
 
         for (let i = 0; i < tabs.length; i++) {
             if (i === 0) {
-                result.push(<Grid.Column style={{
+                result.push(<Grid.Column key={'keywordtab' + i} style={{
                     ...tabStyle,
                     borderRadius: "5px",
                     backgroundColor: "rgb(145, 120, 103)", 
@@ -48,7 +48,7 @@ function KeyWordComponent(props) {
                     fontWeight: "900"
                 }}>{tabs[i]}</Grid.Column>);
             } else {
-                result.push(<Grid.Column style={{
+                result.push(<Grid.Column key={'keywordtab' + i} style={{
                     ...tabStyle,
                     color: "rgb(145, 120, 103)"
                 }}>{tabs[i]}</Grid.Column>);
@@ -60,11 +60,18 @@ function KeyWordComponent(props) {
 
     const constCompos = (compos) => {
         const result = [];
+        const cards = ["RelationPlaylistComponent", "AlsoSearchComponent", "RecentVideosComponent", "WorksComponent"];
+        const compoStyle = {
+            backgroundColor: "#fff",
+            padding: "13px 10px 15px 10px",
+            borderRadius: "10px",
+            boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)"
+        };
         for (let i = 0; i < compos.length; i++) {
             const tmp = [];
             switch (compos[i]['type']) {
                 case "RelationPlaylistComponent" :
-                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<CardsComponent 
                         info={compos[i]['data']} 
                         form="basic" 
@@ -74,7 +81,7 @@ function KeyWordComponent(props) {
                     />);
                     break;
                 case "AlsoSearchComponent" :
-                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<CardsComponent 
                         info={compos[i]['data']} 
                         form="basic" 
@@ -84,7 +91,7 @@ function KeyWordComponent(props) {
                     />);
                     break;
                 case "RecentVideosComponent" :
-                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<CardsComponent 
                         info={compos[i]['data']} 
                         form="videos" 
@@ -98,7 +105,7 @@ function KeyWordComponent(props) {
                     tmp.push(<WorksComponent info={compos[i]['data']}/>);
                     break;
                 case "ProfileComponent" :
-                    tmp.push(<Header as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<ProfileComponent info={compos[i]['data']}/>);
                     break;
                 case "BasicInfoComponent" :
@@ -107,13 +114,17 @@ function KeyWordComponent(props) {
                 default :
                     tmp.push(compos[i]['type']);
             }
-            result.push(<Item><Container style={{
-                backgroundColor: "#fff",
-                padding: "13px 10px 15px 10px",
-                borderRadius: "10px",
-                boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)",
-                overflow: "hidden"
-            }}>{tmp}</Container></Item>)
+            if (cards.indexOf(compos[i]['type']) === -1) {
+                result.push(<Item key={"itemother" + i}><Container style={{
+                    ...compoStyle,
+                    overflow: "hidden"
+                }}>{tmp}</Container></Item>);
+            } else {
+                result.push(<Item key={"itemother" + i}><Container style={{
+                    ...compoStyle,
+                    overflowX: "scroll"
+                }}>{tmp}</Container></Item>);
+            }
         }
         return result;
     }
@@ -126,7 +137,7 @@ function KeyWordComponent(props) {
             padding: "20px 10px 20px 10px"
         }}>
             <Item.Group>
-                <Item>
+                <Item key="itemkeyword">
                     <Item.Content>
                         <Item.Header style={{fontWeight:"900"}}>{props.info.title}</Item.Header>
                         <Item.Meta style={{color:"rgb(217, 208, 202)"}}>{constCate(props.info.category)}</Item.Meta>

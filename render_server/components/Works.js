@@ -7,10 +7,10 @@ import { Container, Tab } from 'semantic-ui-react';
 
 function WorksComponent(props) {
 
-    const panes = (info) => {
+    const constPanes = (info) => {
         const result = [];
         for (let i = 0; i < info.length; i++) {
-            const tmp = { menuItem : info[i]["title"], render : () => <Tab.Pane attached={false}><CardsComponent info={info[i]} form="works" titleLength={10} width="105px" imgHeight="148px"/></Tab.Pane>};
+            const tmp = { menuItem : info[i]["title"], render : () => <Tab.Pane><CardsComponent info={info[i]} form="works" titleLength={10} width="105px" imgHeight="148px"/></Tab.Pane>};
             result.push(tmp);
         }
         return result;
@@ -20,7 +20,7 @@ function WorksComponent(props) {
         <Container style={{
             fontWeight:"700"
         }}>
-            <Tab menu={{ text: true }} panes={panes(props.info.tabs)}/>
+            <Tab menu={{ text: true }} panes={constPanes(props.info.tabs)}/>
         </Container> 
     )
 }

@@ -59,6 +59,7 @@
              "title" : "최근영상",
              "contents" : [
                {
+                 "link" : "https://tv.naver.com/v/22669355",
                  "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=https%3A%2F%2Fphinf.pstatic.net%2Ftvcast%2F20210928_147%2F0JRIi_1632838641218okCtM_JPEG%2F1632838509174.jpg",
                  "length" : "04:01",
                  "title" : "배우들도 놀란 '오징어 게임' 세트 이야기 (이정재.박해수.정호연.허성태.위하준)",
@@ -66,6 +67,7 @@
                  "date" : "2021.09.28"
                },
                {
+                 "link" : "https://m.vlive.tv/video/263865",
                  "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=http%3A%2F%2Fv.phinf.naver.net%2F20210924_88%2F1632457307801VxrAk_JPEG%2F1632456254496.jpg",
                  "length" : "01:28",
                  "title" : "[넷플릭스] 오징어 게임 | 하이라이트 | 사람들이 게임에 참가할 수밖에 없는 이유",
@@ -73,6 +75,7 @@
                  "date" : "2021.09.24"
                },
                {
+                 "link" : "https://m.vlive.tv/video/263864",
                  "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=http%3A%2F%2Fv.phinf.naver.net%2F20210924_32%2F1632457307371r2YwW_JPEG%2F1632456288992.jpg",
                  "length" : "01:30",
                  "title" : "[넷플릭스] 오징어 게임 | 하이라이트 | 사람이 죽자, 상금이 올라갔다",
@@ -90,18 +93,21 @@
                  "title" : "영화",
                  "contents" : [
                    {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bkEw&pkid=68&os=14385025&qvt=0&query=%ED%97%8C%ED%8A%B8",
                      "thumbnail" : "none.png",
                      "title" : "헌트(가제)",
                      "role" : "감독, 주연 - 박평호 역",
                      "date" : "2021."
                    },
                    {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bkEw&pkid=68&os=16140282&qvt=0&query=%EB%8B%A4%EB%A7%8C%20%EC%95%85%EC%97%90%EC%84%9C%20%EA%B5%AC%ED%95%98%EC%86%8C%EC%84%9C%20%ED%8C%8C%EC%9D%B4%EB%84%90%EC%BB%B7",
                      "thumbnail" : "https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20201014_127%2F1602651162137fUW1W_JPEG%2Fmovie_image.jpg",
                      "title" : "다만 악에서 구하소서",
                      "role" : "주연 - 레이 역",
                      "date" : "2020.08.05"
                    },
                    {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bkEw&pkid=68&os=10222227&qvt=0&query=%EB%8B%A4%EB%A7%8C%20%EC%95%85%EC%97%90%EC%84%9C%20%EA%B5%AC%ED%95%98%EC%86%8C%EC%84%9C",
                      "thumbnail" : "https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20190122_192%2F1548121844125KdJDJ_JPEG%2Fmovie_image.jpg",
                      "title" : "어쩌다, 결혼",
                      "role" : "특별출연 - 변호사 역",
@@ -113,18 +119,21 @@
                  "title" : "방송",
                  "contents" : [
                    {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=blFB&pkid=356&os=17987445&qvt=0&query=%EC%98%A4%EC%A7%95%EC%96%B4%EA%B2%8C%EC%9E%84",
                      "thumbnail" : "https://search.pstatic.net/common?type=f&size=210x296&quality=75&direct=true&src=https%3A%2F%2Fcsearch-phinf.pstatic.net%2F20210823_190%2F1629680738288PYDqN_JPEG%2F0c855920505f30387b13698eff52457c.jpg",
                      "title" : "오징어 게임",
                      "role" : "기훈",
                      "date" : "2021.09.17."
                    },
                    {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjkw&pkid=57&os=9953997&qvt=0&query=%EB%B3%B4%EC%A2%8C%EA%B4%802%EC%84%B8%EC%83%81%EC%9D%84%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94%EC%82%AC%EB%9E%8C%EB%93%A4",
                      "thumbnail" : "https://search.pstatic.net/common?type=f&size=210x296&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F57%2F95%2F39%2F97%2F57_9953997_poster_image_1572336080742.jpg",
                      "title" : "보좌관 2 - 세상을 움직이는 사람들",
                      "role" : "장태준 주연",
                      "date" : "2019.11.11.~2019.12.10."
                    },
                    {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjkw&pkid=57&os=9479157&qvt=0&query=%EB%B3%B4%EC%A2%8C%EA%B4%801%EC%84%B8%EC%83%81%EC%9D%84%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94%EC%82%AC%EB%9E%8C%EB%93%A4",
                      "thumbnail" : "https://search.pstatic.net/common?type=f&size=210x296&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F57%2F47%2F91%2F57%2F57_9479157_poster_image_1558659939300.jpg",
                      "title" : "보좌관 - 세상을 움직이는 사람들",
                      "role" : "장태준 주연",
@@ -136,92 +145,27 @@
                  "title" : "곡",
                  "contents" : [
                    {
+                     "link" : "https://vibe.naver.com/track/530444",
                      "thumbnail" : "https://search.pstatic.net/common?type=o&size=158x158&quality=75&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F000%2F035%2F35935.jpg%3Ftype%3Dr204Fll%26v%3D20130708125326",
                      "title" : "세종의 편지",
                      "album" : "태풍 OST",
                      "date" : "2005.12.15"
                    },
                    {
+                    "link" : "https://vibe.naver.com/track/340714",
                      "thumbnail" : "https://search.pstatic.net/common?type=o&size=158x158&quality=75&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F000%2F023%2F23022.jpg%3Ftype%3Dr204Fll%26v%3D20210904010040",
                      "title" : "천생연분",
                      "album" : "앨범명오! 브라더스 O.S.T",
                      "date" : "2003.08.27"
                    },
                    {
+                    "link" : "https://vibe.naver.com/track/326561",
                      "thumbnail" : "https://search.pstatic.net/common?type=o&size=158x158&quality=75&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F000%2F022%2F22175.jpg%3Ftype%3Dr204Fll%26v%3D20210531022019",
                      "title" : "어디선가 본 듯한...",
                      "album" : "순애보 (純愛譜: Asako In Ruby Shoes) OST",
                      "date" : "2000.12.19"
                    }
                  ]
-               }
-             ]
-           }
-         },
-         {
-           "type" : "RelationArtistComponent",
-           "data" : {
-             "title" : "비슷한 아티스트",
-             "contents" : [
-               {
-                 "thumbnail" : "tmp1.png",
-                 "title" : "펜타곤"
-               },
-               {
-                 "thumbnail" : "tmp2.png",
-                 "title" : "Wanna One(워너원)"
-               },
-               {
-                 "thumbnail" : "tmp3.png",
-                 "title" : "세븐틴"
-               },
-               {
-                 "thumbnail" : "tmp4.png",
-                 "title" : "PRODUCE 101"
-               },
-               {
-                 "thumbnail" : "tmp5.png",
-                 "title" : "블락비(Block B)"
-               },
-               {
-                 "thumbnail" : "tmp6.png",
-                 "title" : "WINNER"
-               },
-               {
-                 "thumbnail" : "tmp7.png",
-                 "title" : "인피니트"
-               },
-               {
-                 "thumbnail" : "tmp8.png",
-                 "title" : "EXO-K"
-               },
-               {
-                 "thumbnail" : "tmp9.png",
-                 "title" : "EXO"
-               },
-               {
-                 "thumbnail" : "tmp10.png",
-                 "title" : "블락비 바스타즈"
-               },
-               {
-                 "thumbnail" : "tmp11.png",
-                 "title" : "투모로우바이투게더"
-               },
-               {
-                 "thumbnail" : "tmp12.png",
-                 "title" : "iKON"
-               },
-               {
-                 "thumbnail" : "tmp13.png",
-                 "title" : "Steve Aoki"
-               },
-               {
-                 "thumbnail" : "tmp14.png",
-                 "title" : "Justin Bieber"
-               },
-               {
-                 "thumbnail" : "tmp15.png",
-                 "title" : "Lil Nas X"
                }
              ]
            }
@@ -236,6 +180,7 @@
            "title" : "뉴스",
            "contents" : [
              {
+               "link" : "http://www.job-post.co.kr/news/articleView.html?idxno=41466",
                "thumbnail" : "http://www.job-post.co.kr/news/photo/202111/41466_40544_4956.jpg",
                "icon" : "https://mimgnews.pstatic.net/image/upload/office_logo/028/2017/12/21/logo_028_41_20171221160121.jpg?type=u144_144",
                "writer" : "한겨레",
@@ -266,6 +211,7 @@
                ]
              },
              {
+               "link" : "https://n.news.naver.com/article/011/0003984984",
                "thumbnail" : "https://imgnews.pstatic.net/image/011/2021/11/14/0003984984_001_20211114152901930.jpg?type=w430",
                "icon" : "https://imgnews.pstatic.net/image/upload/spubs/alG0000011/logo/2020/12/02/A_142054727.jpg?type=u144_144",
                "writer" : "서울경제",
@@ -276,6 +222,7 @@
                "related" : 21
              },
              {
+               "link" : "https://n.news.naver.com/entertain/article/312/0000511420",
                "thumbnail" : "https://imgnews.pstatic.net/image/312/2021/11/15/0000511420_001_20211115001801554.jpg?type=w430",
                "icon" : "https://imgnews.pstatic.net/image/upload/spubs/CWG0000312/logo/2021/10/06/A_171447821.png?type=u144_144",
                "writer" : "텐아시아",

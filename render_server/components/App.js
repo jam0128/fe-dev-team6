@@ -8,7 +8,7 @@ function App(props) {
     const constOthers = (compos) => {
         const result = [];
         for (let i = 0; i < compos.length; i++) {
-            result.push(<OtherComponent info={compos[i]}/>);
+            result.push(<OtherComponent key={'other' + i} info={compos[i]}/>);
         }
         return result;
     }

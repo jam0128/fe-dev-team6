@@ -33,38 +33,47 @@
                "title" : "관련 플레이리스트",
                "contents" : [
                  {
+                   "link" : "https://vibe.naver.com/playlist/now_newmusic_0001",
                    "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210830_185%2F1630289875941yVYLO_PNG%2FVIBE%25C3%25D6%25BD%25C5%25B0%25EE%25B9%25CD%25BD%25BA_05%25C7%25C3%25B7%25B9%25C0%25CC%25B8%25AE%25BD%25BA%25C6%25AE%25C4%25BF%25B9%25F6.png",
                    "title" : "VIBE 최신곡 믹스"
                  },
                  {
+                   "link" : "https://vibe.naver.com/playlist/cc_mbti_ENFP",
                    "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20211116_11%2F1637035610817ae0yO_JPEG%2Fdeep.jpg",
                    "title" : "동에 번쩍 서에 번쩍 ENFP"
                  },
                  {
+                   "link" : "https://vibe.naver.com/playlist/billboardkpop_0013",
                    "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210826_8%2F1629968155820uPhbQ_PNG%2FVIBE_%25B0%25F8%25C5%25EB_%25BF%25F9%25B0%25A3%25BA%25F4%25BA%25B8%25B5%25E5KPop100.png",
                    "title" : "월간 빌보드 K-Pop #10월"
                  },
                  {
+                   "link" : "https://vibe.naver.com/playlist/now_chuseok_0001",
                    "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210910_151%2F1631258029920j2wQY_PNG%2Fci10awk_05%25C7%25C3%25B7%25B9%25C0%25CC%25B8%25AE%25BD%25BA%25C6%25AE%25C4%25BF%25B9%25F6.png",
                    "title" : "졸음 운전 금지"
                  },
                  {
+                   "link" : "https://vibe.naver.com/playlist/flagship_partyroom_0003",
                    "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210820_5%2F1629451557450BDP6F_PNG%2FVIBE_PP_Exciting.png",
                    "title" : "파티룸에서 흥겹게😎"
                  },
                  {
+                   "link" : "https://vibe.naver.com/playlist/genre_legend_DS103_0002",
                    "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20211125_211%2F16378004398870s4tS_JPEG%2Fdeep.jpg",
                    "title" : "국내 댄스 레전드"
                  },
                  {
+                   "link" : "https://vibe.naver.com/playlist/genre_period_DS103_0145",
                    "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20211125_32%2F1637805276925AXAMn_JPEG%2Fdeep.jpg",
                    "title" : "2020년 국내 댄스 히트곡"
                  },
                  {
+                   "link" : "https://vibe.naver.com/playlist/mag_genre_0290",
                    "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210826_135%2F1629968110668ibkIg_PNG%2FVIBE_%25B0%25F8%25C5%25EB_%25BF%25F9%25B0%25A3%25BA%25F4%25BA%25B8%25B5%25E5KPop100.png",
                    "title" : "빌보드 케이팝 100 상반기"
                  },
                  {
+                   "link" : "https://vibe.naver.com/playlist/genre_ca_0015",
                    "thumbnail" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210825_204%2F1629883656603nB1vH_PNG%2FVIBE_%25C7%25C7%25C6%25AE%25B4%25CF%25BD%25BA_%25C7%25EF%25BD%25BA%25C0%25E5%25BF%25A1%25BC%25AD.png",
                    "title" : "헬스장에서"
                  }
@@ -81,6 +90,7 @@
              "title" : "VIEW",
              "contents" : [
                {
+                 "link" : "https://m.blog.naver.com/namnaraum/222067081680",
                  "thumbnail" : "https://mblogthumb-phinf.pstatic.net/MjAyMDA4MjFfMjAy/MDAxNTk3OTg2ODc1NzMx.fITcsGWdykVpnuQuwx7JgrDAFUVQz1uoMSz6ZXjsyeIg.CJJa-0HW_ERTZodwsesluKT8nOCG9dlELOJRyPT7Y9Ig.JPEG.namnaraum/7.jpg?type=w800",
                  "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMTA0MjBfMzMg/MDAxNjE4OTI0OTQ1NTQ2.gN_5_mpyhE_1qpjDV7-tE1HgzkLpoG2RBky7bkk12b0g.-D-xIZn2oVM86a9ytsgWQOWGI86kMPbhzozCfkIiS7Ig.JPEG.namnaraum/IMG_0307_1.JPG",
                  "writer" : "남나르",
@@ -95,6 +105,7 @@
                  ]
                },
                {
+                 "link" : "https://m.blog.naver.com/wjddl504/222469433695",
                  "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA4MTNfNjMg%2FMDAxNjI4ODQ5MjgwMjMx.Fk2_wNkHs18Q0BF8Tpc5xHdge-M64bwMHiBwru9uM3og.ZhXbjac7pWWYfLwVrfogKcHA1Zk3CFzq29bK9dARXYYg.JPEG.ilovetaiji%2FScreenshot%25A3%25DF20210813%25A3%25AD190426.jpg&type=sc960_832",
                  "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMTExMDhfMTcx/MDAxNjM2MzE5MDU3MTY3.DKlc51LZNYCELXVFq7SKVkb1GYdCGacOxDSza_ZcuCUg.M7QU94Zx9xk4n5KF3XL2oTtzj_WWhkJCsNv5cSXQJFAg.JPEG.wjddl504/profileImage.jpg",
                  "writer" : "끄.적.끄.적.",
@@ -116,9 +127,10 @@
                  ]
                },
                {
+                 "link" : "https://m.blog.naver.com/yubine/222565518781",
                  "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTExMTFfNTcg%2FMDAxNjM2NjM4OTU1MTUy.vDi7rO-JS_glijTqrEUhqq1kqkdFopkg2kpFH_3aPZYg.lj_erfSG7ymcLi4TlJA43btcZFxM76UpbFDiqc4f0AYg.JPEG.yubine%2Fmaxresdefault%25A3%25ADlorde.jpg&type=sc960_832",
                  "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAxODAxMjhfMTM4/MDAxNTE3MTQ4MzAyNzI3.C0cGGzz-DtCbYYlr5m9GviwdJv1GWi2jONI0NIMvG2wg.Hp8ap5_b4e_C9MirCuEaqpB-PsUBDpOckNFGZ825nbog.JPEG.yubine/profileImage.jpg",
-                 "writer" : "디제잉배우기플라시보",
+                 "writer" : "에리어",
                  "influencer" : true,
                  "date" : "2021.11.11.",
                  "title" : "[로드×칼리드×시저×포스트말론] Lorde - Homemade Dynamite Remix ft.Khalid,SZA,Post Malone 가사...",

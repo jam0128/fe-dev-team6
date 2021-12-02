@@ -60,6 +60,13 @@ function KeyWordComponent(props) {
 
     const constCompos = (compos) => {
         const result = [];
+        const cards = ["RelationPlaylistComponent", "AlsoSearchComponent", "RecentVideosComponent", "WorksComponent"];
+        const compoStyle = {
+            backgroundColor: "#fff",
+            padding: "13px 10px 15px 10px",
+            borderRadius: "10px",
+            boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)"
+        };
         for (let i = 0; i < compos.length; i++) {
             const tmp = [];
             switch (compos[i]['type']) {
@@ -107,13 +114,17 @@ function KeyWordComponent(props) {
                 default :
                     tmp.push(compos[i]['type']);
             }
-            result.push(<Item key={"itemother" + i}><Container style={{
-                backgroundColor: "#fff",
-                padding: "13px 10px 15px 10px",
-                borderRadius: "10px",
-                boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)",
-                overflow: "hidden"
-            }}>{tmp}</Container></Item>)
+            if (cards.indexOf(compos[i]['type']) === -1) {
+                result.push(<Item key={"itemother" + i}><Container style={{
+                    ...compoStyle,
+                    overflow: "hidden"
+                }}>{tmp}</Container></Item>);
+            } else {
+                result.push(<Item key={"itemother" + i}><Container style={{
+                    ...compoStyle,
+                    overflowX: "scroll"
+                }}>{tmp}</Container></Item>);
+            }
         }
         return result;
     }

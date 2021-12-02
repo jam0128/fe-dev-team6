@@ -34,11 +34,24 @@ function MusicInformationComponent(props) {
             overflow: "hidden"
         };
 
-        for (let i=0; i < musicinfo.contents.length; i++){
-            tmp.push(<tr>
-                {/* <td style={nameStyle}>{musicinfo.contents[0].name}</td> */}
-                <td style={contentStyle}>{musicinfo.contents[i].content}</td>
-            </tr>);
+        if (true){
+            for (let i=0; i < 4; i++){
+                tmp.push(<tr>
+                    {/* <td style={nameStyle}>{musicinfo.contents[0].name}</td> */}
+                    <td style={contentStyle}>{musicinfo.contents[i].content}</td>
+                </tr>);
+            }
+        }
+
+        if (false){
+            for (let i=0; i < musicinfo.contents.length; i++){
+                if(i!=3){
+                    tmp.push(<tr>
+                        {/* <td style={nameStyle}>{musicinfo.contents[0].name}</td> */}
+                        <td style={contentStyle}>{musicinfo.contents[i].content}</td>
+                    </tr>);
+                }
+            }
         }
 
         result.push(<Card.Description>

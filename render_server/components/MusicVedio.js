@@ -29,19 +29,19 @@ function MusicVedioComponent(props) {
             marginRight:"auto",
             // marginBottom: "20px",
             height: "100px",
-            width: "500px",
+            width: "100%",
             overflow: "hidden"
         };
 
         result.push(<Card.Description>
             <Image  src={card.photo} wrapped ui={false} style={imageStyle}/>
-            <table style={{marginLeft: "auto", marginRight:"auto"}}>{content}</table>
+            <table style={{width:"100%"}}>{content}</table>
         </Card.Description>);
 
         // result.push(<Card.Content style={{padding:editPadding(props.padding)}}>{content}</Card.Content>)
 
         return <Card style={{
-            width: props.width,
+            //width: props.width,
         }}>{result}</Card>;
     }
 

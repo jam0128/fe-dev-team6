@@ -1,7 +1,8 @@
 import express from "express";
 
 const app = express();
-const port = 3001;
+var config = require('../config.json')
+const port = config.reder_port;
 
 const indexRouter = require('./routes/index');
 

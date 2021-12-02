@@ -4,16 +4,18 @@ import fs from 'fs'
 
 var router = express.Router();
 
+var config = require('../../config.json')
+
 router.get('/', function(req, res, next) {    
-    const keyValueJson = JSON.parse(fs.readFileSync(__dirname + "/keywords.json", 'utf8'));
+    const keyValueJson = JSON.parse(fs.readFileSync(__dirname + config.keyword_file, config.encoding_format));
     var fileName = ""
     for (var key in keyValueJson) {
         fileName = __dirname + keyValueJson[key]
         if (req.query.search === key) { break } 
     }
     axios.post(
-        'http://localhost:3001/api', 
-        JSON.parse(fs.readFileSync(fileName, 'utf8')), {
+        config.base_url + ":" + config.reder_port + '/api', 
+        JSON.parse(fs.readFileSync(fileName, config.encoding_format)), {
             headers: {
                 'Content-Type': 'application/json'
             }

@@ -35,6 +35,9 @@ function AlbumsComponent(props) {
             </tr>);
         }
 
+        // <input type="button" onclick="audio.play();" value="PLAY"> 
+        // <input type="button" onclick="audio.pause();" value="PAUSE"> 
+
         result.push(<Card.Description>
             {/* <Image floated="right" src={album.photo} wrapped ui={false} style={{height: "108px", borderRadius: "6px"}}/> */}
             <table style={{width: "100%", borderBottom: "2px solid rgb(219, 219, 219)", marginLeft: "5px", marginRight: "5px", marginBottom: "5px"}}>{tmp}</table>

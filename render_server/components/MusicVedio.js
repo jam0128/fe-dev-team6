@@ -25,17 +25,22 @@ function MusicVedioComponent(props) {
         const content = [];
 
         const imageStyle = {
-            marginLeft: "auto",
-            marginRight:"auto",
+            // marginLeft: "auto",
+            // marginRight:"auto",
             // marginBottom: "20px",
             height: "100px",
             width: "100%",
-            overflow: "hidden"
+            // overflow: "hidden"
         };
+
+        // result.push(<Card.Description>
+        //     <Image  src={card.photo} wrapped ui={false} style={imageStyle}/>
+        //     <table style={{width:"100%"}}>{content}</table>
+        // </Card.Description>);
 
         result.push(<Card.Description>
             <Image  src={card.photo} wrapped ui={false} style={imageStyle}/>
-            <table style={{width:"100%"}}>{content}</table>
+            <table style={{marginLeft: "auto", marginRight:"auto", marginBottom: "5px"}}>{content}</table>
         </Card.Description>);
 
         // result.push(<Card.Content style={{padding:editPadding(props.padding)}}>{content}</Card.Content>)

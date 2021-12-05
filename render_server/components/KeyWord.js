@@ -2,6 +2,9 @@ import React from "react";
 import CardsComponent from "./Cards";
 import WorksComponent from "./Works";
 import ProfileComponent from "./Profile";
+import MusicInformationComponent from "./MusicInformation";
+import AlbumsComponent from "./Albums";
+import MusicVedioComponent from "./MusicVedio";
 import BasicInfoComponent from "./basicInfo";
 import '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
@@ -104,9 +107,20 @@ function KeyWordComponent(props) {
                 case "WorksComponent" :
                     tmp.push(<WorksComponent info={compos[i]['data']}/>);
                     break;
+                case "MusicVedioComponent" :
+                    tmp.push(<MusicVedioComponent info={compos[i]['data']} form="videos"/>);
+                    break;
                 case "ProfileComponent" :
                     tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<ProfileComponent info={compos[i]['data']}/>);
+                    break;
+                case "MusicInformationComponent" :
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<MusicInformationComponent info={compos[i]['data']} form="basic"/>);
+                    break;
+                case "AlbumComponent" :
+                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(<AlbumsComponent info={compos[i]['data']} form="basic"/>);
                     break;
                 case "BasicInfoComponent" :
                     tmp.push(<BasicInfoComponent info={compos[i]['data']}/>);

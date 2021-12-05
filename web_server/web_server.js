@@ -2,7 +2,8 @@ import express from "express";
 import cors from 'cors'
 
 const app = express();
-const port = 3000;
+var config = require('../config.json')
+const port = config.web_port;
 
 const renderRouter = require('./routes/render');
 

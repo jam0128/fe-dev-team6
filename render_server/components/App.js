@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import KeyWordComponent from "./KeyWord";
 import OtherComponent from "./OtherComponents";
+import Footer from "./Footer";
 
 function App(props) {
 
@@ -24,6 +25,7 @@ function App(props) {
                 <KeyWordComponent info={props.info['compo1']['data']}/>
                 {constOthers(props.info['compo2'])}
             </div>
+            <Footer/>
         </div>
     )
 }

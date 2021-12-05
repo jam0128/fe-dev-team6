@@ -8,7 +8,7 @@ import MusicVedioComponent from "./MusicVedio";
 import BasicInfoComponent from "./basicInfo";
 import '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Item, Grid, Header } from 'semantic-ui-react';
+import { Container, Item, Grid, Header, Button, Icon } from 'semantic-ui-react';
 
 
 
@@ -61,6 +61,16 @@ function KeyWordComponent(props) {
         return <Grid columns={tabs.length} textAlign='center' padded divided style={{justifyContent: "flex-start"}}>{result}</Grid>;
     }
 
+    const constTitle = (title, link, cNum) => {
+        const result = [];
+
+        result.push(<Button floated="right" href={link} style={{background:"none", padding:"0 5px 0 0"}}><Icon name="arrow right" size="large"/></Button>)
+
+        result.push(<Header key={'keywordcompo' + cNum} as='h4' style={{marginTop: "3px"}}>{title}</Header>);
+
+        return result;
+    }
+
     const constCompos = (compos) => {
         const result = [];
         const cards = ["RelationPlaylistComponent", "AlsoSearchComponent", "RecentVideosComponent", "WorksComponent"];
@@ -74,7 +84,7 @@ function KeyWordComponent(props) {
             const tmp = [];
             switch (compos[i]['type']) {
                 case "RelationPlaylistComponent" :
-                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(constTitle(compos[i]['data']['title'], compos[i]['data']['link'], i));
                     tmp.push(<CardsComponent 
                         info={compos[i]['data']} 
                         form="basic" 
@@ -84,7 +94,7 @@ function KeyWordComponent(props) {
                     />);
                     break;
                 case "AlsoSearchComponent" :
-                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(constTitle(compos[i]['data']['title'], compos[i]['data']['link'], i));
                     tmp.push(<CardsComponent 
                         info={compos[i]['data']} 
                         form="basic" 
@@ -94,7 +104,7 @@ function KeyWordComponent(props) {
                     />);
                     break;
                 case "RecentVideosComponent" :
-                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(constTitle(compos[i]['data']['title'], compos[i]['data']['link'], i));
                     tmp.push(<CardsComponent 
                         info={compos[i]['data']} 
                         form="videos" 
@@ -111,7 +121,7 @@ function KeyWordComponent(props) {
                     tmp.push(<MusicVedioComponent info={compos[i]['data']} form="videos"/>);
                     break;
                 case "ProfileComponent" :
-                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(constTitle(compos[i]['data']['title'], compos[i]['data']['link'], i));
                     tmp.push(<ProfileComponent info={compos[i]['data']}/>);
                     break;
                 case "MusicInformationComponent" :
@@ -119,7 +129,7 @@ function KeyWordComponent(props) {
                     tmp.push(<MusicInformationComponent info={compos[i]['data']} form="basic"/>);
                     break;
                 case "AlbumComponent" :
-                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
+                    tmp.push(constTitle(compos[i]['data']['title'], compos[i]['data']['link'], i));
                     tmp.push(<AlbumsComponent info={compos[i]['data']} form="basic"/>);
                     break;
                 case "BasicInfoComponent" :

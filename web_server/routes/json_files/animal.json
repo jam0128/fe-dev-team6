@@ -30,6 +30,7 @@
                   "https://search.pstatic.net/common?type=f&size=238x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20180330_171%2Fqsooji_1522380919434vPdvN_PNG%2F56418185786181321_63714044.png",
                   "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200514_296%2F1589383522415fQAKv_JPEG%2F25519140244964356_836593714.jpg"
                ],
+               "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842686&qvt=0&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)%20%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%B3%B4",
                "title" : "기본정보",
                "contents" : "성격이 독특하면서도 영리하고 애정이 깊다. 감수성도 예민해 공격적이거나 신경질적인 반응을 보이기도 하고, 자기 과시욕을 드러내면서 언제나 주인의 관심을 끌려고 하기 때문에 안아주거나 쓰다듬어 주는 것을 좋아한다."
              }
@@ -37,6 +38,7 @@
            {
              "type" : "AlsoSearchComponent",
              "data" : {
+               "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842686&qvt=0&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)%20%ED%95%A8%EA%BB%98%20%EC%B0%BE%EC%9D%80%20%ED%92%88%EC%A2%85",
                "title" : "함께 찾은 품종",
                "contents" : [
                  {

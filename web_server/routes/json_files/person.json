@@ -20,6 +20,7 @@
             "type" : "ProfileComponent",
             "data" : {
               "title" : "프로필",
+              "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%ED%94%84%EB%A1%9C%ED%95%84",
               "photo" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5369%2F2018%2F01%2F01%2F0000052142_001_20180101170255561.jpg&type=sc960_832",
               "contents" : [
                 {
@@ -56,6 +57,7 @@
          {
            "type" : "RecentVideosComponent",
            "data" : {
+             "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%2C%22subTab%22%3A%22recent_video%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%EC%B5%9C%EA%B7%BC%EC%98%81%EC%83%81",
              "title" : "최근영상",
              "contents" : [
                {
@@ -90,6 +92,7 @@
            "data" : {
              "tabs" : [
                {
+                 "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22workType%22%3A%22movie%22%2C%22fromUi%22%3A%22kb%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%ED%95%84%EB%AA%A8%EA%B7%B8%EB%9E%98%ED%94%BC",
                  "title" : "영화",
                  "contents" : [
                    {
@@ -116,6 +119,7 @@
                  ]
                },
                {
+                 "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22workType%22%3A%22onair%22%2C%22fromUi%22%3A%22kb%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%EB%B0%A9%EC%86%A1",
                  "title" : "방송",
                  "contents" : [
                    {
@@ -142,6 +146,7 @@
                  ]
                },
                {
+                 "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22workType%22%3A%22music%22%2C%22fromUi%22%3A%22kb%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%EA%B3%A1",
                  "title" : "곡",
                  "contents" : [
                    {

@@ -97,15 +97,13 @@
              "title" : "인플루언서",
              "contents" : [
                {
-                 "link" : "https://m.blog.naver.com/yourns/222532963474",
-                 "thumbnail" : "tmp1.png",
+                "icon" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA5MThfOTcg%2FMDAxNTA1Njc4MzU4NjU2.dGynuPG6O3_wmExh_fY0GvT3wMmQBaRvOIRkA0kQIYsg.Y_ICtYqzs7xbDnwl6YZKADdAeQOoxn0gu43kp9ymwBcg.JPEG.yourns%2F20170918-043119-030.jpg&type=sc960_832",
+                "link" : "https://m.blog.naver.com/yourns/222532963474",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMTBfMTEw%2FMDAxNjMzODY4MTQ0NDM1.EDS6OYViQqisrXzdfD30I8WT0wLuHYeFrEGyht1B2Wwg.pTagK82ip2e86ppGKke9dRWpGDaUzq95moC2_17DV60g.PNG.yourns%2F6.png&type=sc960_832",
                  "writer" : "유언님",
-                 "button" : "팬하기",
-                 "photo" : [
-                   "cat1.png",
-                   "cat2.png",
-                   "cat3.png",
-                   "cat4.png"
+                 "info" : [
+                   "펫 전문 블로거",
+                   "강아지 전문"
                  ],
                  "title" : "태국 왕실묘 출신 샴 고양이 성격이 말썽쟁이 품종이라고?",
                  "body" : "이번에 소개하는 고양이 품종은 태국 왕실묘 출신의 샴 고양이로 성격과 함께 신비로운 외모에 대해서 알아보도록 하겠습니다. 실제로 샴 고양이는 신비롭고 이쁜 포인트 컬러의 외모가 특징이라 매우 귀여우면서도...",
@@ -113,15 +111,13 @@
                  "related" : 3
                },
                {
+                "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMDAxMDdfMTU0/MDAxNTc4MzkyNzY0NjQ1.Jp3UQB_sJ05IB6klQ_gon85pj-gB1oVBBXQ2jt88Ff0g.XoO0aaKeK-yVPqDKgURemMJYYWV4AbM9bsAcnbzlousg.JPEG.lbygns12/%B5%B6%C6%BC%B7%CE%B0%ED.jpg",
                  "link" : "https://m.blog.naver.com/lbygns12/222544246584",
-                 "thumbnail" : "tmp2.png",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTlfMTQx%2FMDAxNjEzNzEyODYxMTQ1.FbfWej8IGXANy5-zeY1tFZdns7hKbqzABeMmU3Xslv0g.yU3kkmKuv6STs1nvs_q2LZXCGXJj-LqdGvyqbSTVlhMg.PNG.lbygns123%2F1613712660646.png&type=sc960_832",
                  "writer" : "독티처",
-                 "button" : "팬하기",
-                 "photo" : [
-                   "cat1.png",
-                   "cat2.png",
-                   "cat3.png",
-                   "cat4.png"
+                 "info" : [
+                   "동물행동 전문가",
+                   "강아지 전문"
                  ],
                  "title" : "묘종 샴고양이 성격 수명 털빠짐 총정리!",
                  "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 알아볼건데요 기품이 넘치고 가장 고양이 답다고 해서 고양이 왕이라고도 불려지는데요 자연발생한 이 고양이는 페르시안과 쌍벽을 이루는 대표적인인 묘종중...",
@@ -129,15 +125,13 @@
                  "related" : 4
                },
                {
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMDAxMDdfMTU0/MDAxNTc4MzkyNzY0NjQ1.Jp3UQB_sJ05IB6klQ_gon85pj-gB1oVBBXQ2jt88Ff0g.XoO0aaKeK-yVPqDKgURemMJYYWV4AbM9bsAcnbzlousg.JPEG.lbygns12/%B5%B6%C6%BC%B7%CE%B0%ED.jpg",
                  "link" : "https://m.blog.naver.com/lbygns123/222522569779",
-                 "thumbnail" : "tmp3.png",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMDVfMjEx%2FMDAxNjE0OTU0MTc1MzUy.J7g_OuVetpim4Ap5NBd9aYpAi4raNb9f_kdXjlM-T40g.7hif6UJETHWy2fpoyMCrIIWvMgfn1AWmkIQT1-XLOOEg.PNG.lbygns12%2F1614953359007.png&type=sc960_832",
                  "writer" : "고쌤",
-                 "button" : "팬하기",
-                 "photo" : [
-                   "cat1.png",
-                   "cat2.png",
-                   "cat3.png",
-                   "cat4.png"
+                 "info" : [
+                   "동물행동 전문가",
+                   "강아지 전문"
                  ],
                  "title" : "샴 고양이 반려묘 종류 성격 수명 털빠짐은?",
                  "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 설명드릴게요 이 종은 태국이 원산이며 오리엔탈 바디타입으로 사진에 나와 있는 것처럼 다리와 목이 길며 마른 몸매를 가지고 있으면서 역삼각형 얼굴을 가지...",

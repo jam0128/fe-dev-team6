@@ -23,6 +23,11 @@ router.post('/', function(req, res, next) {
         <body>
             <div id="root"> ${ReactDOMServer.renderToString((<App info={req.body}/>))} </div>
         </body>
+        <script type="text/babel">
+            const ReactDOM = require("react-dom");
+            const App = require("../components/App").default;
+            ReactDOM.hydrate(<App info=${req.body}/>, documnet.getElementById('root'));
+        </script>
     </html>
     `;
     

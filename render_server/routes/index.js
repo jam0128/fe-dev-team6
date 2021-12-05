@@ -18,7 +18,9 @@ router.post('/', function(req, res, next) {
             />
             <script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">  
         </head>
         <body>
             <div id="root"> ${ReactDOMServer.renderToString((<App info={req.body}/>))} </div>

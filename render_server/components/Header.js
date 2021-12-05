@@ -11,7 +11,7 @@ function Header(props) {
        <div style={{fontWeight: "900", backgroundColor:"#fff"}}>
             <Input 
                 fluid
-                icon='search'
+                icon={{name:"search", link: true}}
                 value={props.value}
                 label={{content:'N', color:'green'}}
                 labelPosition='left'

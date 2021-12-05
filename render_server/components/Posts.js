@@ -73,7 +73,7 @@ function PostsComponent(props) {
         
                 result.push(<Grid.Column key={props.form + 'writerdate' + pNum} style={writerStyle}>{post.date}</Grid.Column>);
         
-                if (props.form === "News") {
+                if (props.form === "News" && post.website) {
                     result.push(<Grid.Column key={props.form + 'writerwebsite' + pNum} style={writerStyle}>{post.website}</Grid.Column>);
                 }
         
@@ -108,9 +108,11 @@ function PostsComponent(props) {
 
         switch (props.form) {
             case "News" :
-                extra.push(<Card.Content key={props.form + 'extra' + pNum} extra style={{color:"#0068c3", textAlign: "right"}}>
-                    관련뉴스 {post.related}건 전체보기
-                </Card.Content>);
+                if(post.related) {
+                    extra.push(<Card.Content key={props.form + 'extra' + pNum} extra style={{color:"#0068c3", textAlign: "right"}}>
+                        관련뉴스 {post.related}건 전체보기
+                    </Card.Content>);
+                }
                 break;
             case "VIEW" :
                 break;

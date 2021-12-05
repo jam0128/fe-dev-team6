@@ -140,7 +140,8 @@
                  "date" : "2021.10.01.",
                  "related" : 1
                }
-             ]
+             ],
+             "more" : "https://m.search.naver.com/search.naver?where=m_influencer&sm=mtb_jum&query=%EC%83%B4%28%EC%83%A4%EB%AF%B8%EC%A6%88%29"
            }
          },
          {
@@ -187,7 +188,8 @@
                    "OGUO"
                  ]
                }
-             ]
+             ],
+             "more" : "https://m.search.naver.com/search.naver?where=m_view&sm=mtb_nrm&query=%EC%83%B4%28%EC%83%A4%EB%AF%B8%EC%A6%88%29&mode=normal&nso="
            }
          },
          {
@@ -236,8 +238,56 @@
                     "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAyMDAyMTdfMjg0%2FMDAxNTgxOTAwMTE4NjA5.9z6wNc2AdbeD6FESsTc33U8gQgnWxQOWPRbyQUcqdi0g.IxPdx8KWyIQ_UuMI3g9vIolyiUipWNBKe0gHPXN05zEg.JPEG%2FIMG_3405.JPG&type=ff332_332",
                     "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Acafe30007523%7C3%7C3_573817351"
                   }
-                ]
+                ],
+                "more" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall&sm=mtb_nmr&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)"
             }
+        },
+        {
+          "type" : "NewsComponent",
+          "data" : {
+            "title" : "뉴스",
+            "contents" : [
+              {
+                "link" : "http://www.k-health.com/news/articleView.html?idxno=56795",
+                "thumbnail" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5534%2F2021%2F12%2F01%2F16076.jpg&type=ofullfill174_174&expire=2&refresh=true",
+                "icon" : "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                "writer" : "헬스경향",
+                "date" : "4일 전",
+                "title" : "[반려동물 건강이야기] 고양이 각막이 갈색으로 변했다? 각막괴사증 신호!",
+                "body" : "모든 품종에서 발생할 수 있는데 특히 페르시안, 버미즈, 히말라얀 및 샴(샤미즈)이 더욱 취약한 것으로 보인다. 진단은 각막염색법, 안과세극등현미경검사로 내려진다. 특히 최근에는 OCT(빛간선단층촬영)장비로 각막괴사가 진행된 부위의 각막깊이를 측정해 수술방법결정 및 예후평가를 진행하고..."
+              },
+              {
+                "link" : "https://n.news.naver.com/article/421/0004433694",
+                "thumbnail" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F421%2F2020%2F01%2F30%2F4433694.jpg&type=ofullfill174_174&expire=2&refresh=true",
+                "icon" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fmimgnews.pstatic.net%2Fimage%2Fupload%2Foffice_logo%2F421%2F2017%2F01%2F05%2Flogo_421_18_20170105111205.png&type=f54_54&expire=24&refresh=true",
+                "writer" : "뉴스1",
+                "date" : "2020.01.30.",
+                "website" : "네이버뉴스",
+                "title" : "[해피펫툰]고양이그림공부 11화…태국이 사랑한 샴고양이",
+                "body" : "샴고양이로 불리는 샤미즈 고양이. 태국에서 15세기 때 기록된 문서에 샴고양이에 대해 언급이 돼 있다고 한다. 태국 사람들에게 옛날부터 의식 속 동물로 자리 잡고 있었던 것으로 추정된다. 30일 최아름 작가에 따르면 태국에서는 왕족에 죽으면 샤미즈가 이들의 환생을 돕는 역할을 한다고..."
+              },
+              {
+                "link" : "http://www.viva100.com/main/view.php?key=20160512010003653",
+                "thumbnail" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5394%2F2016%2F05%2F12%2F106131.jpg&type=ofullfill174_174&expire=2&refresh=true",
+                "icon" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fwww.viva100.com%2Ffavicon.ico&type=f54_54&expire=24&refresh=true",
+                "writer" : "브릿지경제",
+                "date" : "2016.05.12.",
+                "title" : "30세 샴고양이, 기네스 세계 최장수 고양이 등재",
+                "body" : "‘고양이의 여왕’이라 불리는 샴(샤미즈·Siamese)종인 스쿠터의 장수 비결로는 활동적으로 지내는 생활 패턴이 꼽혔다. 기네스 성명에 따르면 물을 무서워하는 대다수 고양이와 달리 스쿠터는 목욕시간을 즐기고 목욕 후 드라이어로 몸을 말리는 순간을 즐긴다. 게다가 간식으로 치킨 먹을..."
+              },
+              {
+                "link" : "https://n.news.naver.com/article/421/0002048156",
+                "thumbnail" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F421%2F2016%2F05%2F11%2F2048156.jpg&type=ofullfill174_174&expire=2&refresh=true",
+                "icon" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fmimgnews.pstatic.net%2Fimage%2Fupload%2Foffice_logo%2F421%2F2017%2F01%2F05%2Flogo_421_18_20170105111205.png&type=f54_54&expire=24&refresh=true",
+                "writer" : "뉴스1",
+                "date" : "2016.05.11.",
+                "website" : "네이버뉴스",
+                "title" : "30세 샴 '스쿠터'…기네스 세계 최고령 고양이 등재",
+                "body" : "'고양이의 여왕'이라 불리는 샴(샤미즈·Siamese)종인 스쿠터는 지난 1986년 3월 26일 태어났다. 이때가 얼마나 오래됐는지를 부연 설명하자면 로널드 레이건 대통령이 미국의 40대 대통령으로 집권할 때다. 스쿠터는 이후 미국 대통령이 4번 바뀌는 것을 모두 지켜봤다. 스쿠터는 주인 게일..."
+              }
+            ],
+            "more" : "https://m.search.naver.com/search.naver?where=m_news&sm=mtb_nmr&query=%EC%83%B4%28%EC%83%A4%EB%AF%B8%EC%A6%88%29&sort=0&nso=so:r,p:all"
+          }
         }
        ]
    }

@@ -11,26 +11,7 @@ function MusicVedioComponent(props) {
 
         const result = [];
 
-        // result.push(<Image src={card.photo} wrapped ui={false} style={{height:props.imgHeight, width:"100%"}}/>);
-
-        const content = [];
-
-        const imageStyle = {
-            marginLeft: "auto",
-            marginRight:"auto",
-            // marginBottom: "20px",
-            height: "props.imgHeight"
-            // overflow: "hidden"
-        };
-
-        // result.push(<Card.Description>
-        //     <Image  src={card.photo} wrapped ui={false} style={imageStyle}/>
-        //     <table style={{width:"100%"}}>{content}</table>
-        // </Card.Description>);
-
-        result.push(<Image key={props.form+'image'+cNum} src={card.photo} wrapped ui={false} style={{marginLeft: "auto", marginRight: "auto", height:"250px", width:"1000px"}}/>);
-
-        // result.push(<Card.Content style={{padding:editPadding(props.padding)}}>{content}</Card.Content>)
+        result.push(<Image key={props.form+'image'+cNum} src={card.photo} style={{marginLeft: "auto", marginRight: "auto", height:"250px", width:"1000px", objectFit:"cover"}}/>);
 
         return <Card href={card.link} key={props.form+'card'+cNum} fluid style={{
             boxShadow: "none",
@@ -40,8 +21,8 @@ function MusicVedioComponent(props) {
 
 
     return (
-        <Container key={props.info.form}>
-            {constCard(props.info.contents)}
+        <Container>
+            {constCard(props.info)}
         </Container>
     
     )

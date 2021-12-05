@@ -7,7 +7,7 @@ import { Container, Card, Image, Grid } from 'semantic-ui-react';
 
 function AlbumsComponent(props) {
 
-    const constAlbum = (album) => {
+    const constAlbum = (album, cNum) => {
 
         const result = [];
 
@@ -15,7 +15,6 @@ function AlbumsComponent(props) {
 
         const nameStyle = {
             paddingLeft: "10px",
-            // paddingRight: "15px",
             color: "#424242",
             font: "bold",
             paddingBottom: "15px"
@@ -28,22 +27,18 @@ function AlbumsComponent(props) {
         };
 
         for (let i = 0; i < album.contents.length; i++) {
-            tmp.push(<tr>
+            tmp.push(<tr key={props.form + 'content' + i + cNum}>
                 <td style={nameStyle}>{i+1}</td>
                 <td style={contentStyle}>{album.contents[i].name}</td>
-                {/* <Image floated="right" src={album.contents[i].content} wrapped ui={false} style={{width:"5%",height:"5%",marginTop:"-3px", borderRadius: "50%",}}/> */}
+                <td> <Image href={album.contents[i].link} floated="right" src={album.contents[i].content} style={{ borderRadius: "50%", width:"25px",height:"25px",marginRight:"10px", marginTop:"-10px",}}/> </td>
             </tr>);
         }
 
-        // <input type="button" onclick="audio.play();" value="PLAY"> 
-        // <input type="button" onclick="audio.pause();" value="PAUSE"> 
-
-        result.push(<Card.Description>
-            {/* <Image floated="right" src={album.photo} wrapped ui={false} style={{height: "108px", borderRadius: "6px"}}/> */}
+        result.push(<Card.Description key ={props.form+'meta'+cNum}>
             <table style={{width: "100%", borderBottom: "2px solid rgb(219, 219, 219)", marginLeft: "5px", marginRight: "5px", marginBottom: "5px"}}>{tmp}</table>
         </Card.Description>);
 
-        return (<Card fluid style={{
+        return (<Card key ={props.form+'card'+cNum} fluid style={{
             boxShadow: "none",
             WebBoxShadow: "none"
         }}>{result}</Card>);
@@ -58,3 +53,9 @@ function AlbumsComponent(props) {
 }
 
 export default AlbumsComponent;
+
+        // <button type="button" id="" class="btn btnEvent">
+        //   <img src="http://c.huv.kr/c/0b/0b8c4a6d60aea665193612bb31af071039da9e16.png" alt="btnImages" class="btnImages">
+        // </button>
+        // // <input type="button" onclick="audio.play();" value="PLAY"> 
+        // // <input type="button" onclick="audio.pause();" value="PAUSE"> 

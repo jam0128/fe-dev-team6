@@ -1,0 +1,239 @@
+{
+  "test1Key": "이정재",
+  "test2KEy": "test2",
+  "compo1" : {
+     "type" : "KeywordComponent",
+     "data" : {
+       "title" : "이정재", 
+       "category" : [
+         "영화배우, 탤런트"
+       ],
+       "tab" : [
+         "전체",
+         "프로필",
+         "최근영상",
+         "필모그래피",
+         "작품활동"
+       ],
+       "components" : [
+          {
+            "type" : "ProfileComponent",
+            "data" : {
+              "title" : "프로필",
+              "photo" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5369%2F2018%2F01%2F01%2F0000052142_001_20180101170255561.jpg&type=sc960_832",
+              "contents" : [
+                {
+                  "name" : "신체",
+                  "content" : "180cm"
+                },
+                {
+                  "name" : "소속사",
+                  "content" : "아티스트컴퍼니"
+                },
+                {
+                  "name" : "수상",
+                  "content" : "2014년 제50회 백상예술대상 영화부문 남자 조연상"
+                },
+                {
+                  "name" : "경력",
+                  "content" : "2013.10 제11회 아시아나국제단편영화제 특별 심사위원"
+                },
+                {
+                  "name" : "사이트",
+                  "content" : "공식홈페이지, 블로그, 인스타그램, 페이스북, V LIVE"
+                },
+                {
+                  "name" : "작품",
+                  "content" : "영화, 방송, 곡, 기타"
+                }
+              ],
+              "footer" : {
+                "participate" : true,
+                "date" : "2021.10.05. "
+              }
+            }
+          },
+         {
+           "type" : "RecentVideosComponent",
+           "data" : {
+             "title" : "최근영상",
+             "contents" : [
+               {
+                 "link" : "https://tv.naver.com/v/22669355",
+                 "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=https%3A%2F%2Fphinf.pstatic.net%2Ftvcast%2F20210928_147%2F0JRIi_1632838641218okCtM_JPEG%2F1632838509174.jpg",
+                 "length" : "04:01",
+                 "title" : "배우들도 놀란 '오징어 게임' 세트 이야기 (이정재.박해수.정호연.허성태.위하준)",
+                 "website" : "네이버TV",
+                 "date" : "2021.09.28"
+               },
+               {
+                 "link" : "https://m.vlive.tv/video/263865",
+                 "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=http%3A%2F%2Fv.phinf.naver.net%2F20210924_88%2F1632457307801VxrAk_JPEG%2F1632456254496.jpg",
+                 "length" : "01:28",
+                 "title" : "[넷플릭스] 오징어 게임 | 하이라이트 | 사람들이 게임에 참가할 수밖에 없는 이유",
+                 "website" : "VLIVE",
+                 "date" : "2021.09.24"
+               },
+               {
+                 "link" : "https://m.vlive.tv/video/263864",
+                 "thumbnail" : "https://search.pstatic.net/common?type=f&size=364x206&quality=100&direct=true&src=http%3A%2F%2Fv.phinf.naver.net%2F20210924_32%2F1632457307371r2YwW_JPEG%2F1632456288992.jpg",
+                 "length" : "01:30",
+                 "title" : "[넷플릭스] 오징어 게임 | 하이라이트 | 사람이 죽자, 상금이 올라갔다",
+                 "website" : "VLIVE",
+                 "date" : "2021.09.24"
+               }
+             ]
+           }
+         },
+         {
+           "type" : "WorksComponent",
+           "data" : {
+             "tabs" : [
+               {
+                 "title" : "영화",
+                 "contents" : [
+                   {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bkEw&pkid=68&os=14385025&qvt=0&query=%ED%97%8C%ED%8A%B8",
+                     "thumbnail" : "none.png",
+                     "title" : "헌트(가제)",
+                     "role" : "감독, 주연 - 박평호 역",
+                     "date" : "2021."
+                   },
+                   {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bkEw&pkid=68&os=16140282&qvt=0&query=%EB%8B%A4%EB%A7%8C%20%EC%95%85%EC%97%90%EC%84%9C%20%EA%B5%AC%ED%95%98%EC%86%8C%EC%84%9C%20%ED%8C%8C%EC%9D%B4%EB%84%90%EC%BB%B7",
+                     "thumbnail" : "https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20201014_127%2F1602651162137fUW1W_JPEG%2Fmovie_image.jpg",
+                     "title" : "다만 악에서 구하소서",
+                     "role" : "주연 - 레이 역",
+                     "date" : "2020.08.05"
+                   },
+                   {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bkEw&pkid=68&os=10222227&qvt=0&query=%EB%8B%A4%EB%A7%8C%20%EC%95%85%EC%97%90%EC%84%9C%20%EA%B5%AC%ED%95%98%EC%86%8C%EC%84%9C",
+                     "thumbnail" : "https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20190122_192%2F1548121844125KdJDJ_JPEG%2Fmovie_image.jpg",
+                     "title" : "어쩌다, 결혼",
+                     "role" : "특별출연 - 변호사 역",
+                     "date" : "2019.02.27."
+                   }
+                 ]
+               },
+               {
+                 "title" : "방송",
+                 "contents" : [
+                   {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=blFB&pkid=356&os=17987445&qvt=0&query=%EC%98%A4%EC%A7%95%EC%96%B4%EA%B2%8C%EC%9E%84",
+                     "thumbnail" : "https://search.pstatic.net/common?type=f&size=210x296&quality=75&direct=true&src=https%3A%2F%2Fcsearch-phinf.pstatic.net%2F20210823_190%2F1629680738288PYDqN_JPEG%2F0c855920505f30387b13698eff52457c.jpg",
+                     "title" : "오징어 게임",
+                     "role" : "기훈",
+                     "date" : "2021.09.17."
+                   },
+                   {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjkw&pkid=57&os=9953997&qvt=0&query=%EB%B3%B4%EC%A2%8C%EA%B4%802%EC%84%B8%EC%83%81%EC%9D%84%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94%EC%82%AC%EB%9E%8C%EB%93%A4",
+                     "thumbnail" : "https://search.pstatic.net/common?type=f&size=210x296&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F57%2F95%2F39%2F97%2F57_9953997_poster_image_1572336080742.jpg",
+                     "title" : "보좌관 2 - 세상을 움직이는 사람들",
+                     "role" : "장태준 주연",
+                     "date" : "2019.11.11.~2019.12.10."
+                   },
+                   {
+                     "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjkw&pkid=57&os=9479157&qvt=0&query=%EB%B3%B4%EC%A2%8C%EA%B4%801%EC%84%B8%EC%83%81%EC%9D%84%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94%EC%82%AC%EB%9E%8C%EB%93%A4",
+                     "thumbnail" : "https://search.pstatic.net/common?type=f&size=210x296&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F57%2F47%2F91%2F57%2F57_9479157_poster_image_1558659939300.jpg",
+                     "title" : "보좌관 - 세상을 움직이는 사람들",
+                     "role" : "장태준 주연",
+                     "date" : "2019.06.14.~2019.07.13."
+                   }
+                 ]
+               },
+               {
+                 "title" : "곡",
+                 "contents" : [
+                   {
+                     "link" : "https://vibe.naver.com/track/530444",
+                     "thumbnail" : "https://search.pstatic.net/common?type=o&size=158x158&quality=75&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F000%2F035%2F35935.jpg%3Ftype%3Dr204Fll%26v%3D20130708125326",
+                     "title" : "세종의 편지",
+                     "album" : "태풍 OST",
+                     "date" : "2005.12.15"
+                   },
+                   {
+                    "link" : "https://vibe.naver.com/track/340714",
+                     "thumbnail" : "https://search.pstatic.net/common?type=o&size=158x158&quality=75&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F000%2F023%2F23022.jpg%3Ftype%3Dr204Fll%26v%3D20210904010040",
+                     "title" : "천생연분",
+                     "album" : "앨범명오! 브라더스 O.S.T",
+                     "date" : "2003.08.27"
+                   },
+                   {
+                    "link" : "https://vibe.naver.com/track/326561",
+                     "thumbnail" : "https://search.pstatic.net/common?type=o&size=158x158&quality=75&direct=true&src=https%3A%2F%2Fmusicmeta-phinf.pstatic.net%2Falbum%2F000%2F022%2F22175.jpg%3Ftype%3Dr204Fll%26v%3D20210531022019",
+                     "title" : "어디선가 본 듯한...",
+                     "album" : "순애보 (純愛譜: Asako In Ruby Shoes) OST",
+                     "date" : "2000.12.19"
+                   }
+                 ]
+               }
+             ]
+           }
+         }
+       ]
+     }
+   },
+     "compo2" : [
+       {
+         "type" : "NewsComponent",
+         "data" : {
+           "title" : "뉴스",
+           "contents" : [
+             {
+               "link" : "http://www.job-post.co.kr/news/articleView.html?idxno=41466",
+               "thumbnail" : "http://www.job-post.co.kr/news/photo/202111/41466_40544_4956.jpg",
+               "icon" : "https://mimgnews.pstatic.net/image/upload/office_logo/028/2017/12/21/logo_028_41_20171221160121.jpg?type=u144_144",
+               "writer" : "한겨레",
+               "date" : "2021.11.15.12:44",
+               "website" : "네이버뉴스",
+               "title" : "이정재 첫 연출 데뷔작 ‘헌트’ 촬영 종료…내년 개봉 예정",
+               "body" : "전세계에 신드롬을 불러일으킨 넷플릭스 오리지널 <오징어 게임>을 통해 글로벌 스타로 거듭난 이정재의 감독 데뷔작 <헌트>가 6개월 동안의 촬영을 끝냈다고 배급사인 메가박스중앙플러스엠이 15일 밝혔다. 는 안기부 요원 ‘박평호’(이정재)와 ‘김정도’(정우성)가 남파 간첩 총책임자를...",
+               "related" : 36,
+               "others" : [
+                 {
+                   "title" : "이정재 연출·주연 영화 '헌트' 크랭크업",
+                   "writer" : "연합뉴스",
+                   "date" : "2021.11.15.10:44",
+                   "website" : "네이버뉴스"
+                 },
+                 {
+                   "title" : "이정재 연출·주연 영화 '헌트' 크랭크업",
+                   "writer" : "연합뉴스",
+                   "date" : "2021.11.15.10:44",
+                   "website" : "네이버뉴스"
+                 },
+                 {
+                   "title" : "이정재 연출·주연 영화 '헌트' 크랭크업",
+                   "writer" : "연합뉴스",
+                   "date" : "2021.11.15.10:44",
+                   "website" : "네이버뉴스"
+                 }
+               ]
+             },
+             {
+               "link" : "https://n.news.naver.com/article/011/0003984984",
+               "thumbnail" : "https://imgnews.pstatic.net/image/011/2021/11/14/0003984984_001_20211114152901930.jpg?type=w430",
+               "icon" : "https://imgnews.pstatic.net/image/upload/spubs/alG0000011/logo/2020/12/02/A_142054727.jpg?type=u144_144",
+               "writer" : "서울경제",
+               "date" : "2021.11.14.11:44",
+               "website" : "네이버뉴스",
+               "title" : "제니 이정재 때문에 이름 '제니'···이정재와 특별한 인연",
+               "body" : "배우 이정재와 블랙핑크 제니가 만났다. 이정재는 14일 자신의 인스타그램에 별다른 코멘트 없이 여러 장의 사진을 게재했다. 최근 미국 LA LACMA에서 열린 ‘2021 LACMA 아트+필름 갈라’에 참석한 이정재는 공개된 사진 속에서 정호연, 제니, 엘르 패닝 등과 만나 다정한 포즈를 취하고 있다...",
+               "related" : 21
+             },
+             {
+               "link" : "https://n.news.naver.com/entertain/article/312/0000511420",
+               "thumbnail" : "https://imgnews.pstatic.net/image/312/2021/11/15/0000511420_001_20211115001801554.jpg?type=w430",
+               "icon" : "https://imgnews.pstatic.net/image/upload/spubs/CWG0000312/logo/2021/10/06/A_171447821.png?type=u144_144",
+               "writer" : "텐아시아",
+               "date" : "2021.11.14.01:44",
+               "website" : "네이버뉴스",
+               "title" : "이정재, 블핑 제니와 의외의 한컷?…'하하하' 함박웃음 [TEN★]",
+               "body" : "배우 이정재와 블랙핑크 제니가 유쾌한 한컷으로 시선을 사로잡았다. 이정재는 14일 자신의 인스타그램에 여러 장의 사진을 게재했다. 사진 속 이정재는 '오징어게임'에 함께 출연한 정호연, 블랙핑크 제니, 배우 엘 패닝 등과 인증샷을 남겼다. 이는 최근 미국 LA LACMA에서 열린 '2021 LACMA 아트...",
+               "related" : 5
+             }
+           ]
+         }
+       }
+     ]
+ }

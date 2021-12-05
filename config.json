@@ -1,0 +1,7 @@
+{
+    "web_port": 3000,
+    "reder_port": 3001,
+    "base_url": "http://localhost",
+    "keyword_file": "/keywords.json",
+    "encoding_format": "utf8"
+}

@@ -1,0 +1,220 @@
+{
+    "test1Key": "샴(샤미즈)",
+    "test2KEy": "test2",
+    "compo1" : {
+       "type" : "KeywordComponent",
+       "data" : {
+         "title" : "샴(샤미즈)", 
+         "category" : [
+           "동물",
+           "Siamese cat"
+         ],
+         "tab" : [
+           "전체",
+           "기본정보",
+           "포토",
+           "함께 찾은 품종"
+         ],
+         "components" : [
+           {
+             "type" : "BasicInfoComponent",
+             "data" : {
+               "photo" : [
+                  "https://search.pstatic.net/common?type=f&size=476x473.6&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210722_241%2F1626949212669ih9J4_JPEG%2F63084821814135149_1699451494.jpeg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200401_12%2F1585730100281Sa5Vj_JPEG%2F21865709587741555_647870209.jpg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200107_57%2F1578366152115rJyIm_JPEG%2F14501761160842576_62712006.jpeg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210110_224%2F1610262906543iYaiJ_JPEG%2F46398515690451726_622079393.jpeg",
+                  "https://search.pstatic.net/common?type=f&size=238x234&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210110_122%2F1610234036128HMFyn_JPEG%2F46369644538410444_1768298021.jpg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20201227_280%2F1609068536458M5qWj_JPEG%2F45204144294873432_1454722539.jpg",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200103_144%2F15779806918860P8xK_JPEG%2F14116289839450821_1927358293.jpeg",
+                  "https://search.pstatic.net/common?type=f&size=238x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20180330_171%2Fqsooji_1522380919434vPdvN_PNG%2F56418185786181321_63714044.png",
+                  "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200514_296%2F1589383522415fQAKv_JPEG%2F25519140244964356_836593714.jpg"
+               ],
+               "title" : "기본정보",
+               "contents" : "성격이 독특하면서도 영리하고 애정이 깊다. 감수성도 예민해 공격적이거나 신경질적인 반응을 보이기도 하고, 자기 과시욕을 드러내면서 언제나 주인의 관심을 끌려고 하기 때문에 안아주거나 쓰다듬어 주는 것을 좋아한다."
+             }
+           },
+           {
+             "type" : "AlsoSearchComponent",
+             "data" : {
+               "title" : "함께 찾은 품종",
+               "contents" : [
+                 {
+                   "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842728&qvt=0&query=%ED%8E%98%EB%A5%B4%EC%8B%9C%EC%95%88",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200201_130%2F1580523916009i8Y2q_JPEG%2F717191540274041474.jpg",
+                   "title" : "페르시안"
+                 },
+                 {
+                   "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842726&qvt=0&query=%ED%84%B0%ED%82%A4%EC%8B%9C%EC%95%99%EA%B3%A0%EB%9D%BC",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200413_101%2F1586786709972dYtIN_JPEG%2F22922326470251694_473498187.jpeg",
+                   "title" : "터키시앙고라"
+                 },
+                 {
+                   "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842722&qvt=0&query=%EC%BD%94%EB%A6%AC%EC%95%88%EC%87%BC%ED%8A%B8%ED%97%A4%EC%96%B4",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20191228_76%2F1577544157015yjeKr_JPEG%2F13679773622033561_-107931818.jpg",
+                   "title" : "코리안쇼트헤어"
+                 },
+                 {
+                   "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842705&qvt=0&query=%EC%95%84%EB%B9%84%EC%8B%9C%EB%8B%88%EC%95%88",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200105_213%2F1578200877795gIWA4_JPEG%2F14336485879427461_-34911044.jpeg",
+                   "title" : "아비시니안"
+                 },
+                 {
+                   "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842702&qvt=0&query=%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%EC%87%BC%ED%8A%B8%ED%97%A4%EC%96%B4",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210421_81%2F1618951220567HTDEa_JPEG%2F55086837248867211_119897751.jpeg",
+                   "title" : "아메리칸쇼트헤어"
+                 },
+                 {
+                   "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842693&qvt=0&query=%EC%8A%A4%ED%95%91%ED%81%AC%EC%8A%A4",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200209_214%2F1581229340435aTrFL_JPEG%2F336871579074606436.jpg",
+                   "title" : "스핑크스"
+                 },
+                 {
+                   "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842691&qvt=0&query=%EC%8A%A4%EC%BD%94%ED%8B%B0%EC%8B%9C%ED%8F%B4%EB%93%9C",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200305_271%2F1583405575763OSIzN_JPEG%2F19541185506675710_1563918725.jpeg",
+                   "title" : "스코티시폴드"
+                 },
+                 {
+                   "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842683&qvt=0&query=%EB%B8%8C%EB%A6%AC%ED%8B%B0%EC%8B%9C%EC%87%BC%ED%8A%B8%ED%97%A4%EC%96%B4",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200816_58%2F1597553642059Wkj6x_JPEG%2F33689249784307039_720050140.jpeg",
+                   "title" : "브리티시쇼트헤어"
+                 },
+                 {
+                   "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842679&qvt=0&query=%EB%B1%85%EA%B0%88",
+                   "thumbnail" : "https://search.pstatic.net/common?type=f&size=174x174&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200630_172%2F1593499131596H4ctr_JPEG%2F29616257444056503_-1081181255.jpg",
+                   "title" : "뱅갈"
+                 }
+               ]  
+             }
+           }
+         ]
+       }
+     },
+       "compo2" : [
+         {
+           "type" : "InfluencerComponent",
+           "data" : {
+             "title" : "인플루언서",
+             "contents" : [
+               {
+                 "link" : "https://m.blog.naver.com/yourns/222532963474",
+                 "thumbnail" : "tmp1.png",
+                 "writer" : "유언님",
+                 "button" : "팬하기",
+                 "photo" : [
+                   "cat1.png",
+                   "cat2.png",
+                   "cat3.png",
+                   "cat4.png"
+                 ],
+                 "title" : "태국 왕실묘 출신 샴 고양이 성격이 말썽쟁이 품종이라고?",
+                 "body" : "이번에 소개하는 고양이 품종은 태국 왕실묘 출신의 샴 고양이로 성격과 함께 신비로운 외모에 대해서 알아보도록 하겠습니다. 실제로 샴 고양이는 신비롭고 이쁜 포인트 컬러의 외모가 특징이라 매우 귀여우면서도...",
+                 "date" : "2021.10.10.",
+                 "related" : 3
+               },
+               {
+                 "link" : "https://m.blog.naver.com/lbygns12/222544246584",
+                 "thumbnail" : "tmp2.png",
+                 "writer" : "독티처",
+                 "button" : "팬하기",
+                 "photo" : [
+                   "cat1.png",
+                   "cat2.png",
+                   "cat3.png",
+                   "cat4.png"
+                 ],
+                 "title" : "묘종 샴고양이 성격 수명 털빠짐 총정리!",
+                 "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 알아볼건데요 기품이 넘치고 가장 고양이 답다고 해서 고양이 왕이라고도 불려지는데요 자연발생한 이 고양이는 페르시안과 쌍벽을 이루는 대표적인인 묘종중...",
+                 "date" : "2021.10.21.",
+                 "related" : 4
+               },
+               {
+                 "link" : "https://m.blog.naver.com/lbygns123/222522569779",
+                 "thumbnail" : "tmp3.png",
+                 "writer" : "고쌤",
+                 "button" : "팬하기",
+                 "photo" : [
+                   "cat1.png",
+                   "cat2.png",
+                   "cat3.png",
+                   "cat4.png"
+                 ],
+                 "title" : "샴 고양이 반려묘 종류 성격 수명 털빠짐은?",
+                 "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 설명드릴게요 이 종은 태국이 원산이며 오리엔탈 바디타입으로 사진에 나와 있는 것처럼 다리와 목이 길며 마른 몸매를 가지고 있으면서 역삼각형 얼굴을 가지...",
+                 "date" : "2021.10.01.",
+                 "related" : 1
+               }
+             ]
+           }
+         },
+         {
+           "type" : "VIEWComponent",
+           "data" : {
+             "title" : "VIEW",
+             "contents" : [
+               {
+                 "link" : "https://m.blog.naver.com/lbygns12/222456535065",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTlfMjM1%2FMDAxNjEzNzEyODYwNTI1.har6QRJxdila9l-E1zF6MWAR549nuyKQ9NrRoL0HCqAg.bJwUzPEChsLvqDVpUyOa_0tdrQrslzczIO4m4zT7iIkg.PNG.lbygns123%2F1613712664547.png&type=sc960_832",
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMDAxMDdfMTU0/MDAxNTc4MzkyNzY0NjQ1.Jp3UQB_sJ05IB6klQ_gon85pj-gB1oVBBXQ2jt88Ff0g.XoO0aaKeK-yVPqDKgURemMJYYWV4AbM9bsAcnbzlousg.JPEG.lbygns12/%B5%B6%C6%BC%B7%CE%B0%ED.jpg",
+                 "writer" : "독티쳐",
+                 "influencer" : true,
+                 "date" : "2020.08.04.",
+                 "title" : "동화 스키피 샴 고양이 성격과 샤미즈 장수묘다?",
+                 "body" : "진짜 샴 고양이 성격과 진짜 샤미즈 고양이가 장수묘인지등 자세하게 알려드릴게요 우선 샤미즈 고양이의 바디타입은 오리엔탈입니다 상당히 슬림하고 다리와 목이 길며 작은..."
+               },
+               {
+                 "link" : "https://m.blog.naver.com/dalnaradongsookine/222276025799",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMjZfODAg%2FMDAxNjA4OTgwMDY4MjEy.v1e7s4BlWxH6Vzey_PsZabraHa_NQnZjhyMxfA2fMiAg.Bk2ot4gtKZ3Pgc2NYVHAnDi2sQbMHuJ0A1_--_nvoA4g.JPEG.dalnaradongsookine%2Foutput_1204188594.jpg&type=sc960_832",
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMTA0MDdfMTY3/MDAxNjE3NzU0MzE4NjM5.uG3V550WCsK1X5A969tC9RQNbHBmoP1fkhYYvr_MvyYg.fXawF8emEnRAXztP3pJVXPakeko_HeEjaMWN5bCNW-Ag.PNG.dalnaradongsookine/profileImage.png",
+                 "writer" : "달나라동숙이네",
+                 "influencer" : false,
+                 "date" : "2021.03.15.",
+                 "title" : "샤미즈, 샴고양이 루나는 어떤 성격일까?",
+                 "body" : "말 많고 집사를 잘 따르는 애교쟁이 루나는 샤미즈, 샴 고양이랍니다. 샴고양이의 매력에 푹 빠져 사는 집사는 매일매일 행복하답니다. 그런 샴고양이는 14세기 시암의 왕실이나..."
+               },
+               {
+                 "link" : "https://blog.naver.com/withwithpet/222163612601",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMDVfMjYy%2FMDAxNjA3MTM1NTU1NzM0.q7Ygr9Iq8SfZRQ-M4wBSS9zUsMGH0Xi5KWtZkXn8w44g.-wsud9M6XpfAbOYNca8kcotRgMVS22f1prrtUqpQfuQg.PNG.withwithpet%2F4.png&type=sc960_832",
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMTA3MjJfODIg/MDAxNjI2OTI3OTg0NDQ5._3pYEjUAUKEw-GwHDyxC0eVx09u6jsiiplAfNKqUZ_0g.pSvnGNxtQ9ruOl_SNFs_2RtR0NY1P5QF1F9C3R4QUqog.PNG.withwithpet/21%E1%84%82%E1%85%A7%E1%86%AB+%E1%84%87%E1%85%A9%E1%86%B7+%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9-001+%282%29.png",
+                 "writer" : "OGUO with PET",
+                 "influencer" : false,
+                 "date" : "2020.12.05.",
+                 "title" : "고양이 종류(품종) : 집사바라기! 수다쟁이! 샴(Siamese) 알아보기~#샤미즈 고양이 with 오구오",
+                 "body" : "같이 나와서 반겨주기도 해요~~ 외롭지 않게 많은 사랑을 주세용~~ 반려동물 관련 정보, 의견, 팁 많이 공유해 주세요. -오구오 올림- #고양이종류 #고양이품종 #샴 #샤미즈 #오구오 #withbros",
+                 "tags" : [
+                   "고양이종류",
+                   "고양이품종",
+                   "샴",
+                   "샤미즈",
+                   "오구오",
+                   "withbros",
+                   "OGUO"
+                 ]
+               }
+             ]
+           }
+         },
+         {
+            "type" : "ImageComponent",
+            "data" : {
+                "title" : "이미지",
+                "tags" : [
+                    "새끼",
+                    "가격",
+                    "성격"
+                ],
+                "contents" : [
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMDhfMjM5%2FMDAxNjA3NDA1ODg5MzY5.qxDyVeXiKzubUGPkN6Vrmfr73f9c32T9Oi6uHovUBe8g.Hgk698jmWACoIsLyB_l5dUuXD7xRBORjdpGEbr7kkAIg.JPEG.3656689%2F1607405567099.jpg&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMjZfODAg%2FMDAxNjA4OTgwMDY4MjEy.v1e7s4BlWxH6Vzey_PsZabraHa_NQnZjhyMxfA2fMiAg.Bk2ot4gtKZ3Pgc2NYVHAnDi2sQbMHuJ0A1_--_nvoA4g.JPEG.dalnaradongsookine%2Foutput_1204188594.jpg&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAyMDAyMDNfNDIg%2FMDAxNTgwNzI5MTc5NzQ2.97JtU4VS2AXZrQvQzQPnErDxxXDoRSFKDVW7im2dC68g.E_KGddwtW7i3nzYwWNHS1AIita3TyBQPzdvbjKsc3Jcg.JPEG%2FIMG_3218.JPG&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140129_259%2Funique_pet_1390973444624NyG7S_PNG%2F%25B0%25ED%25BE%25E7%25C0%25CC_%25C1%25BE%25B7%25F9-%25BC%25A4_02.png&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMTVfMjky%2FMDAxNjE1ODAzMTQ1Nzcy.0DpYtkqx35STrV4CrlhPU1g0viptZCo1LJdBT5oPhbcg.Bq_61DgQ37hiA6CxI8BKqH_dpvNxxADzKBJ5P0S-OWIg.JPEG.yarolove%2F1615645073916%25A3%25AD4.jpg&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20141224_119%2Fcat1808_1419410713766koFCu_JPEG%2F2.jpg&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAxMzBfMTU2%2FMDAxNjEyMDAwMDY3Nzg2.CQFjt1YG3er0oTC-uhkGjF1MSIdjihSo-qMtzXpDDNog.3VDdeONv_kAHYJ30CRCZXzpQXPJdj-r2ZyukNq1-n9cg.JPEG.dalnaradongsookine%2FIMG_7177.JPG&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblog_2020_11_04_1323%2F2907ff72-1e7c-11eb-85cb-a0369ff968b0_01.jpg&type=sc960_832",
+                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTBfNjIg%2FMDAxNjEyOTYxMjQ1MDE0.6yyECJ0mwMl3D2r6TC7hOxMgtES13oc05KDvaaeo95Eg.93408NgNM5zVH9UPmYHjX0XQpv-cucDxfB76pRW4tBsg.JPEG.doremicat_incheon%2F%25BC%25A4%25B0%25ED%25BE%25E7%25C0%25CC_%25BA%25D0%25BE%25E7%25B0%25A1.jpg&type=sc960_832"
+                ]
+            }
+        }
+       ]
+   }

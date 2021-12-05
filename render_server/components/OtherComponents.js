@@ -1,5 +1,6 @@
 import React from "react";
 import PostsComponent from "./Posts";
+import ImageComponent from "./ImageComponent";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container,  Header} from 'semantic-ui-react';
@@ -17,13 +18,16 @@ function OtherComponent(props) {
         }}>{data.title}</Header>);
         switch(props.info.type) {
             case "NewsComponent" :                
-                result.push(<PostsComponent info={data.contents} form="News"/>);
+                result.push(<PostsComponent key='News' info={data.contents} form="News"/>);
                 break;
             case "VIEWComponent" :                
-                result.push(<PostsComponent info={data.contents} form="VIEW"/>);
+                result.push(<PostsComponent key='VIEW' info={data.contents} form="VIEW"/>);
                 break;
             case "InfluencerComponent" :                
-                result.push(<PostsComponent info={data.contents} form="Influencer"/>);
+                result.push(<PostsComponent key='Influencer' info={data.contents} form="Influencer"/>);
+                break;
+            case "ImageComponent" :
+                result.push(<ImageComponent key='Image' info={data.contents}/>);
                 break;
             default : 
                 break;
@@ -33,7 +37,7 @@ function OtherComponent(props) {
 
 
     return (
-        <Container style={{
+        <Container key={props.info.type} style={{
             backgroundColor: "#fff",
             marginTop: "20px",
         }}>

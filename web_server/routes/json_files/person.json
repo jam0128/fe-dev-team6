@@ -20,6 +20,7 @@
             "type" : "ProfileComponent",
             "data" : {
               "title" : "프로필",
+              "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%ED%94%84%EB%A1%9C%ED%95%84",
               "photo" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5369%2F2018%2F01%2F01%2F0000052142_001_20180101170255561.jpg&type=sc960_832",
               "contents" : [
                 {
@@ -56,6 +57,7 @@
          {
            "type" : "RecentVideosComponent",
            "data" : {
+             "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%2C%22subTab%22%3A%22recent_video%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%EC%B5%9C%EA%B7%BC%EC%98%81%EC%83%81",
              "title" : "최근영상",
              "contents" : [
                {
@@ -90,11 +92,12 @@
            "data" : {
              "tabs" : [
                {
+                 "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22workType%22%3A%22movie%22%2C%22fromUi%22%3A%22kb%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%ED%95%84%EB%AA%A8%EA%B7%B8%EB%9E%98%ED%94%BC",
                  "title" : "영화",
                  "contents" : [
                    {
                      "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bkEw&pkid=68&os=14385025&qvt=0&query=%ED%97%8C%ED%8A%B8",
-                     "thumbnail" : "none.png",
+                     "thumbnail" : "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
                      "title" : "헌트(가제)",
                      "role" : "감독, 주연 - 박평호 역",
                      "date" : "2021."
@@ -116,6 +119,7 @@
                  ]
                },
                {
+                 "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22workType%22%3A%22onair%22%2C%22fromUi%22%3A%22kb%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%EB%B0%A9%EC%86%A1",
                  "title" : "방송",
                  "contents" : [
                    {
@@ -130,18 +134,19 @@
                      "thumbnail" : "https://search.pstatic.net/common?type=f&size=210x296&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F57%2F95%2F39%2F97%2F57_9953997_poster_image_1572336080742.jpg",
                      "title" : "보좌관 2 - 세상을 움직이는 사람들",
                      "role" : "장태준 주연",
-                     "date" : "2019.11.11.~2019.12.10."
+                     "date" : "2019.11.11.~ 2019.12.10."
                    },
                    {
                      "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjkw&pkid=57&os=9479157&qvt=0&query=%EB%B3%B4%EC%A2%8C%EA%B4%801%EC%84%B8%EC%83%81%EC%9D%84%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94%EC%82%AC%EB%9E%8C%EB%93%A4",
                      "thumbnail" : "https://search.pstatic.net/common?type=f&size=210x296&quality=75&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F57%2F47%2F91%2F57%2F57_9479157_poster_image_1558659939300.jpg",
                      "title" : "보좌관 - 세상을 움직이는 사람들",
                      "role" : "장태준 주연",
-                     "date" : "2019.06.14.~2019.07.13."
+                     "date" : "2019.06.14.~ 2019.07.13."
                    }
                  ]
                },
                {
+                 "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjky&x_csa=%7B%22workType%22%3A%22music%22%2C%22fromUi%22%3A%22kb%22%7D&pkid=1&os=94842&qvt=0&query=%EC%9D%B4%EC%A0%95%EC%9E%AC%20%EA%B3%A1",
                  "title" : "곡",
                  "contents" : [
                    {

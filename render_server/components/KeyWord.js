@@ -122,7 +122,7 @@ function KeyWordComponent(props) {
             } else {
                 result.push(<Item key={"itemother" + i}><Container style={{
                     ...compoStyle,
-                    overflowX: "scroll"
+                    overflowX: "auto"
                 }}>{tmp}</Container></Item>);
             }
         }

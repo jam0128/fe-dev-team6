@@ -23,7 +23,8 @@
            "type" : "MusicVedioComponent",
            "data" : {
             "title" : "영상",
-            "photo" : "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2F9e%2Fd6%2Ff7%2F9ed6f7c99cfb8ac887acda6d0974496b.jpg&type=a340",
+            "photo" : "https://search.pstatic.net/common?type=n&size=210x210&quality=95&direct=true&src=https%3A%2F%2Fmusic-phinf.pstatic.net%2F20210825_204%2F1629883656603nB1vH_PNG%2FVIBE_%25C7%25C7%25C6%25AE%25B4%25CF%25BD%25BA_%25C7%25EF%25BD%25BA%25C0%25E5%25BF%25A1%25BC%25AD.png",
+            "link" : "https://tv.naver.com/v/15360804",
             "contents" : [
               {
                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MThfNDkg%2FMDAxNjMxOTEwOTY1MDk1.8G2on_nL1lMvQhhUvNCPbWoTUkAPBw4pFHpklP1W3Fkg.qN5p5YlfSwcTe95vwagbX5UCQW8IR7slDm_ZUDxCdrwg.JPEG.melisy_yoongi%2FIMG_20210917_153228.jpg&type=a340",

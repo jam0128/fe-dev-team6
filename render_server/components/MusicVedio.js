@@ -7,16 +7,7 @@ import { Container, Card, Image, Grid } from 'semantic-ui-react';
 
 function MusicVedioComponent(props) {
 
-
-    const editPadding = (padding) => {
-        let result = "9px 11px 9px";
-        if (padding) {
-            result = padding;
-        }
-        return result;
-    }
-
-    const constCard = (card) => {
+    const constCard = (card, cNum) => {
 
         const result = [];
 
@@ -25,11 +16,10 @@ function MusicVedioComponent(props) {
         const content = [];
 
         const imageStyle = {
-            // marginLeft: "auto",
-            // marginRight:"auto",
+            marginLeft: "auto",
+            marginRight:"auto",
             // marginBottom: "20px",
-            height: "100px",
-            width: "100%",
+            height: "props.imgHeight"
             // overflow: "hidden"
         };
 
@@ -38,21 +28,19 @@ function MusicVedioComponent(props) {
         //     <table style={{width:"100%"}}>{content}</table>
         // </Card.Description>);
 
-        result.push(<Card.Description>
-            <Image  src={card.photo} wrapped ui={false} style={imageStyle}/>
-            <table style={{marginLeft: "auto", marginRight:"auto", marginBottom: "5px"}}>{content}</table>
-        </Card.Description>);
+        result.push(<Image key={props.form+'image'+cNum} src={card.photo} wrapped ui={false} style={{marginLeft: "auto", marginRight: "auto", height:"250px", width:"1000px"}}/>);
 
         // result.push(<Card.Content style={{padding:editPadding(props.padding)}}>{content}</Card.Content>)
 
-        return <Card style={{
-            //width: props.width,
+        return <Card href={card.link} key={props.form+'card'+cNum} fluid style={{
+            boxShadow: "none",
+            WebBoxShadow: "none"
         }}>{result}</Card>;
     }
 
 
     return (
-        <Container>
+        <Container key={props.info.form}>
             {constCard(props.info.contents)}
         </Container>
     

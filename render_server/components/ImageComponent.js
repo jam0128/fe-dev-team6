@@ -8,7 +8,7 @@ import { Container, Image, Grid } from 'semantic-ui-react';
 function ImageComponent(props) {
 
     const constImg = (img) => {
-        return <Image src={img} style={{width:"100%", height:"100%", objectFit:"cover"}}/>;
+        return <Image src={img.thumbnail} href={img.link} style={{width:"100%", height:"100%", objectFit:"cover"}}/>;
     }
 
     const constImgs = (imgs) => {

@@ -41,8 +41,6 @@ function App(props) {
                         {constOthers(props.info['compo2'])}
                     </div>
                     <Footer/>
-                    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-                    <script type="text/babel" src="/static/main.js"></script>
                 </div>
             </body>
         </html>

@@ -19,78 +19,40 @@
          "비슷한 아티스트"
        ],
        "components" : [
-        {
-          "type" : "MusicVedioComponent",
-          "data" : {
-           "title" : "영상",
-           "photo" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA5MDJfMTE5%2FMDAxNTk5MDMwNzczNDU1.LghQT9abTbKiuwpE9LFVCQy8Ctkyvgu_gAh4YjvygYsg.yQVdvoLyxjX2W6yp3TdWcON1YZRI7BE3vX4InCEQzCsg.JPEG.richeblue%2F%25B4%25D9%25C0%25CC%25B3%25CA%25B8%25B6%25C0%25CC%25C6%25AE.jpg&type=sc960_832",
-           "link" : "https://tv.naver.com/v/15360804",
-           "contents" : [
-             {
-               "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MThfNDkg%2FMDAxNjMxOTEwOTY1MDk1.8G2on_nL1lMvQhhUvNCPbWoTUkAPBw4pFHpklP1W3Fkg.qN5p5YlfSwcTe95vwagbX5UCQW8IR7slDm_ZUDxCdrwg.JPEG.melisy_yoongi%2FIMG_20210917_153228.jpg&type=a340",
-               "length" : "04:01"
-             }
-           ]
-         }
-        },
          {
            "type" : "MusicInformationComponent",
            "data" : {
             "title" : "곡정보",
-            "link" : "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&qvt=0&query=%EC%9D%8C%EC%95%85%EC%84%9C%EB%B9%84%EC%8A%A4%20-%EB%84%A4%EC%9D%B4%EB%B2%84",
-            "photo" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA5MThfODkg%2FMDAxNjAwNDI4OTI5OTIy.oJwyEci5Tb02nOy4izjyQzlog_zEA4E8aYa2v7PnwU8g.nrXePDrgJlTrhYbLBNnSaaBQ4s1FdwtGAE0EKqwh8vwg.JPEG.didskagud%2F20344912.jpg&type=a340",
+            "photo" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA5MDJfMTE5%2FMDAxNTk5MDMwNzczNDU1.LghQT9abTbKiuwpE9LFVCQy8Ctkyvgu_gAh4YjvygYsg.yQVdvoLyxjX2W6yp3TdWcON1YZRI7BE3vX4InCEQzCsg.JPEG.richeblue%2F%25B4%25D9%25C0%25CC%25B3%25CA%25B8%25B6%25C0%25CC%25C6%25AE.jpg&type=sc960_832",
+            "link" : "https://tv.naver.com/v/15360804",
+            "icon" : "https://cdn-user-icons.flaticon.com/59969/59969038/1638881378137.svg?token=exp=1638882292~hmac=3493c916a6829d3f8203953a733cc7ee",
+            "icon2" : "https://cdn-user-icons.flaticon.com/59969/59969038/1638891207971.svg?token=exp=1638892116~hmac=74f6e91da19212082952810455b0d5b6",
+            "icon3" : "https://cdn-user-icons.flaticon.com/59969/59969038/1638891241767.svg?token=exp=1638892142~hmac=2520993803c7e3c130991b9ef0b3170c",
+            "link2" : "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&qvt=0&query=%EC%9D%8C%EC%95%85%EC%84%9C%EB%B9%84%EC%8A%A4%20-%EB%84%A4%EC%9D%B4%EB%B2%84",
+            "link3" : "https://vibe.naver.com/search?query=dynamite",
+            "photo2" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA5MThfODkg%2FMDAxNjAwNDI4OTI5OTIy.oJwyEci5Tb02nOy4izjyQzlog_zEA4E8aYa2v7PnwU8g.nrXePDrgJlTrhYbLBNnSaaBQ4s1FdwtGAE0EKqwh8vwg.JPEG.didskagud%2F20344912.jpg&type=a340",
             "contents" : [
               {
-                "name" : "가사",
-                "content" :"Cos ah ah I'm in the stars tonight"
+                "name" : "03:43",
+                "content" : "dd"
               },
               {
                 "name" : "가사",
-                "content" :"So watch me bring the fire"
-              },
-              {
-                "name" : "가사",
-                "content" :"and set the night alight"
-              },
-              {
-                "name" : "가사",
-                "content" :"..."
-              },
-              {
-                "name" : "가사",
-                "content" :""
-              },
-              {
-                "name" : "가사",
-                "content" :"Shoes on get up in the morn"
-              },
-              {
-                "name" : "가사",
-                "content" :"Cup of milk let's rock and roll"
-              },
-              {
-                "name" : "가사",
-                "content" :"King Kong kick the drum"
-              },
-              {
-                "name" : "가사",
-                "content" :"rolling on like a rolling stone"
-              },
-              {
-                "name" : "가사",
-                "content" :"Sing song when I'm walking home"
-              },
-              {
-                "name" : "가사",
-                "content" :"Jump up to the top LeBron"
-              },
-              {
-                "name" : "가사",
-                "content" :"Ding dong call me on my phone"
-              },
-              {
-                "name" : "가사",
-                "content" :"Ice tea and a game of ping pong"
+                "content" :[
+                  "Cos ah ah I'm in the stars tonight",
+                  "So watch me bring the fire",
+                  "and set the night alight",
+                  "...",
+                  "",
+                  "Shoes on get up in the morn",
+                  "Cup of milk let's rock and roll",
+                  "King Kong kick the drum",
+                  "rolling on like a rolling stone",
+                  "Sing song when I'm walking home",
+                  "Jump up to the top LeBron",
+                  "Ding dong call me on my phone",
+                  "Ice tea and a game of ping pong"
+                ]
               }
             ]
           }

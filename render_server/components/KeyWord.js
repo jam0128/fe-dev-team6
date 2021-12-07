@@ -64,9 +64,15 @@ function KeyWordComponent(props) {
     const constCompos = (compos) => {
         const result = [];
         const cards = ["RelationPlaylistComponent", "AlsoSearchComponent", "RecentVideosComponent", "WorksComponent"];
+        const music = ["MusicInformationComponent"];
         const compoStyle = {
             backgroundColor: "#fff",
             padding: "13px 10px 15px 10px",
+            borderRadius: "10px",
+            boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)"
+        };
+        const compoStylemusic = {
+            backgroundColor: "#fff",
             borderRadius: "10px",
             boxShadow: "0 2px 3px 0 rgb(0 0 0 / 5%), 0 0 2px 0 rgb(0 0 0 / 7%)"
         };
@@ -107,15 +113,11 @@ function KeyWordComponent(props) {
                 case "WorksComponent" :
                     tmp.push(<WorksComponent info={compos[i]['data']}/>);
                     break;
-                case "MusicVedioComponent" :
-                    tmp.push(<MusicVedioComponent info={compos[i]['data']} form="videos"/>);
-                    break;
                 case "ProfileComponent" :
                     tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<ProfileComponent info={compos[i]['data']}/>);
                     break;
                 case "MusicInformationComponent" :
-                    tmp.push(<Header key={'keywordcompo' + i} as='h4'>{compos[i]['data']['title']}</Header>);
                     tmp.push(<MusicInformationComponent info={compos[i]['data']} form="basic"/>);
                     break;
                 case "AlbumComponent" :
@@ -129,10 +131,18 @@ function KeyWordComponent(props) {
                     tmp.push(compos[i]['type']);
             }
             if (cards.indexOf(compos[i]['type']) === -1) {
-                result.push(<Item key={"itemother" + i}><Container style={{
-                    ...compoStyle,
-                    overflow: "hidden"
-                }}>{tmp}</Container></Item>);
+                if (music.indexOf(compos[i]['type']) === -1){
+                    result.push(<Item key={"itemother" + i}><Container style={{
+                        ...compoStyle,
+                        overflow: "hidden"
+                    }}>{tmp}</Container></Item>);
+                }
+                else {
+                    result.push(<Item key={"itemother" + i}><Container style={{
+                        ...compoStylemusic,
+                        overflow: "hidden"
+                    }}>{tmp}</Container></Item>);
+                }
             } else {
                 result.push(<Item key={"itemother" + i}><Container style={{
                     ...compoStyle,

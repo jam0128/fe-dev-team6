@@ -1,8 +1,8 @@
-.container {
-    margin: 0,auto;
-    width : 75%
+.scrollNone::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera*/
 }
 
-.keyWord {
-    background-color: antiquewhite;
+.scrollNone {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }

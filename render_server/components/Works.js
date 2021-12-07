@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import CardsComponent from "./Cards";
+import CardsComponent from "./Tool/Cards";
 //import styles from '../styles/keyWord.css';
 import { Container, Button, Icon } from 'semantic-ui-react';
 

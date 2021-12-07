@@ -1,5 +1,5 @@
 import React from "react";
-import PostsComponent from "./Posts";
+import PostsComponent from "./Tool/Posts";
 import ImageComponent from "./ImageComponent";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';

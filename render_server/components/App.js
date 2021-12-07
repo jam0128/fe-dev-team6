@@ -19,18 +19,18 @@ function App(props) {
             <head>
                 <title>Naver</title>
                 <link
-                async
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
+                    async
+                    rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
                 />
-                <script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js"></script>
+                <link rel="stylesheet" href="/static/css/style.css"/>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
-                <meta charset="utf-8"/>
-                <meta name="viewport" content="width=device-width,initial-scale=1"/>  
+                <meta charSet="utf-8"/>
+                <meta name="viewport" content="width=device-width,initial-scale=1"/> 
             </head>
             <body>
-                <div style={{backgroundColor:"#e9ecef"}}>
+                <div id="root" style={{backgroundColor:"#e9ecef"}}>
                     <Header value={props.info['test1Key']}/>
                     <div style={{
                         width:'768px', 
@@ -41,10 +41,13 @@ function App(props) {
                         {constOthers(props.info['compo2'])}
                     </div>
                     <Footer/>
+                    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+                    <script type="text/babel" src="/static/main.js"></script>
                 </div>
             </body>
         </html>
     )
 }
+
 
 export default App;

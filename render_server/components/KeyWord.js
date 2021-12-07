@@ -1,5 +1,5 @@
 import React from "react";
-import CardsComponent from "./Cards";
+import CardsComponent from "./Tool/Cards";
 import WorksComponent from "./Works";
 import ProfileComponent from "./Profile";
 import MusicInformationComponent from "./MusicInformation";
@@ -144,7 +144,7 @@ function KeyWordComponent(props) {
                     overflow: "hidden"
                 }}>{tmp}</Container></Item>);
             } else {
-                result.push(<Item key={"itemother" + i}><Container style={{
+                result.push(<Item key={"itemother" + i}><Container className="scrollNone" style={{
                     ...compoStyle,
                     overflowX: "auto"
                 }}>{tmp}</Container></Item>);

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Input, Grid } from 'semantic-ui-react';
-import "../styles/Header.css";
 
 
 function Header(props) {

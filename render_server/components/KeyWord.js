@@ -6,7 +6,6 @@ import MusicInformationComponent from "./MusicInformation";
 import AlbumsComponent from "./Albums";
 import MusicVedioComponent from "./MusicVedio";
 import BasicInfoComponent from "./basicInfo";
-import '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container, Item, Grid, Header, Button, Icon } from 'semantic-ui-react';
 

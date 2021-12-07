@@ -30,6 +30,7 @@
                   "https://search.pstatic.net/common?type=f&size=238x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20180330_171%2Fqsooji_1522380919434vPdvN_PNG%2F56418185786181321_63714044.png",
                   "https://search.pstatic.net/common?type=f&size=236x235.8&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20200514_296%2F1589383522415fQAKv_JPEG%2F25519140244964356_836593714.jpg"
                ],
+               "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842686&qvt=0&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)%20%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%B3%B4",
                "title" : "기본정보",
                "contents" : "성격이 독특하면서도 영리하고 애정이 깊다. 감수성도 예민해 공격적이거나 신경질적인 반응을 보이기도 하고, 자기 과시욕을 드러내면서 언제나 주인의 관심을 끌려고 하기 때문에 안아주거나 쓰다듬어 주는 것을 좋아한다."
              }
@@ -37,6 +38,7 @@
            {
              "type" : "AlsoSearchComponent",
              "data" : {
+               "link" : "https://m.search.naver.com/search.naver?where=m&sm=mtb_etc&mra=bjFH&x_csa=%7B%22theme%22%3A%22pet%22%2C%20%22pkid%22%3A%22605%22%7D&pkid=605&os=13842686&qvt=0&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)%20%ED%95%A8%EA%BB%98%20%EC%B0%BE%EC%9D%80%20%ED%92%88%EC%A2%85",
                "title" : "함께 찾은 품종",
                "contents" : [
                  {
@@ -97,15 +99,13 @@
              "title" : "인플루언서",
              "contents" : [
                {
-                 "link" : "https://m.blog.naver.com/yourns/222532963474",
-                 "thumbnail" : "tmp1.png",
+                "icon" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA5MThfOTcg%2FMDAxNTA1Njc4MzU4NjU2.dGynuPG6O3_wmExh_fY0GvT3wMmQBaRvOIRkA0kQIYsg.Y_ICtYqzs7xbDnwl6YZKADdAeQOoxn0gu43kp9ymwBcg.JPEG.yourns%2F20170918-043119-030.jpg&type=sc960_832",
+                "link" : "https://m.blog.naver.com/yourns/222532963474",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMTBfMTEw%2FMDAxNjMzODY4MTQ0NDM1.EDS6OYViQqisrXzdfD30I8WT0wLuHYeFrEGyht1B2Wwg.pTagK82ip2e86ppGKke9dRWpGDaUzq95moC2_17DV60g.PNG.yourns%2F6.png&type=sc960_832",
                  "writer" : "유언님",
-                 "button" : "팬하기",
-                 "photo" : [
-                   "cat1.png",
-                   "cat2.png",
-                   "cat3.png",
-                   "cat4.png"
+                 "info" : [
+                   "펫 전문 블로거",
+                   "강아지 전문"
                  ],
                  "title" : "태국 왕실묘 출신 샴 고양이 성격이 말썽쟁이 품종이라고?",
                  "body" : "이번에 소개하는 고양이 품종은 태국 왕실묘 출신의 샴 고양이로 성격과 함께 신비로운 외모에 대해서 알아보도록 하겠습니다. 실제로 샴 고양이는 신비롭고 이쁜 포인트 컬러의 외모가 특징이라 매우 귀여우면서도...",
@@ -113,15 +113,13 @@
                  "related" : 3
                },
                {
+                "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMDAxMDdfMTU0/MDAxNTc4MzkyNzY0NjQ1.Jp3UQB_sJ05IB6klQ_gon85pj-gB1oVBBXQ2jt88Ff0g.XoO0aaKeK-yVPqDKgURemMJYYWV4AbM9bsAcnbzlousg.JPEG.lbygns12/%B5%B6%C6%BC%B7%CE%B0%ED.jpg",
                  "link" : "https://m.blog.naver.com/lbygns12/222544246584",
-                 "thumbnail" : "tmp2.png",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTlfMTQx%2FMDAxNjEzNzEyODYxMTQ1.FbfWej8IGXANy5-zeY1tFZdns7hKbqzABeMmU3Xslv0g.yU3kkmKuv6STs1nvs_q2LZXCGXJj-LqdGvyqbSTVlhMg.PNG.lbygns123%2F1613712660646.png&type=sc960_832",
                  "writer" : "독티처",
-                 "button" : "팬하기",
-                 "photo" : [
-                   "cat1.png",
-                   "cat2.png",
-                   "cat3.png",
-                   "cat4.png"
+                 "info" : [
+                   "동물행동 전문가",
+                   "강아지 전문"
                  ],
                  "title" : "묘종 샴고양이 성격 수명 털빠짐 총정리!",
                  "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 알아볼건데요 기품이 넘치고 가장 고양이 답다고 해서 고양이 왕이라고도 불려지는데요 자연발생한 이 고양이는 페르시안과 쌍벽을 이루는 대표적인인 묘종중...",
@@ -129,22 +127,21 @@
                  "related" : 4
                },
                {
+                 "icon" : "https://blogpfthumb-phinf.pstatic.net/MjAyMDAxMDdfMTU0/MDAxNTc4MzkyNzY0NjQ1.Jp3UQB_sJ05IB6klQ_gon85pj-gB1oVBBXQ2jt88Ff0g.XoO0aaKeK-yVPqDKgURemMJYYWV4AbM9bsAcnbzlousg.JPEG.lbygns12/%B5%B6%C6%BC%B7%CE%B0%ED.jpg",
                  "link" : "https://m.blog.naver.com/lbygns123/222522569779",
-                 "thumbnail" : "tmp3.png",
+                 "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMDVfMjEx%2FMDAxNjE0OTU0MTc1MzUy.J7g_OuVetpim4Ap5NBd9aYpAi4raNb9f_kdXjlM-T40g.7hif6UJETHWy2fpoyMCrIIWvMgfn1AWmkIQT1-XLOOEg.PNG.lbygns12%2F1614953359007.png&type=sc960_832",
                  "writer" : "고쌤",
-                 "button" : "팬하기",
-                 "photo" : [
-                   "cat1.png",
-                   "cat2.png",
-                   "cat3.png",
-                   "cat4.png"
+                 "info" : [
+                   "동물행동 전문가",
+                   "강아지 전문"
                  ],
                  "title" : "샴 고양이 반려묘 종류 성격 수명 털빠짐은?",
                  "body" : "안녕하세요 독티처 고쌤입니다 오늘은 샴고양이에 대해서 설명드릴게요 이 종은 태국이 원산이며 오리엔탈 바디타입으로 사진에 나와 있는 것처럼 다리와 목이 길며 마른 몸매를 가지고 있으면서 역삼각형 얼굴을 가지...",
                  "date" : "2021.10.01.",
                  "related" : 1
                }
-             ]
+             ],
+             "more" : "https://m.search.naver.com/search.naver?where=m_influencer&sm=mtb_jum&query=%EC%83%B4%28%EC%83%A4%EB%AF%B8%EC%A6%88%29"
            }
          },
          {
@@ -191,7 +188,8 @@
                    "OGUO"
                  ]
                }
-             ]
+             ],
+             "more" : "https://m.search.naver.com/search.naver?where=m_view&sm=mtb_nrm&query=%EC%83%B4%28%EC%83%A4%EB%AF%B8%EC%A6%88%29&mode=normal&nso="
            }
          },
          {
@@ -204,17 +202,92 @@
                     "성격"
                 ],
                 "contents" : [
-                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMDhfMjM5%2FMDAxNjA3NDA1ODg5MzY5.qxDyVeXiKzubUGPkN6Vrmfr73f9c32T9Oi6uHovUBe8g.Hgk698jmWACoIsLyB_l5dUuXD7xRBORjdpGEbr7kkAIg.JPEG.3656689%2F1607405567099.jpg&type=sc960_832",
-                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMjZfODAg%2FMDAxNjA4OTgwMDY4MjEy.v1e7s4BlWxH6Vzey_PsZabraHa_NQnZjhyMxfA2fMiAg.Bk2ot4gtKZ3Pgc2NYVHAnDi2sQbMHuJ0A1_--_nvoA4g.JPEG.dalnaradongsookine%2Foutput_1204188594.jpg&type=sc960_832",
-                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAyMDAyMDNfNDIg%2FMDAxNTgwNzI5MTc5NzQ2.97JtU4VS2AXZrQvQzQPnErDxxXDoRSFKDVW7im2dC68g.E_KGddwtW7i3nzYwWNHS1AIita3TyBQPzdvbjKsc3Jcg.JPEG%2FIMG_3218.JPG&type=sc960_832",
-                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140129_259%2Funique_pet_1390973444624NyG7S_PNG%2F%25B0%25ED%25BE%25E7%25C0%25CC_%25C1%25BE%25B7%25F9-%25BC%25A4_02.png&type=sc960_832",
-                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMTVfMjky%2FMDAxNjE1ODAzMTQ1Nzcy.0DpYtkqx35STrV4CrlhPU1g0viptZCo1LJdBT5oPhbcg.Bq_61DgQ37hiA6CxI8BKqH_dpvNxxADzKBJ5P0S-OWIg.JPEG.yarolove%2F1615645073916%25A3%25AD4.jpg&type=sc960_832",
-                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20141224_119%2Fcat1808_1419410713766koFCu_JPEG%2F2.jpg&type=sc960_832",
-                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAxMzBfMTU2%2FMDAxNjEyMDAwMDY3Nzg2.CQFjt1YG3er0oTC-uhkGjF1MSIdjihSo-qMtzXpDDNog.3VDdeONv_kAHYJ30CRCZXzpQXPJdj-r2ZyukNq1-n9cg.JPEG.dalnaradongsookine%2FIMG_7177.JPG&type=sc960_832",
-                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblog_2020_11_04_1323%2F2907ff72-1e7c-11eb-85cb-a0369ff968b0_01.jpg&type=sc960_832",
-                    "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTBfNjIg%2FMDAxNjEyOTYxMjQ1MDE0.6yyECJ0mwMl3D2r6TC7hOxMgtES13oc05KDvaaeo95Eg.93408NgNM5zVH9UPmYHjX0XQpv-cucDxfB76pRW4tBsg.JPEG.doremicat_incheon%2F%25BC%25A4%25B0%25ED%25BE%25E7%25C0%25CC_%25BA%25D0%25BE%25E7%25B0%25A1.jpg&type=sc960_832"
-                ]
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMDhfMjM5%2FMDAxNjA3NDA1ODg5MzY5.qxDyVeXiKzubUGPkN6Vrmfr73f9c32T9Oi6uHovUBe8g.Hgk698jmWACoIsLyB_l5dUuXD7xRBORjdpGEbr7kkAIg.JPEG.3656689%2F1607405567099.jpg&type=ff332_332",
+                    "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Ablog4212887%7C17%7C222166814935_72854567"
+                  },
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140129_259%2Funique_pet_1390973444624NyG7S_PNG%2F%25B0%25ED%25BE%25E7%25C0%25CC_%25C1%25BE%25B7%25F9-%25BC%25A4_02.png&type=ff332_332",
+                    "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Ablog70478002%7C1%7C40205580561_1961756668"
+                  },
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMjZfODAg%2FMDAxNjA4OTgwMDY4MjEy.v1e7s4BlWxH6Vzey_PsZabraHa_NQnZjhyMxfA2fMiAg.Bk2ot4gtKZ3Pgc2NYVHAnDi2sQbMHuJ0A1_--_nvoA4g.JPEG.dalnaradongsookine%2Foutput_1204188594.jpg&type=ff332_332",
+                    "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Ablog127599525%7C10%7C222186248073_912171693"
+                  },
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMTVfMjky%2FMDAxNjE1ODAzMTQ1Nzcy.0DpYtkqx35STrV4CrlhPU1g0viptZCo1LJdBT5oPhbcg.Bq_61DgQ37hiA6CxI8BKqH_dpvNxxADzKBJ5P0S-OWIg.JPEG.yarolove%2F1615645073916%25A3%25AD4.jpg&type=ff332_332",
+                    "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Ablog948589%7C45%7C222276544963_1534679500"
+                  },
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20141224_119%2Fcat1808_1419410713766koFCu_JPEG%2F2.jpg&type=ff332_332",
+                    "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Ablog55779141%7C25%7C220219532300_1985160194"
+                  },
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAxMzBfMTU2%2FMDAxNjEyMDAwMDY3Nzg2.CQFjt1YG3er0oTC-uhkGjF1MSIdjihSo-qMtzXpDDNog.3VDdeONv_kAHYJ30CRCZXzpQXPJdj-r2ZyukNq1-n9cg.JPEG.dalnaradongsookine%2FIMG_7177.JPG&type=ff332_332",
+                    "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Ablog127599525%7C10%7C222225767574_1042249494"
+                  },
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblog_2020_11_04_1323%2F2907ff72-1e7c-11eb-85cb-a0369ff968b0_01.jpg&type=ff332_332",
+                    "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Ablog127599525%7C10%7C222135403388_233571294"
+                  },
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMTBfNjIg%2FMDAxNjEyOTYxMjQ1MDE0.6yyECJ0mwMl3D2r6TC7hOxMgtES13oc05KDvaaeo95Eg.93408NgNM5zVH9UPmYHjX0XQpv-cucDxfB76pRW4tBsg.JPEG.doremicat_incheon%2F%25BC%25A4%25B0%25ED%25BE%25E7%25C0%25CC_%25BA%25D0%25BE%25E7%25B0%25A1.jpg&type=ff332_332",
+                    "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Ablog136966563%7C14%7C222239567014_1920941184"
+                  },
+                  {
+                    "thumbnail" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAyMDAyMTdfMjg0%2FMDAxNTgxOTAwMTE4NjA5.9z6wNc2AdbeD6FESsTc33U8gQgnWxQOWPRbyQUcqdi0g.IxPdx8KWyIQ_UuMI3g9vIolyiUipWNBKe0gHPXN05zEg.JPEG%2FIMG_3405.JPG&type=ff332_332",
+                    "link" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&sm=mtb_img&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall#imgId=image_sas%3Acafe30007523%7C3%7C3_573817351"
+                  }
+                ],
+                "more" : "https://m.search.naver.com/search.naver?where=m_image&mode=column&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall&sm=mtb_nmr&query=%EC%83%B4(%EC%83%A4%EB%AF%B8%EC%A6%88)"
             }
+        },
+        {
+          "type" : "NewsComponent",
+          "data" : {
+            "title" : "뉴스",
+            "contents" : [
+              {
+                "link" : "http://www.k-health.com/news/articleView.html?idxno=56795",
+                "thumbnail" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5534%2F2021%2F12%2F01%2F16076.jpg&type=ofullfill174_174&expire=2&refresh=true",
+                "icon" : "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                "writer" : "헬스경향",
+                "date" : "4일 전",
+                "title" : "[반려동물 건강이야기] 고양이 각막이 갈색으로 변했다? 각막괴사증 신호!",
+                "body" : "모든 품종에서 발생할 수 있는데 특히 페르시안, 버미즈, 히말라얀 및 샴(샤미즈)이 더욱 취약한 것으로 보인다. 진단은 각막염색법, 안과세극등현미경검사로 내려진다. 특히 최근에는 OCT(빛간선단층촬영)장비로 각막괴사가 진행된 부위의 각막깊이를 측정해 수술방법결정 및 예후평가를 진행하고..."
+              },
+              {
+                "link" : "https://n.news.naver.com/article/421/0004433694",
+                "thumbnail" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F421%2F2020%2F01%2F30%2F4433694.jpg&type=ofullfill174_174&expire=2&refresh=true",
+                "icon" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fmimgnews.pstatic.net%2Fimage%2Fupload%2Foffice_logo%2F421%2F2017%2F01%2F05%2Flogo_421_18_20170105111205.png&type=f54_54&expire=24&refresh=true",
+                "writer" : "뉴스1",
+                "date" : "2020.01.30.",
+                "website" : "네이버뉴스",
+                "title" : "[해피펫툰]고양이그림공부 11화…태국이 사랑한 샴고양이",
+                "body" : "샴고양이로 불리는 샤미즈 고양이. 태국에서 15세기 때 기록된 문서에 샴고양이에 대해 언급이 돼 있다고 한다. 태국 사람들에게 옛날부터 의식 속 동물로 자리 잡고 있었던 것으로 추정된다. 30일 최아름 작가에 따르면 태국에서는 왕족에 죽으면 샤미즈가 이들의 환생을 돕는 역할을 한다고..."
+              },
+              {
+                "link" : "http://www.viva100.com/main/view.php?key=20160512010003653",
+                "thumbnail" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5394%2F2016%2F05%2F12%2F106131.jpg&type=ofullfill174_174&expire=2&refresh=true",
+                "icon" : "https://search.pstatic.net/common/?src=http%3A%2F%2Fwww.viva100.com%2Ffavicon.ico&type=f54_54&expire=24&refresh=true",
+                "writer" : "브릿지경제",
+                "date" : "2016.05.12.",
+                "title" : "30세 샴고양이, 기네스 세계 최장수 고양이 등재",
+                "body" : "‘고양이의 여왕’이라 불리는 샴(샤미즈·Siamese)종인 스쿠터의 장수 비결로는 활동적으로 지내는 생활 패턴이 꼽혔다. 기네스 성명에 따르면 물을 무서워하는 대다수 고양이와 달리 스쿠터는 목욕시간을 즐기고 목욕 후 드라이어로 몸을 말리는 순간을 즐긴다. 게다가 간식으로 치킨 먹을..."
+              },
+              {
+                "link" : "https://n.news.naver.com/article/421/0002048156",
+                "thumbnail" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F421%2F2016%2F05%2F11%2F2048156.jpg&type=ofullfill174_174&expire=2&refresh=true",
+                "icon" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fmimgnews.pstatic.net%2Fimage%2Fupload%2Foffice_logo%2F421%2F2017%2F01%2F05%2Flogo_421_18_20170105111205.png&type=f54_54&expire=24&refresh=true",
+                "writer" : "뉴스1",
+                "date" : "2016.05.11.",
+                "website" : "네이버뉴스",
+                "title" : "30세 샴 '스쿠터'…기네스 세계 최고령 고양이 등재",
+                "body" : "'고양이의 여왕'이라 불리는 샴(샤미즈·Siamese)종인 스쿠터는 지난 1986년 3월 26일 태어났다. 이때가 얼마나 오래됐는지를 부연 설명하자면 로널드 레이건 대통령이 미국의 40대 대통령으로 집권할 때다. 스쿠터는 이후 미국 대통령이 4번 바뀌는 것을 모두 지켜봤다. 스쿠터는 주인 게일..."
+              }
+            ],
+            "more" : "https://m.search.naver.com/search.naver?where=m_news&sm=mtb_nmr&query=%EC%83%B4%28%EC%83%A4%EB%AF%B8%EC%A6%88%29&sort=0&nso=so:r,p:all"
+          }
         }
        ]
    }

@@ -1,9 +1,9 @@
 import React from "react";
-import PostsComponent from "./Posts";
+import PostsComponent from "./Tool/Posts";
 import ImageComponent from "./ImageComponent";
 //import styles from '../styles/keyWord.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Container,  Header} from 'semantic-ui-react';
+import { Container,  Header, Button, Icon} from 'semantic-ui-react';
 
 
 
@@ -35,6 +35,15 @@ function OtherComponent(props) {
         return result;
     }
 
+    const moreStyle = {
+        marginTop: "10px",
+        borderRadius: "0",
+        padding:"18px",
+        fontSize: "15px",
+        fontWeight: "500",
+        backgroundColor: "#f4f7f8"
+    };
+
 
     return (
         <Container key={props.info.type} style={{
@@ -42,6 +51,7 @@ function OtherComponent(props) {
             marginTop: "20px",
         }}>
             {constOther(props.info.data)}
+            <Button fluid style={moreStyle} href={props.info.data.more}>{props.info.data.title} 더보기 <Icon name="arrow right"/></Button>
         </Container>
 
     )

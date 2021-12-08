@@ -75,7 +75,8 @@ function MusicInformationComponent(props) {
             paddingTop: "6px",
             marginRight: "10px",
             paddingRight:"6px",
-            float:"right"
+            float:"right",
+            color:"blue"
         };
 
         const buttonStyle = {
@@ -124,11 +125,11 @@ function MusicInformationComponent(props) {
         </Button>);
 
         btn.push(<tr key={props.form + 'button' + cNum} style = {{marginLeft:"auto", marginRight:"auto"}}>
-                <td><Button icon labelPosition='left' style={buttonStyle}>
+                <td><Button icon labelPosition='left' href={musicinfo.contents[2].playlink} style={buttonStyle}>
                 <Icon name='play' />
                 바로재생
                 </Button></td>
-                <td><Button icon labelPosition='left' style={buttonStyle}>
+                <td><Button icon labelPosition='left' href={musicinfo.contents[2].downloadlink} style={buttonStyle}>
                 <Icon name='download' />
                 MP3
                 </Button></td>
@@ -155,7 +156,7 @@ function MusicInformationComponent(props) {
             <table style={{width: "100%", borderBottom: "2px solid rgb(242, 242, 242)", marginLeft: "5px", marginRight: "5px"}}>{content}</table>
         </Card.Description>);
 
-        result.push(<Card.Content href={musicinfo.link3} key ={props.form+'footer'+cNum} style={{width: "100%", height:"60px", background: "rgb(242, 242, 242)"}}>
+        result.push(<Card.Content href={musicinfo.contents[2].vibelink} key ={props.form+'footer'+cNum} style={{width: "100%", height:"60px", background: "rgb(242, 242, 242)"}}>
             {footer}
         </Card.Content>);
 

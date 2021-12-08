@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Button, Icon } from 'semantic-ui-react';
+import { Grid, Button, Icon, Image } from 'semantic-ui-react';
 
 
 function Footer(props) {
@@ -29,11 +29,12 @@ function Footer(props) {
         height: "35px",
         padding: "10px 15px",
         marginRight: "15px",
+        fontSize:""
     };
    return (
        <div>
            <div>
-                <Button floated="right" style={btnStyle}><Icon name="share square outline"/></Button>
+                <Button floated="right" href={"https://share.naver.com/web/shareView?url=http://localhost:3000/&title=naversearch"} style={btnStyle}><Icon name="share square outline"/></Button>
            </div>
             <div style={divStyle}>
                     <Grid divided columns={3} padded style={gridStyle}>

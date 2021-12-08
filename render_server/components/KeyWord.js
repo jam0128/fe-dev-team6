@@ -7,7 +7,7 @@ import AlbumsComponent from "./Albums";
 import MusicVedioComponent from "./MusicVedio";
 import BasicInfoComponent from "./basicInfo";
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Item, Grid, Header, Button, Icon } from 'semantic-ui-react';
+import { Container, Item, Grid, Header, Button, Icon, Image } from 'semantic-ui-react';
 
 
 
@@ -61,8 +61,8 @@ function KeyWordComponent(props) {
     }
 
     const constTitle = (title, link, cNum) => {
-        const result = [];
-
+        const result = []; 
+        
         result.push(<Button floated="right" href={link} style={{background:"none", padding:"0 5px 0 0"}}><Icon name="arrow right" size="large"/></Button>)
 
         result.push(<Header key={'keywordcompo' + cNum} as='h4' style={{marginTop: "3px"}}>{title}</Header>);
